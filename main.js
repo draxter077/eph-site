@@ -162,6 +162,9 @@ document.getElementsByTagName("style")[0].innerHTML += `
         --colorYellow: rgb(255, 222, 89);
     	--transitionTime: 0.5s;
     	--animationDelay0: 0s;
+        --titleFontSize: 32px;
+        --productTitleFontSize: 18px;
+        --productPriceFontSize: 22px;
     }
     body{
     	box-sizing: border-box;

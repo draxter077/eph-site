@@ -11,7 +11,7 @@ export default function main(){
             align-items:center;
             width:100%;
             height:fit-content;
-            color:white;
+            cursor:url("./assets/logo.png"), auto;
         }`
 
     const main = cE("div", style)
