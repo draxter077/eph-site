@@ -1,15 +1,23 @@
-import logo from "./logo/main.js"
+import head from "./head/main.js"
+import lastOpportunity from "./lastOpportunity/main.js"
+import bestSellers from "./bestSellers/main.js"
+import newProducts from "./newProducts/main.js"
 
 export default function main(){
     let style = `
         {
-            position:relative;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
             width:100%;
-            height:100dvh;
-	    overflow:hidden;
+            height:fit-content;
+            color:white;
         }`
 
     const main = cE("div", style)
-    main.appendChild(logo())
+    main.appendChild(head())
+    main.appendChild(lastOpportunity())
+    main.appendChild(bestSellers())
+    main.appendChild(newProducts())
     return(main)
 }

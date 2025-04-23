@@ -166,7 +166,7 @@ document.getElementsByTagName("style")[0].innerHTML += `
     body{
     	box-sizing: border-box;
     	font-family: system-ui;
-    	background: var(--colorOrange;
+    	background: var(--colorOrange);
     	cursor: default;
     }
     ::-webkit-scrollbar{
