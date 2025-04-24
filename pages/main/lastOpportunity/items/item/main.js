@@ -1,13 +1,14 @@
 import photo from "./photo/main.js"
 import title from "./title/main.js"
-import price from "./price/main.js"
+import shop_price from "./shop_price/main.js"
 
-export default function item(url, src, t, p){
+export default function item(url, src, t, p, shop){
     let style = `
         {
             display:flex;
             flex-direction:column;
-            width:200px;
+            justify-content:space-between;
+            width:15%;
             padding:10px;
             margin:10px;
             border-radius:10px;
@@ -15,6 +16,7 @@ export default function item(url, src, t, p){
             cursor:pointer;
             transition:transform var(--transitionTime);
         }
+        :responsive{width:40%;}
         :hover{
             transform:scale(1.1);
         }`
@@ -23,6 +25,6 @@ export default function item(url, src, t, p){
     item.addEventListener("click", function a(){window.open(url, "_blank")})
     item.appendChild(photo(src))
     item.appendChild(title(t))
-    item.appendChild(price(p))
+    item.appendChild(shop_price(shop, p))
     return(item)
 }

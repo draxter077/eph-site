@@ -2,7 +2,7 @@ export default function photo(src){
     let style = `
         {
             width:100%;
-            height:200px;
+            aspect-ratio:1;
         }`
 
     const photo = cE("img", style)
