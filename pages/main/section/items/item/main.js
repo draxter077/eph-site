@@ -2,7 +2,7 @@ import photo from "./photo/main.js"
 import title from "./title/main.js"
 import shop_price from "./shop_price/main.js"
 
-export default function item(url, src, t, p, shop){
+export default function item(p){
     let style = `
         {
             display:flex;
@@ -13,18 +13,19 @@ export default function item(url, src, t, p, shop){
             margin:10px;
             border-radius:10px;
             background:var(--colorWhite);
+            box-shadow:0px 0px 5px 0px var(--colorBlack);
             cursor:pointer;
             transition:transform var(--transitionTime);
         }
-        :responsive{width:40%;}
+        :responsive{width:45%;margin:5px;}
         :hover{
             transform:scale(1.1);
         }`
 
     const item = cE("div", style)
-    item.addEventListener("click", function a(){window.open(url, "_blank")})
-    item.appendChild(photo(src))
-    item.appendChild(title(t))
-    item.appendChild(shop_price(shop, p))
+    item.addEventListener("click", function a(){window.open(p.url, "_blank")})
+    item.appendChild(photo(p.src))
+    //item.appendChild(title(p.title))
+    item.appendChild(shop_price(p.shop, p.price))
     return(item)
 }

@@ -10,8 +10,7 @@ export default function shop_price(s, p){
             align-items:center;
             width:100%;
             margin:10px 0px 0px 0px;
-        }
-        :responsive{flex-direction:column;}`
+        }`
 
     const shop_price = cE("div", style)
     shop_price.appendChild(shop(s))

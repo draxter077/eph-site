@@ -1,7 +1,7 @@
 import head from "./head/main.js"
-import lastOpportunity from "./lastOpportunity/main.js"
-import bestSellers from "./bestSellers/main.js"
-import newProducts from "./newProducts/main.js"
+import menu from "./menu/main.js"
+import section from "./section/main.js"
+import products from "./products.js"
 
 export default function main(){
     let style = `
@@ -11,13 +11,13 @@ export default function main(){
             align-items:center;
             width:100%;
             height:fit-content;
-            cursor:url("./assets/logo.png"), auto;
         }`
 
     const main = cE("div", style)
     main.appendChild(head())
-    main.appendChild(lastOpportunity())
-    main.appendChild(bestSellers())
-    main.appendChild(newProducts())
+    main.appendChild(menu())
+    main.appendChild(section("🔥TOP 10", products))
+    main.appendChild(section("😱Últimas unidades", products))
+    main.appendChild(section("✨Recém adicionados", products))
     return(main)
 }

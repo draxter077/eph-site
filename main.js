@@ -187,7 +187,7 @@ document.getElementsByTagName("style")[0].innerHTML += `
     }
     ::-webkit-scrollbar-button{
         height: 0px;
-	width: 0px;
+	    width: 0px;
     	background: none;
         padding: 0px;
         margin: 0px;

@@ -1,15 +1,21 @@
+import menu from "./menu/main.js"
 import logo from "./logo/main.js"
+import info from "./info/main.js"
 
 export default function head(){
     let style = `
         {
             display:flex;
-            justify-content:center;
+            flex-direction:row;
+            justify-content:space-between;
             align-items:center;
             width:100%;
+            padding:0px 40px;
         }`
 
     const head = cE("div", style)
+    head.appendChild(menu())
     head.appendChild(logo())
+    head.appendChild(info())
     return(head)
 }
