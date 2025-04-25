@@ -8,7 +8,8 @@ export default function categories(){
             flex-wrap:wrap;
             padding:0px 40px;
             width:100%;
-        }`
+        }
+        :responsive{padding:10px;}`
 
     const categories = cE("div", style)
     let cs = ["Roupas Masculinas", "Roupas Femininas", "Acessórios Masculinos"]

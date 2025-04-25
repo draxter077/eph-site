@@ -25,5 +25,6 @@ export default function menu(){
     menu.appendChild(search())
     menu.appendChild(categories())
     menu.appendChild(items(products))
+    menu.children[3].style.height = "70%"
     return(menu)
 }
