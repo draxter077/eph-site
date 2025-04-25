@@ -9,6 +9,7 @@ export default function item(p){
             flex-direction:column;
             justify-content:space-between;
             width:8%;
+            height:fit-content;
             margin:10px;
             border-radius:10px;
             background:var(--colorWhite);
@@ -27,5 +28,6 @@ export default function item(p){
     item.appendChild(photo(p.src))
     //item.appendChild(title(p.title))
     item.appendChild(shop_price(p.shop, p.price))
+    item.style = "scale:1;"
     return(item)
 }

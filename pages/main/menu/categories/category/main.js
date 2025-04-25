@@ -45,7 +45,7 @@ export default function category(t){
                         items[i].style.display = "none"
                         items[i].style.scale = 0
                     }
-                    else{items[i].style.display = "flex"}
+                    else{items[i].style.display = "flex";items[i].style.scale = 1}
                 }
             }
         }
