@@ -3,6 +3,7 @@ export default function categories(){
         {
             width:100%;
             background:yellow;
+            margin:10px 0px 0px 0px;
         }`
 
     const categories = cE("div", style)

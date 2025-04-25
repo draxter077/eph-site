@@ -9,7 +9,7 @@ export default function menu(){
         {
             position:fixed;
             top:0%;
-            left:-100%;
+            left:0%;
             display:flex;
             flex-direction:column;
             width:100%;
