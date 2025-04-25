@@ -1,12 +1,12 @@
 export default function menu(){
     let style = `
         {
-            height:calc(1.2*var(--titleFontSize));
+            height:calc(0.8*var(--titleFontSize));
             transition:transform var(--transitionTime);
             cursor:pointer;
         }
-        :responsive{height:calc(1*var(--titleFontSize))}
-        :hover{transform:scale(1.1) rotate(-180deg)}`
+        :responsive{height:calc(0.65*var(--titleFontSize))}
+        :hover{transform:scale(1.2)}`
 
     const menu = cE("img", style)
     menu.src = "./assets/menu.png"

@@ -1,5 +1,6 @@
 import title from "./title/main.js"
 import items from "./items/main.js"
+import ad from "./ad/main.js"
 
 export default function section(t, products){
     let style = `
@@ -7,11 +8,11 @@ export default function section(t, products){
             display:flex;
             flex-direction:column;
             width:90%;
-            margin:50px 0px 0px 0px;
         }`
 
     const section = cE("div", style)
     section.appendChild(title(t))
     section.appendChild(items(products))
+    //section.appendChild(ad())
     return(section)
 }

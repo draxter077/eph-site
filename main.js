@@ -156,20 +156,20 @@ document.getElementsByTagName("style")[0].innerHTML += `
     table {border-collapse: collapse;border-spacing: 0;}
 
     :root{
-    	--colorWhite: rgb(255, 255, 255);
+    	--colorWhite: rgb(240, 240, 240);
     	--colorBlack: rgb(0, 0, 0);
         --colorOrange: rgb(255, 145, 77);
         --colorYellow: rgb(255, 222, 89);
     	--transitionTime: 0.5s;
     	--animationDelay0: 0s;
-        --titleFontSize: 32px;
-        --productTitleFontSize: 18px;
-        --productPriceFontSize: 22px;
+        --titleFontSize: 25px;
+        --productTitleFontSize: 15px;
+        --productPriceFontSize: 15px;
     }
     body{
     	box-sizing: border-box;
     	font-family: system-ui;
-    	background: var(--colorOrange);
+    	background: var(--colorWhite);
     	cursor: default;
     }
     ::-webkit-scrollbar{

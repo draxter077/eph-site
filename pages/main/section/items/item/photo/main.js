@@ -3,7 +3,7 @@ export default function photo(src){
         {
             width:100%;
             aspect-ratio:0.9;
-            border-radius:5px;
+            border-radius:10px 10px 0px 0px;
         }`
 
     const photo = cE("img", style)

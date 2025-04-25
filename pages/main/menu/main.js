@@ -1,4 +1,8 @@
 import head from "./head/main.js"
+import search from "./search/main.js"
+import categories from "./categories/main.js"
+import items from "../section/items/main.js"
+import products from "../products.js"
 
 export default function menu(){
     let style = `
@@ -6,17 +10,20 @@ export default function menu(){
             position:fixed;
             top:0%;
             left:-100%;
-            width:30%;
+            display:flex;
+            flex-direction:column;
+            width:100%;
             height:100%;
             background:var(--colorWhite);
-            box-shadow:0px 0px 20px 0px var(--colorBlack);
             z-index:5;
             transition:left var(--transitionTime);
-        }
-        :responsive{width:100%; box-shadow:none}`
+        }`
 
     const menu = cE("div", style)
     menu.id = "menu"
     menu.appendChild(head())
+    menu.appendChild(search())
+    menu.appendChild(categories())
+    menu.appendChild(items(products))
     return(menu)
 }

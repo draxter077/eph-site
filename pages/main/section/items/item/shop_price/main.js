@@ -9,7 +9,9 @@ export default function shop_price(s, p){
             justify-content:space-between;
             align-items:center;
             width:100%;
-            margin:10px 0px 0px 0px;
+            background:var(--colorOrange);
+            border-radius:0px 0px 10px 10px;
+            padding:5px 10px;
         }`
 
     const shop_price = cE("div", style)

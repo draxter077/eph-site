@@ -8,9 +8,9 @@ export default function items(products){
             justify-content:space-between;
             flex-wrap:wrap;
             width:100%;
-            padding:20px;
+            padding:10px;
         }
-        :responsive{padding:0px;}`
+        :responsive{padding:5px;}`
 
     const items = cE("div", style)
     for(let i = 0; i < products.length; i++){items.appendChild(item(products[i]))}

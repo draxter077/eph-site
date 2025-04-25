@@ -1,10 +1,11 @@
 export default function price(p){
     let style = `
         {
-            color:var(--colorGreen);
+            color:var(--colorWhite);
             font-size:var(--productPriceFontSize);
+            font-weight:600;
         }
-        :responsive{font-size:calc(0.8*var(--productPriceFontSize))}`
+        :responsive{font-size:calc(0.9*var(--productPriceFontSize))}`
 
     const price = cE("div", style)
     price.innerHTML = p

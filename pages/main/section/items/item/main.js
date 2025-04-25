@@ -8,16 +8,15 @@ export default function item(p){
             display:flex;
             flex-direction:column;
             justify-content:space-between;
-            width:15%;
-            padding:10px;
+            width:8%;
             margin:10px;
             border-radius:10px;
             background:var(--colorWhite);
-            box-shadow:0px 0px 5px 0px var(--colorBlack);
+            box-shadow:0px 0px 1px 0px var(--colorOrange);
             cursor:pointer;
             transition:transform var(--transitionTime);
         }
-        :responsive{width:45%;margin:5px;}
+        :responsive{width:30%;margin:5px;}
         :hover{
             transform:scale(1.1);
         }`

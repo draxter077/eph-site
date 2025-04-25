@@ -11,6 +11,8 @@ export default function head(){
             align-items:center;
             width:100%;
             padding:0px 40px;
+            background:var(--colorOrange);
+            box-shadow:0px 0px 5px 0px var(--colorBlack);
         }`
 
     const head = cE("div", style)
