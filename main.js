@@ -119,19 +119,10 @@ window.cE = function cE(t, stl){
     return(el)
 }
 
-window.construct = function construct(p){
+window.construct = function construct(){
     const root = document.getElementById("root")
     root.innerHTML = ""
-    if(p == undefined){
-        if(window.location.href.split("br/")[1] != undefined && window.location.href.split("br/")[1] != ""){
-            let paths = window.location.href.split("br/")[1].split("/")
-            //if(paths[0] == "teste"){}
-            root.innerHTML = paths
-        }
-        else{
-            root.appendChild(main())
-        }
-    }
+    root.appendChild(main())
 }
 
 //window.apiURL = ""
