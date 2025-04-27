@@ -14,7 +14,8 @@ export default function catalog(){
         }`
 
     const catalog = cE("div", style)
-    catalog.appendChild(title("Todos os produtos"))
+    catalog.id = "🛒 Todos os produtos"
+    catalog.appendChild(title("🛒 Todos os produtos"))
     catalog.appendChild(search())
     catalog.appendChild(categories())
     catalog.appendChild(items(products))
