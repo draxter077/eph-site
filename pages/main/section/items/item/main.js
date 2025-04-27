@@ -14,7 +14,6 @@ export default function item(p){
             margin:10px;
             border-radius:10px;
             background:var(--colorWhite);
-            box-shadow:0px 0px 1px 0px var(--colorOrange);
             cursor:pointer;
             transition:transform var(--transitionTime);
         }

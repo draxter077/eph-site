@@ -11,6 +11,7 @@ export default function shop_price(s, p){
             width:100%;
             background:var(--colorOrange);
             padding:5px 10px;
+            border-radius:0px 0px 10px 10px;
         }`
 
     const shop_price = cE("div", style)
