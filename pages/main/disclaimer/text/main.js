@@ -8,15 +8,11 @@ export default function text(){
             flex-wrap:wrap;
             width:65%;
             font-size:calc(0.65*var(--titleFontSize));
-            max-width:0px;
-            max-height:0px;
             overflow:hidden;
             padding:10px 20px;
             background:var(--colorOrange02);
             border-radius:10px 10px 0px 10px;
             margin:10px 0px 0px 0px;
-            transition:max-height var(--transitionTime), max-width var(--transitionTime);
-            text-align:center;
         }
         :responsive{font-size:calc(0.5*var(--titleFontSize))}`
 
