@@ -10,6 +10,6 @@ export default function seen(){
 
     const seen = cE("div", style)
     let views = Math.floor(10*(Math.random()))
-    if(views > 0){seen.innerHTML = `Clicado ${views}x no último minuto`}
+    if(views > 0){seen.innerHTML = `Visto ${views}x recentemente`}
     return(seen)
 }
