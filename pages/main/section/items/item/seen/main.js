@@ -12,6 +12,6 @@ export default function seen(){
 
     const seen = cE("div", style)
     let views = Math.floor(10*(Math.random()))
-    if(views > 0){seen.innerHTML = `${views} cliques agora`}
+    if(views > 0){seen.innerHTML = `${views} aberto${views > 1 ? "s" : ""} agora`}
     return(seen)
 }
