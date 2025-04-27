@@ -16,7 +16,7 @@ export default function head(){
         :responsive{flex-direction:column;}`
 
     const head = cE("div", style)
-    head.appendChild(links([["TOP 50","🔥 TOP 50"], ["Recém adicionados","✨ Recém adicionados"]]))
+    head.appendChild(links([["TOP 10","🔥 TOP 10"], ["Recém adicionados","✨ Recém adicionados"]]))
     head.appendChild(logo())
     head.appendChild(links([["Últimas unidades","😱 Últimas unidades"], ["Todos os produtos","🛒 Todos os produtos"]]))
     return(head)

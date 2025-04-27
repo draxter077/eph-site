@@ -9,6 +9,9 @@ export default function foot(){
             align-items:center;
             width:100%;
             text-align:center;
+            background:var(--colorOrange);
+            color:var(--colorWhite);
+            box-shadow:0px 0px 5px 0px var(--colorBlack);
         }
         >span{margin:0px 10px 0px 0px;}`
 

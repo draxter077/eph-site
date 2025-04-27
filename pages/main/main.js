@@ -21,9 +21,9 @@ export default function main(){
         return(newArray)
     }
     main.appendChild(head())
-    main.appendChild(section("🔥 TOP 50", sortProducts(products, [])))
-    main.appendChild(section("😱 Últimas unidades", sortProducts(products, [])))
-    main.appendChild(section("✨ Recém adicionados", sortProducts(products, [])))
+    main.appendChild(section("🔥 TOP 10", sortProducts(products, [0,1,14,11,8,5,19,10,6,18])))
+    main.appendChild(section("😱 Últimas unidades", sortProducts(products, [11,10,12,20,16])))
+    main.appendChild(section("✨ Recém adicionados", sortProducts(products, [1,0,11])))
     main.appendChild(catalog())
     main.appendChild(foot())
     return(main)

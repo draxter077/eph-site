@@ -10,7 +10,7 @@ export default function item(p){
             justify-content:space-between;
             width:8%;
             height:fit-content;
-            margin:10px;
+            margin:10px 5px;
             border-radius:10px;
             background:var(--colorWhite);
             box-shadow:0px 0px 1px 0px var(--colorOrange);
