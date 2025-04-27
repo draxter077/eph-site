@@ -10,6 +10,8 @@ export default function disclaimer(){
             align-items:center;
             width:100%;
             margin:10px 0px;
+            opacity:0;
+            transition:opacity var(--transitionTime);
         }`
 
     const disclaimer = cE("div", style)

@@ -11,6 +11,8 @@ export default function catalog(){
             flex-direction:column;
             width:90%;
             height:100dvh;
+            opacity:0;
+            transition:opacity var(--transitionTime);
         }`
 
     const catalog = cE("div", style)

@@ -6,13 +6,16 @@ export default function text(){
             display:flex;
             flex-direction:row;
             flex-wrap:wrap;
-            width:50%;
+            width:70%;
+            max-width:0px;
+            max-height:0px;
+            overflow:hidden;
             padding:10px;
             border:1px solid var(--colorOrange);
             border-radius:10px;
             margin:10px 0px 0px 0px;
-        }
-        :responsive{width:70%;}`
+            transition:max-height var(--transitionTime), max-width var(--transitionTime);
+        }`
 
     const text = cE("div", style)
     let t = "asd⠀asiw⠀ljfn⠀asdfj⠀euwert⠀sd,gs⠀ldfjkn⠀slckjvn⠀sdiuw⠀elirvnl⠀jvn⠀lkjnv⠀svasd⠀asiw⠀ljfn⠀asdfj⠀euwert⠀sd,gs⠀ldfjkn⠀slckjvn⠀sdiuw⠀elirvnl⠀jvn⠀lkjnv⠀svasd⠀asiw⠀ljfn⠀asdfj⠀euwert⠀sd,gs⠀ldfjkn⠀slckjvn⠀sdiuw⠀elirvnl⠀jvn⠀lkjnv⠀sv."
@@ -20,10 +23,10 @@ export default function text(){
     window.addEventListener(
         "load",
         async function a(){
-            await new Promise(resolve => setTimeout(resolve, 1000))
+            await new Promise(resolve => setTimeout(resolve, 2000))
             for(let i = 0; i < text.children.length; i++){
                 text.children[i].style.opacity = 1
-                await new Promise(resolve => setTimeout(resolve,20))
+                await new Promise(resolve => setTimeout(resolve, 25))
             }
         },
         {once:true}
