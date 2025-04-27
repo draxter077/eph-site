@@ -31,7 +31,9 @@ export default function main(){
     window.addEventListener(
         "load",
         async function a(){
+            await new Promise(resolve => setTimeout(resolve, 500))
             main.children[0].style.opacity = 1
+            await new Promise(resolve => setTimeout(resolve, 250))
             main.children[2].style.opacity = 1
             main.children[3].style.opacity = 1
             main.children[4].style.opacity = 1

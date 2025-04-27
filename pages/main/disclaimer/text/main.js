@@ -23,9 +23,14 @@ export default function text(){
     window.addEventListener(
         "load",
         async function a(){
-            await new Promise(resolve => setTimeout(resolve, 2000))
+            await new Promise(resolve => setTimeout(resolve, 3000))
+            let previousChar = ""
             for(let i = 0; i < text.children.length; i++){
+                if(i > 0){text.children[i - 1].innerHTML = previousChar}
                 text.children[i].style.opacity = 1
+                previousChar = text.children[i].innerHTML
+                text.children[i].innerHTML = "_"
+                if(i == text.children.length - 1){text.children[i].innerHTML = previousChar}
                 await new Promise(resolve => setTimeout(resolve, 25))
             }
         },
