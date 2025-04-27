@@ -6,7 +6,6 @@ export default function items(products){
             display:flex;
             flex-direction:row;
             justify-content:flex-start;
-            align-items:center;
             flex-wrap:wrap;
             width:100%;
             padding:10px;
