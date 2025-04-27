@@ -1,6 +1,7 @@
 import photo from "./photo/main.js"
 import title from "./title/main.js"
 import shop_price from "./shop_price/main.js"
+import seen from "./seen/main.js"
 
 export default function item(p){
     let style = `
@@ -28,6 +29,7 @@ export default function item(p){
     item.appendChild(photo(p.src))
     //item.appendChild(title(p.title))
     item.appendChild(shop_price(p.shop, p.price))
+    item.appendChild(seen())
     item.style = "scale:1;"
     return(item)
 }

@@ -10,7 +10,6 @@ export default function shop_price(s, p){
             align-items:center;
             width:100%;
             background:var(--colorOrange);
-            border-radius:0px 0px 10px 10px;
             padding:5px 10px;
         }`
 
