@@ -7,7 +7,7 @@ export default function head(){
         {
             display:flex;
             flex-direction:row;
-            justify-content:space-between;
+            justify-content:center;
             align-items:center;
             width:100%;
             padding:0px 40px;
@@ -16,8 +16,8 @@ export default function head(){
         }`
 
     const head = cE("div", style)
-    head.appendChild(menu())
+    //head.appendChild(menu())
     head.appendChild(logo())
-    head.appendChild(info())
+    //head.appendChild(info())
     return(head)
 }

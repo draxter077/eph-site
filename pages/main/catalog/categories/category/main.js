@@ -4,7 +4,7 @@ export default function category(t){
             position:relative;
             font-size:calc(0.65*var(--titleFontSize));
             color:var(--colorOrange);
-            margin:5px 10px;
+            margin:5px 15px 0px 0px;
             padding:0px 0px 2px 0px;
             font-weight:400;
             cursor:pointer;
@@ -29,6 +29,8 @@ export default function category(t){
             let currentFW = e.target.style.fontWeight
             let items = e.target.parentElement.parentElement.children[3].children
             let categs = e.target.parentElement.children
+            let input = e.target.parentElement.parentElement.children[1].children[0]
+            input.value = ""
             if(currentFW == 600){
                 e.target.style.fontWeight = 400;
                 for(let i = 0; i < items.length; i++){items[i].style.display = "flex";items[i].style.scale = 1}

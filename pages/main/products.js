@@ -6,9 +6,8 @@ export default
         src:"https://down-br.img.susercontent.com/file/sg-11134201-7qvdl-liogkxkv3p4n4a@resize_w900_nl.webp",
         title:"Boné De Beisebol Retrô Brooklyn Bordado Estilo Rua Unissex Algodão Macio Lavado Para Uso Diário",
         price:"18,60",
-        shop:"./assets/shopee.png",
-        category:"Acessórios Masculinos",
-        subcategory:"Boné"
+        shop:"shopee",
+        category:"Acessórios Masculinos"
     },
     {
         id:1,
@@ -16,9 +15,8 @@ export default
         src:"https://down-br.img.susercontent.com/file/br-11134207-7r98o-lzo7oqmst2tx6c",
         title:"CALÇA JEANS FEMININA FLARE E SKINNY LYCRA JUSTA COS ALTO JUSTA",
         price:"59,90",
-        shop:"./assets/shopee.png",
-        category:"Roupas Femininas",
-        subcategory:"Calça"
+        shop:"shopee",
+        category:"Roupas Femininas"
     },
     {
         id:2,
@@ -26,9 +24,8 @@ export default
         src:"https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7yj327bavpt5c@resize_w900_nl.webp",
         title:"calça feminina alfaiataria pantalona com cinto moda elegante fashion",
         price:"52,16",
-        shop:"./assets/shopee.png",
-        category:"Roupas Femininas",
-        subcategory:"Calça"
+        shop:"shopee",
+        category:"Roupas Femininas"
     },
     {
         id:3,
@@ -36,9 +33,8 @@ export default
         src:"https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0mbdra1fj3104@resize_w900_nl.webp",
         title:"Short Alfaiataria Feminino Social Cintura Alta Com Cinto Com Bolso",
         price:"23,90",
-        shop:"./assets/shopee.png",
-        category:"Roupas Femininas",
-        subcategory:"Short"
+        shop:"shopee",
+        category:"Roupas Femininas"
     },
     {
         id:4,
@@ -46,9 +42,8 @@ export default
         src:"https://down-br.img.susercontent.com/file/sg-11134201-7rd5a-lwhjnq8n9w8271@resize_w900_nl.webp",
         title:"Calças Sarja Masculina Alfaiataria Esporte Fino Bolso Faca Bolso Embutido",
         price:"54,00",
-        shop:"./assets/shopee.png",
-        category:"Roupas Masculinas",
-        subcategory:"Calça"
+        shop:"shopee",
+        category:"Roupas Masculinas"
     },
     {
         id:5,
@@ -56,9 +51,8 @@ export default
         src:"https://down-br.img.susercontent.com/file/br-11134207-7r98q-lmgkeexf2vxnc5@resize_w900_nl.webp",
         title:"Kit 3 Camisetas Masculinas Básicas Poliéster Dia a Dia Lisas Premium",
         price:"49,99",
-        shop:"./assets/shopee.png",
-        category:"Roupas Masculinas",
-        subcategory:"Camiseta"
+        shop:"shopee",
+        category:"Roupas Masculinas"
     },
     {
         id:6,
@@ -66,9 +60,8 @@ export default
         src:"https://down-br.img.susercontent.com/file/br-11134207-7r98o-m15sinlbuhxq89@resize_w900_nl.webp",
         title:"Camisa Social Masculina Manga longa Slim Fit",
         price:"37,00",
-        shop:"./assets/shopee.png",
-        category:"Roupas Masculinas",
-        subcategory:"Camisa"
+        shop:"shopee",
+        category:"Roupas Masculinas"
     },
     {
         id:7,
@@ -76,9 +69,8 @@ export default
         src:"https://down-br.img.susercontent.com/file/br-11134207-7qukw-liub7h766xbp73@resize_w900_nl.webp",
         title:"Short Linho Masculino com Bolso Faca Discreto e Elastico na Cintura",
         price:"39,90",
-        shop:"./assets/shopee.png",
-        category:"Roupas Masculinas",
-        subcategory:"Short"
+        shop:"shopee",
+        category:"Roupas Masculinas"
     },
     {
         id:8,
@@ -86,9 +78,8 @@ export default
         src:"https://down-br.img.susercontent.com/file/br-11134207-7r98o-lsq66a1pescta0@resize_w900_nl.webp",
         title:"Moletom Canguru Unissex Algodão Atacado Promoção Preto Liso Sem Estampa",
         price:"49,90",
-        shop:"./assets/shopee.png",
-        category:"Roupas Masculinas",
-        subcategory:"Moletom"
+        shop:"shopee",
+        category:"Roupas Masculinas"
     },
     {
         id:9,
@@ -96,9 +87,8 @@ export default
         src:"https://down-br.img.susercontent.com/file/br-11134207-7qukw-lkh46vjmonqpac@resize_w900_nl.webp",
         title:"Calça Bag Jeans Larga Balão Larga estilo Skatista Carpenter",
         price:"74,90",
-        shop:"./assets/shopee.png",
-        category:"Roupas Masculinas",
-        subcategory:"Calça"
+        shop:"shopee",
+        category:"Roupas Masculinas"
     },
     {
         id:10,
@@ -106,8 +96,7 @@ export default
         src:"https://down-br.img.susercontent.com/file/br-11134207-7r98o-m33nhouwqlfpe7@resize_w900_nl.webp",
         title:"Camiseta Masculina no Estilo Urbano Streetwear City Of Los Ang 100% Algodão Premium",
         price:"29,90",
-        shop:"./assets/shopee.png",
-        category:"Roupas Masculinas",
-        subcategory:"Camiseta"
+        shop:"shopee",
+        category:"Roupas Masculinas"
     }
 ]

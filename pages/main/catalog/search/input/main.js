@@ -4,8 +4,7 @@ export default function input(){
             width:50%;
             font-size:calc(0.7*var(--titleFontSize));
             padding:10px 15px;
-            border-radius:15px;
-            border:1px solid var(--colorOrange);
+            border-bottom:1px solid var(--colorOrange);
         }
         :responsive{width:80%;}`
 
