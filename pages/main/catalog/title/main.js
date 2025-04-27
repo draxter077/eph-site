@@ -5,7 +5,7 @@ export default function title(t){
             color:var(--colorOrange);
             width:100%;
             border-bottom:1px solid var(--colorOrange);
-            padding:5px 10px;
+            padding:10px 10px 5px;
             font-weight:600;
         }
         :responsive{font-size:calc(0.8*var(--titleFontSize))}`

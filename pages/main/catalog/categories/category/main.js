@@ -4,7 +4,7 @@ export default function category(t){
             position:relative;
             font-size:calc(0.65*var(--titleFontSize));
             color:var(--colorOrange);
-            margin:5px 15px 0px 0px;
+            margin:10px 15px 0px 0px;
             padding:0px 0px 2px 0px;
             font-weight:400;
             cursor:pointer;

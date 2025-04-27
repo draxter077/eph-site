@@ -1,4 +1,5 @@
 import head from "./head/main.js"
+import disclaimer from "./disclaimer/main.js"
 import section from "./section/main.js"
 import catalog from "./catalog/main.js"
 import foot from "./foot/main.js"
@@ -21,6 +22,7 @@ export default function main(){
         return(newArray)
     }
     main.appendChild(head())
+    main.appendChild(disclaimer())
     main.appendChild(section("🔥 TOP 10", sortProducts(products, [0,1,14,11,8,5,19,10,6,18])))
     main.appendChild(section("😱 Últimas unidades", sortProducts(products, [11,10,12,20,16])))
     main.appendChild(section("✨ Recém adicionados", sortProducts(products, [1,0,11])))
