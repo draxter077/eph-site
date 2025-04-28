@@ -5,7 +5,7 @@ export default function img(){
             top:0%;
             left:0%;
             height:90%;
-            animation:goDown calc(2*var(--transitionTime)) linear 0s infinite alternate, goRight calc(2*var(--transitionTime)) linear 0s infinite alternate;
+            animation:goDown calc(2*var(--transitionTime)) linear 0s infinite alternate, goRight calc(3*var(--transitionTime)) linear 0s infinite alternate;
         }
         @keyframes goDown{
             0%[top:0%]

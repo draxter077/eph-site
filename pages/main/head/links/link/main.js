@@ -2,7 +2,7 @@ export default function link(t, f){
     let style = `
         {
             position:relative;
-            font-size:calc(0.6*var(--titleFontSize));
+            font-size:calc(0.7*var(--titleFontSize));
             color:var(--colorWhite);
             margin:10px 40px;
             font-weight:600;
