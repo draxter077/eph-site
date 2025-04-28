@@ -23,7 +23,7 @@ export default function text(){
 
     for(let i = 0; i < t.split(" ").length; i++){
         let ti = t.split(" ")[i]
-        if(i > 0 && ti != "."){text.appendChild(word("⠀"))}
+        if(i > 0 && ti != "."){text.appendChild(word(" "))}
         text.appendChild(word(ti))
     }
 
@@ -38,10 +38,10 @@ export default function text(){
                 text.children[i].style.opacity = 1
                 previousChar = text.children[i].innerHTML
 
-                for(let k = 0; k < previousChar.length; k++){text.children[i].innerHTML += "_"}
+                //for(let k = 0; k < previousChar.length; k++){text.children[i].innerHTML += "_"}
 
                 if(i == text.children.length - 1){text.children[i].innerHTML = previousChar}
-                await new Promise(resolve => setTimeout(resolve, 50))
+                await new Promise(resolve => setTimeout(resolve, 25))
             }
         },
         {once:true}
