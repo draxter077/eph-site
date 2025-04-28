@@ -7,6 +7,7 @@ export default function category(t){
             margin:10px 15px 0px 0px;
             padding:0px 0px 2px 0px;
             font-weight:400;
+            text-wrap:nowrap;
             cursor:pointer;
         }
         ::after{

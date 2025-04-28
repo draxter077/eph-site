@@ -6,7 +6,7 @@ export default function categories(){
         {
             display:flex;
             flex-direction:row;
-            flex-wrap:wrap;
+            overflow-x:scroll;
             padding:0px 40px;
             width:100%;
         }
