@@ -35,9 +35,11 @@ export default function button(){
 
             let selecProducts = []
             for(let i = 0; i < products.length; i++){
-                if(!selecCategs.indexOf(products[i].category)){selecProducts.push(products[i])}
+                if(selecCategs.includes(products[i].category)){selecProducts.push(products[i])}
             }
             
+            console.log(selecCategs)
+            console.log(selecProducts)
             for(let i = 0; i < (selecProducts.length)/2 + 1; i++){items.appendChild(item(selecProducts[Math.floor((selecProducts.length)*(Math.random()))]))}
             for(let i = 0; i < items.children.length; i++){
                 items.children[i].style.opacity = 1

@@ -8,7 +8,7 @@ export default function logo(){
             align-items:center;
             height:70px;
         }
-        :responsive{width:100%;}`
+        :responsive{width:100%;height:50px;}`
 
     const logo = cE("div", style)
     logo.appendChild(img())

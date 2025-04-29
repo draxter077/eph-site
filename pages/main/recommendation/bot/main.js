@@ -10,7 +10,7 @@ export default function bot(){
             margin:20px 0px;
             transition:opacity var(--transitionTime);
         }
-        :responsive{height:100px;width:100px;}`
+        :responsive{height:120px;width:120px;}`
 
     const bot = cE("div", style)
     bot.appendChild(img())
