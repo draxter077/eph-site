@@ -1,9 +1,7 @@
 import head from "./head/main.js"
-import search from "./search/main.js"
+import disclaimer from "./disclaimer/main.js"
 import categories from "./categories/main.js"
-import items from "./items/main.js"
-
-import products from "../../../products.js"
+import recommendations from "./recommendations/main.js"
 
 export default function helper(){
     let style = `
@@ -25,8 +23,8 @@ export default function helper(){
     const helper = cE("div", style)
     helper.id = "helper"
     helper.appendChild(head())
-    helper.appendChild(search())
+    helper.appendChild(disclaimer())
     helper.appendChild(categories())
-    helper.appendChild(items(products.reverse()))
+    helper.appendChild(recommendations())
     return(helper)
 }

@@ -1,8 +1,10 @@
+import products from "../../../../../products.js"
+
 export default function category(t){
     let style = `
         {
             position:relative;
-            font-size:calc(0.65*var(--titleFontSize));
+            font-size:17px;
             color:var(--colorOrange);
             margin:10px 15px 0px 0px;
             padding:0px 0px 2px 0px;
@@ -10,6 +12,7 @@ export default function category(t){
             text-wrap:nowrap;
             cursor:pointer;
         }
+        :responsive{font-size:14px;}
         ::after{
             content:"";
             position:absolute;
@@ -28,29 +31,8 @@ export default function category(t){
         "click",
         function a(e){
             let currentFW = e.target.style.fontWeight
-            let items = e.target.parentElement.parentElement.children[3].children
-            let categs = e.target.parentElement.children
-            let input = e.target.parentElement.parentElement.children[1].children[0]
-            input.value = ""
-            if(currentFW == 600){
-                e.target.style.fontWeight = 400;
-                for(let i = 0; i < items.length; i++){items[i].style.display = "flex";items[i].style.scale = 1}
-            }
-            else{
-                for(let i = 0; i < categs.length; i++){categs[i].style.fontWeight = 400}
-                e.target.style.fontWeight = 600;
-                for(let i = 0; i < items.length; i++){
-                    let optionsText = "";
-                    for(let k = items[i].id.length - t.length; k < items[i].id.length; k++){
-                        optionsText += items[i].id[k]
-                    }
-                    if(optionsText.toLowerCase() != t.toLowerCase()){
-                        items[i].style.display = "none"
-                        items[i].style.scale = 0
-                    }
-                    else{items[i].style.display = "flex";items[i].style.scale = 1}
-                }
-            }
+            if(currentFW == 600){e.target.style.fontWeight = 400;}
+            else{e.target.style.fontWeight = 600;}
         }
     )
     return(category)

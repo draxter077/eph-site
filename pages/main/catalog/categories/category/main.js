@@ -2,7 +2,7 @@ export default function category(t){
     let style = `
         {
             position:relative;
-            font-size:calc(0.65*var(--titleFontSize));
+            font-size:17px;
             color:var(--colorOrange);
             margin:10px 15px 0px 0px;
             padding:0px 0px 2px 0px;
@@ -10,6 +10,7 @@ export default function category(t){
             text-wrap:nowrap;
             cursor:pointer;
         }
+        :responsive{font-size:14px;}
         ::after{
             content:"";
             position:absolute;
