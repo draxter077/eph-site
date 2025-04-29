@@ -20,7 +20,7 @@ export default function items(){
             let viewportWidth = window.innerWidth
             let n;
 
-            if(viewportWidth > 1080){n = Math.floor(viewportWidth/160)*2}
+            if(viewportWidth > 1080){n = Math.floor(viewportWidth/160)*3}
             else{n = 9}
 
             for(let i = 0; i < n; i++){items.appendChild(item(products[Math.floor((pLength)*(Math.random()))]))}
@@ -30,7 +30,7 @@ export default function items(){
             for(let i = 0; i < items.children.length; i++){
                 items.children[i].style.opacity = 1;
                 items.children[i].style.transform = "scale(1)"; 
-                await new Promise(resolve => setTimeout(resolve, 250))
+                await new Promise(resolve => setTimeout(resolve, 100))
             }
 
             let btn = items.parentElement.children[0]
@@ -41,9 +41,9 @@ export default function items(){
                     btn.style.opacity = 0
                     for(let i = items.children.length - 1; i >= 0; i--){
                         items.children[i].style.opacity = 0
-                        await new Promise(resolve => setTimeout(resolve, 50))
+                        await new Promise(resolve => setTimeout(resolve, 10))
                     }
-                    await new Promise(resolve => setTimeout(resolve, 50))
+                    await new Promise(resolve => setTimeout(resolve, 500))
 
                     for(let i = 0; i < items.children.length; i++){
                         items.replaceChild(item(products[Math.floor((pLength)*(Math.random()))]), items.children[i])
@@ -53,7 +53,7 @@ export default function items(){
                     for(let i = 0; i < items.children.length; i++){
                         items.children[i].style.opacity = 1;
                         items.children[i].style.transform = "scale(1)"; 
-                        await new Promise(resolve => setTimeout(resolve, 250))
+                        await new Promise(resolve => setTimeout(resolve, 100))
                     }
                     btn.style.opacity = 1
                 }
