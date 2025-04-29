@@ -166,8 +166,8 @@ document.getElementsByTagName("style")[0].innerHTML += `
         user-select: none;
     }
     ::-webkit-scrollbar{
-    	height: 5px;
-        width: 5px;
+    	height: 3px;
+        width: 3px;
     	background: none;
     }
     ::-webkit-scrollbar-track{

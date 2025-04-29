@@ -4,11 +4,12 @@ export default function button(){
             font-size:15px;
             padding:5px 10px;
             border-radius:5px;
-            color:var(--colorOrange);
+            color:var(--colorWhite);
+            background:var(--colorOrange);
             opacity:0;
             transition:all var(--transitionTime);
         }
-        :hover{background:var(--colorOrange); color:var(--colorWhite)}
+        :hover{box-shadow:0px 0px 0px 2px var(--colorOrange);}
         :responsive{font-size:13px}`
 
     const button = cE("button", style)

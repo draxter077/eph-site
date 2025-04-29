@@ -16,6 +16,7 @@ export default function helper(){
             align-items:center;
             height:100dvh;
             width:100%;
+            overflow:hidden;
             background:var(--colorWhite);
             transition:right var(--transitionTime);
         }`

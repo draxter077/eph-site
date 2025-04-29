@@ -6,15 +6,17 @@ export default function button(){
         {
             font-size:15px;
             padding:5px 10px;
+            margin:0px 0px 10px 0px;
             border-radius:5px;
-            color:var(--colorOrange);
-            transition:all var(--transitionTime);
+            color:var(--colorWhite);
+            background:var(--colorOrange);
+            transition:box-shadow var(--transitionTime);
         }
-        :hover{background:var(--colorOrange); color:var(--colorWhite)}
+        :hover{box-shadow:0px 0px 0px 2px var(--colorOrange);}
         :responsive{font-size:13px}`
 
     const button = cE("button", style)
-    button.innerHTML = "Atualizar recomendações"
+    button.innerHTML = "Gerar recomendações"
 
     button.addEventListener(
         "click",
@@ -34,12 +36,13 @@ export default function button(){
             }
 
             let selecProducts = []
-            for(let i = 0; i < products.length; i++){
-                if(selecCategs.includes(products[i].category)){selecProducts.push(products[i])}
+            if(selecCategs.length == 0){selecProducts = products}
+            else{
+                for(let i = 0; i < products.length; i++){
+                    if(selecCategs.includes(products[i].category)){selecProducts.push(products[i])}
+                }
             }
             
-            console.log(selecCategs)
-            console.log(selecProducts)
             for(let i = 0; i < (selecProducts.length)/2 + 1; i++){items.appendChild(item(selecProducts[Math.floor((selecProducts.length)*(Math.random()))]))}
             for(let i = 0; i < items.children.length; i++){
                 items.children[i].style.opacity = 1

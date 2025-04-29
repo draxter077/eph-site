@@ -7,7 +7,7 @@ export default function text(){
             flex-direction:row;
             flex-wrap:wrap;
             width:90%;
-            font-size:17px;
+            font-size:15px;
             overflow:hidden;
             padding:20px 30px;
             background:var(--colorOrange02);
@@ -15,10 +15,10 @@ export default function text(){
             opacity:0;
             transition:opacity var(--transitionTime);
         }
-        :responsive{font-size:14px; padding:10px 20px;}`
+        :responsive{font-size:12px; padding:10px 10px;}`
 
     const text = cE("div", style)
-    let t = "Olá! Sou o Eph, seu assistente de compras online! Sou uma inteligência artificial feita para encontrar as melhores ofertas nos principais marketplaces do Brasil. Nesse site, você pode encontrar todos os meus achados! Para começarmos, separei alguns produtos que pode gostar."
+    let t = "Olá! Sou o Eph, seu assistente de compras online! Sou uma inteligência artificial feita para encontrar as melhores ofertas nos principais marketplaces do Brasil. Para começarmos, separei alguns produtos para você!"
 
     for(let i = 0; i < t.split(" ").length; i++){
         let ti = t.split(" ")[i]

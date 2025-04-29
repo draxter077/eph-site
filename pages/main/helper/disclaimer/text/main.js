@@ -7,9 +7,9 @@ export default function text(){
             background:var(--colorOrange02);
             border-radius:10px;
         }
-        :responsive{font-size:14px; max-width:90%; padding:5px 10px;}`
+        :responsive{font-size:12px; max-width:90%; padding:5px 10px;}`
 
     const text = cE("div", style)
-    text.innerHTML = "Vou te ajudar! Comece adicionando algumas categorias que ache relevante. O resto eu faço!"
+    text.innerHTML = "Comece adicionando algumas categorias que combinem com a pessoa! Depois é só clicar no botão abaixo para eu encontrar as melhores opções para presentes!"
     return(text)
 }

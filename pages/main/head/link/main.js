@@ -7,7 +7,7 @@ export default function link(t, id){
             text-align:center;
             cursor:pointer;
         }
-        :responsive{font-size:17px;}
+        :responsive{font-size:15px;order:2;}
         ::after{
             content:"";
             position:absolute;
@@ -18,8 +18,7 @@ export default function link(t, id){
             background:var(--colorWhite);
             transition:width var(--transitionTime);
         }
-        :hover::after{width:100%;}
-        :responsive{order:2;}`
+        :hover::after{width:100%;}`
 
     const link = cE("div", style)
     link.innerHTML = t

@@ -8,6 +8,7 @@ export default function section(t, products){
             display:flex;
             flex-direction:column;
             width:95%;
+            margin:20px 0px 0px 0px;
             opacity:0;
             transition:opacity var(--transitionTime);
         }`

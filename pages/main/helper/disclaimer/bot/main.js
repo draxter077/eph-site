@@ -7,7 +7,7 @@ export default function bot(){
             height:100px;
             width:100px;
         }
-        :responsive{height:80px;width:80px;}`
+        :responsive{height:90px;width:90px;}`
 
     const bot = cE("div", style)
     bot.appendChild(img())
