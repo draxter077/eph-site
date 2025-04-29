@@ -1,25 +1,23 @@
 import logo from "./logo/main.js"
-import links from "./links/main.js"
+import link from "./link/main.js"
 
 export default function head(){
     let style = `
-        {                
+        {
             display:flex;
             flex-direction:row;
-            justify-content:space-between;
+            justify-content:space-around;
             align-items:center;
             width:100%;
-            padding:0px 40px;
+            padding:5px;
             background:var(--colorOrange);
             box-shadow:0px 0px 5px 0px var(--colorBlack);
-            opacity:0;
-            transition:opacity var(--transitionTime);
         }
-        :responsive{flex-direction:column;}`
+        :responsive{flex-wrap:wrap;}`
 
     const head = cE("div", style)
-    head.appendChild(links([["TOP 10","🔥 TOP 10"], ["Recém adicionados","✨ Recém adicionados"]]))
+    head.appendChild(link("Todos os achados"))
     head.appendChild(logo())
-    head.appendChild(links([["Últimas unidades","😱 Últimas unidades"], ["Todos os produtos","🛒 Todos os produtos"]]))
+    head.appendChild(link("Ajuda com um presente"))
     return(head)
 }

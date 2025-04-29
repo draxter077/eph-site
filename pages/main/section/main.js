@@ -7,13 +7,10 @@ export default function section(t, products){
         {
             display:flex;
             flex-direction:column;
-            width:90%;
-            opacity:0;
-            transition:opacity var(--transitionTime);
+            width:95%;
         }`
 
     const section = cE("div", style)
-    section.id = t
     section.appendChild(title(t))
     section.appendChild(items(products))
     //section.appendChild(ad())

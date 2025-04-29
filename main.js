@@ -165,8 +165,8 @@ document.getElementsByTagName("style")[0].innerHTML += `
     	cursor: default;
     }
     ::-webkit-scrollbar{
-    	height: 3px;
-        width: 3px;
+    	height: 5px;
+        width: 5px;
     	background: none;
     }
     ::-webkit-scrollbar-track{
@@ -174,7 +174,7 @@ document.getElementsByTagName("style")[0].innerHTML += `
     	margin: 0px;
     }
     ::-webkit-scrollbar-thumb{
-        background: var(--colorBlack);
+        background: var(--colorOrange);
         border-radius: 20px;
     }
     ::-webkit-scrollbar-button{

@@ -8,20 +8,18 @@ export default function item(p){
         {
             display:flex;
             flex-direction:column;
-            min-width:150px;
             width:150px;
+            height:fit-content;
             margin:10px 5px;
             border-radius:10px;
             background:var(--colorWhite);
+            opacity:0;
+            transform:scale(1.5);
             cursor:pointer;
             transition:transform var(--transitionTime), opacity var(--transitionTime);
         }
-        :responsive{
-            min-width:80px;
-            width:80px;
-            margin:5px;
-        }
-        :hover{transform:scale(1.1);}`
+        :responsive{width:30%;margin:5px;}
+        :hover{transform:scale(1.1) !important;}`
 
     const item = cE("div", style)
     item.id = p.title + " " + p.category

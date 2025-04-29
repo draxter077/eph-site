@@ -1,26 +1,23 @@
-import title from "./title/main.js"
-import search from "./search/main.js"
-import categories from "./categories/main.js"
-import items from "./items/main.js"
-import products from "../products.js"
-
 export default function catalog(){
     let style = `
         {
-            display:flex;
-            flex-direction:column;
-            width:90%;
-            height:100dvh;
-            opacity:0;
-            transition:opacity var(--transitionTime);
+            position:fixed;
+            z-index:2;
+            top:0%;
+            left:-100%;
+            height:100%;
+            width:100%;
+            background:var(--colorWhite);
+            transition:left var(--transitionTime);
         }`
 
     const catalog = cE("div", style)
-    catalog.id = "🛒 Todos os produtos"
-    catalog.appendChild(title("🛒 Todos os produtos"))
-    catalog.appendChild(search())
-    catalog.appendChild(categories())
-    catalog.appendChild(items(products))
-    catalog.children[3].style = "height:72%;overflow:scroll;"
+    catalog.id = "catalog"
+    catalog.addEventListener(
+        "click",
+        function a(){
+            catalog.style.left = "-100%"
+        }
+    )
     return(catalog)
 }

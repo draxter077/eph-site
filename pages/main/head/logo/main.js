@@ -1,11 +1,16 @@
+import img from "./img/main.js"
+
 export default function logo(){
     let style = `
         {
-            height:calc(2.5*var(--titleFontSize));
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:70px;
         }
-        :responsive{height:calc(2*var(--titleFontSize))}`
+        :responsive{width:100%;}`
 
-    const logo = cE("img", style)
-    logo.src = "./assets/logo.png"
+    const logo = cE("div", style)
+    logo.appendChild(img())
     return(logo)
 }
