@@ -12,7 +12,7 @@ export default function label(p, s){
     const label = cE("div", style)
     if(s == "seen"){
         let views = Math.floor(10*(Math.random()))
-        if(views > 0){label.innerHTML = `${views} aberto${views > 1 ? "s" : ""} agora`}
+        if(views > 0){label.innerHTML = `${views} vendo agora`}
     }
     else if(s == "sells"){
         label.innerHTML = `${p.sells} vendas`
