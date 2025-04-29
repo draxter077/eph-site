@@ -38,7 +38,7 @@ export default function button(){
                 if(!selecCategs.indexOf(products[i].category)){selecProducts.push(products[i])}
             }
             
-            for(let i = 0; i < (selecProducts.length)/2; i++){items.appendChild(item(selecProducts[Math.floor((selecProducts.length)*(Math.random()))]))}
+            for(let i = 0; i < (selecProducts.length)/2 + 1; i++){items.appendChild(item(selecProducts[Math.floor((selecProducts.length)*(Math.random()))]))}
             for(let i = 0; i < items.children.length; i++){
                 items.children[i].style.opacity = 1
                 items.children[i].style.transform = "scale(1)"
