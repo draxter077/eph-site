@@ -25,9 +25,19 @@ export default function main(){
     const main = cE("div", style)
     main.appendChild(head())
     main.appendChild(recommendation())
-    main.appendChild(section("🔥 TOP 10", sortProducts(products, [0,1,14,11,8,5,19,10,6,18,1,1,1,1,1])))
-    main.appendChild(section("😱 Últimas unidades", sortProducts(products, [11,10,12,20,16])))
-    main.appendChild(section("✨ Recém adicionados", sortProducts(products, [1,0,11])))
+
+    let pbs = [...products]
+    let bestSellers = pbs.sort((a, b) => Number((a.sells).replaceAll("+", "").replaceAll("mil","000").replaceAll(",",".")) - Number((b.sells).replaceAll("+", "").replaceAll("mil","000").replaceAll(",",".")))
+    bestSellers.reverse().splice(50, bestSellers.length - 50)
+    main.appendChild(section("🔥 TOP 50", bestSellers, "sells"))
+
+    let pbc = [...products]
+    let bestComissions = pbc.sort((a, b) => Number((a.comission).replaceAll(",",".")) - Number((b.comission).replaceAll(",",".")))
+    bestComissions.reverse().splice(20, bestComissions.length - 20)
+    main.appendChild(section("😱 Últimas unidades", bestComissions, "seen"))
+
+    main.appendChild(section("✨ Novos achados", sortProducts(products, [0,1,2,3]), "seen"))
+
     main.appendChild(catalog())
     main.appendChild(helper())
 

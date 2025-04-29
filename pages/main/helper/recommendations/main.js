@@ -8,7 +8,7 @@ export default function recommendations(){
             flex-direction:column;
             align-items:center;
             width:100%;
-            height:75%;
+            height:70%;
         }
         :responsive{height:60%;}`
 

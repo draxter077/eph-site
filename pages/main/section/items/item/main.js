@@ -1,8 +1,8 @@
 import photo from "./photo/main.js"
 import shop_price from "./shop_price/main.js"
-import seen from "./seen/main.js"
+import label from "./label/main.js"
 
-export default function item(p){
+export default function item(p, s){
     let style = `
         {
             display:flex;
@@ -26,6 +26,6 @@ export default function item(p){
     item.addEventListener("click", function a(){window.open(p.url, "_blank")})
     item.appendChild(photo(p.src))
     item.appendChild(shop_price(p.shop, p.price))
-    item.appendChild(seen())
+    item.appendChild(label(p, s))
     return(item)
 }

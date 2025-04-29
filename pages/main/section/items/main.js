@@ -1,6 +1,6 @@
 import item from "./item/main.js"
 
-export default function items(products){
+export default function items(products, s){
     let style = `
         {
             display:flex;
@@ -13,6 +13,6 @@ export default function items(products){
         :responsive{padding:5px;}`
 
     const items = cE("div", style)
-    for(let i = 0; i < products.length; i++){items.appendChild(item(products[i]))}
+    for(let i = 0; i < products.length; i++){items.appendChild(item(products[i], s))}
     return(items)
 }
