@@ -15,7 +15,7 @@ export default function label(p, s){
         if(views > 0){label.innerHTML = `${views} aberto${views > 1 ? "s" : ""} agora`}
     }
     else if(s == "sells"){
-        label.innerHTML = `${p.sells} vendidos`
+        label.innerHTML = `${p.sells} vendas`
     }
     return(label)
 }
