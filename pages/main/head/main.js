@@ -12,6 +12,8 @@ export default function head(){
             padding:5px;
             background:var(--colorOrange);
             box-shadow:0px 0px 5px 0px var(--colorBlack);
+            opacity:0;
+            transition:opacity var(--transitionTime);
         }
         :responsive{flex-wrap:wrap;}`
 

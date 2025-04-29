@@ -8,6 +8,8 @@ export default function section(t, products){
             display:flex;
             flex-direction:column;
             width:95%;
+            opacity:0;
+            transition:opacity var(--transitionTime);
         }`
 
     const section = cE("div", style)

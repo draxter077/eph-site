@@ -14,6 +14,8 @@ export default function text(){
             background:var(--colorOrange02);
             border-radius:10px;
             margin:10px 0px 0px 0px;
+            opacity:0;
+            transition:opacity var(--transitionTime);
         }
         :responsive{font-size:14px}`
 
@@ -28,7 +30,7 @@ export default function text(){
     window.addEventListener(
         "load",
         async function a(){
-            await new Promise(resolve => setTimeout(resolve, 0))
+            await new Promise(resolve => setTimeout(resolve, 2000))
             let previousChar = ""
 
             for(let i = 0; i < text.children.length; i++){

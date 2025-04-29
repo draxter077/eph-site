@@ -30,5 +30,20 @@ export default function main(){
     main.appendChild(section("✨ Recém adicionados", sortProducts(products, [1,0,11])))
     main.appendChild(catalog())
     main.appendChild(helper())
+
+    window.addEventListener(
+        "load",
+        async function a(){
+            main.children[1].children[0].style.opacity = 1
+            await new Promise(resolve => setTimeout(resolve, 1000))
+            main.children[0].style.opacity = 1
+            await new Promise(resolve => setTimeout(resolve, 500))
+            main.children[1].children[1].style.opacity = 1
+            await new Promise(resolve => setTimeout(resolve, 4000))
+            main.children[2].style.opacity = 1
+            main.children[3].style.opacity = 1
+            main.children[4].style.opacity = 1
+        }
+    )
     return(main)
 }

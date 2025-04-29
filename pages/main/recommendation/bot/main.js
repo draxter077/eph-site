@@ -6,6 +6,8 @@ export default function bot(){
             position:relative;
             height:150px;
             width:150px;
+            opacity:0;
+            transition:opacity var(--transitionTime);
         }
         :responsive{height:100px;width:100px;}`
 

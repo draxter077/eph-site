@@ -25,7 +25,7 @@ export default function items(){
 
             for(let i = 0; i < n; i++){items.appendChild(item(products[Math.floor((pLength)*(Math.random()))]))}
 
-            await new Promise(resolve => setTimeout(resolve, 2000))
+            await new Promise(resolve => setTimeout(resolve, 3000))
 
             for(let i = 0; i < items.children.length; i++){
                 items.children[i].style.opacity = 1;
