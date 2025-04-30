@@ -8,7 +8,6 @@ export default function recommendations(){
             flex-direction:column;
             align-items:center;
             background:var(--colorWhite);
-            box-shadow:0px 0px 5px 5px var(--colorWhite);
             width:100%;
             height:60%;
         }`
