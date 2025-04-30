@@ -21,7 +21,7 @@ export default function items(){
             let n;
 
             if(viewportWidth > 1080){n = Math.floor(viewportWidth/170)*3}
-            else{n = 9}
+            else{n = 12}
 
             for(let i = 0; i < n; i++){items.appendChild(item(products[Math.floor((pLength)*(Math.random()))]))}
 
