@@ -18,7 +18,7 @@ export default function text(){
         :responsive{font-size:12px; padding:10px 10px;}`
 
     const text = cE("div", style)
-    let t = "Olá! Sou o Eph, seu assistente de compras online! Sou uma inteligência artificial feita para encontrar as melhores ofertas nos principais marketplaces do Brasil. Para começarmos, separei alguns produtos para você!"
+    let t = "Olá! Sou o Giph, seu assistente de compras online! Sou uma inteligência artificial feita para encontrar as melhores ofertas nos principais marketplaces do Brasil. Para começarmos, separei alguns produtos para você!"
 
     for(let i = 0; i < t.split(" ").length; i++){
         let ti = t.split(" ")[i]

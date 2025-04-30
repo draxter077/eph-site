@@ -1,5 +1,4 @@
 import input from "./input/main.js"
-import img from "./img/main.js"
 
 export default function search(){
     let style = `
@@ -15,6 +14,5 @@ export default function search(){
 
     const search = cE("div", style)
     search.appendChild(input())
-    search.appendChild(img())
     return(search)
 }

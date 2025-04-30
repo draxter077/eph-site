@@ -7,10 +7,11 @@ export default function recommendations(){
             display:flex;
             flex-direction:column;
             align-items:center;
+            background:var(--colorWhite);
+            box-shadow:0px 0px 5px 5px var(--colorWhite);
             width:100%;
-            height:70%;
-        }
-        :responsive{height:60%;}`
+            height:60%;
+        }`
 
     const recommendations = cE("div", style)
     recommendations.appendChild(button())

@@ -4,11 +4,14 @@ export default function input(){
             width:50%;
             font-size:calc(0.7*var(--titleFontSize));
             padding:10px 15px;
-            border-bottom:1px solid var(--colorOrange);
+            color:var(--colorWhite);
+            border-bottom:1px solid var(--colorWhite);
         }
-        :responsive{width:80%;}`
+        :responsive{width:80%;}
+        ::placeholder{font-style:italic; color:var(--colorWhite);}`
 
     const input = cE("input", style)
+    input.placeholder = "Pesquise..."
     input.addEventListener(
         "input",
         function a(e){

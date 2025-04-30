@@ -18,7 +18,7 @@ export default function catalog(){
             align-items:center;
             height:100dvh;
             width:100%;
-            background:var(--colorWhite);
+            background:var(--colorOrange);
             transition:left var(--transitionTime);
         }`
 

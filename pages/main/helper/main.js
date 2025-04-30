@@ -17,7 +17,7 @@ export default function helper(){
             height:100dvh;
             width:100%;
             overflow:hidden;
-            background:var(--colorWhite);
+            background:var(--colorOrange);
             transition:right var(--transitionTime);
         }`
 

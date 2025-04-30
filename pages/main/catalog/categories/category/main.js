@@ -3,7 +3,7 @@ export default function category(t){
         {
             position:relative;
             font-size:17px;
-            color:var(--colorOrange);
+            color:var(--colorWhite);
             margin:10px 15px 0px 0px;
             padding:0px 0px 2px 0px;
             font-weight:400;
@@ -18,7 +18,7 @@ export default function category(t){
             left:0%;
             width:0%;
             height:1px;
-            background:var(--colorOrange);
+            background:var(--colorWhite);
             transition:width var(--transitionTime);
         }
         :hover::after{width:100%;}`

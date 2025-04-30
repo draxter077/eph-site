@@ -8,7 +8,9 @@ export default function items(products){
             justify-content:flex-start;
             flex-wrap:wrap;
             width:100%;
-            height:70%;
+            height:85%;
+            background:var(--colorWhite);
+            box-shadow:0px 0px 5px 5px var(--colorWhite);
             overflow-y:scroll;
             padding:10px;
         }
