@@ -662,12 +662,12 @@ export default
     },
     {
         id:60,
-        url:"https://s.shopee.com.br/6VAv6Bw6uC",
-        src:"https://down-br.img.susercontent.com/file/sg-11134201-7qvda-lk600lez9fu3cf@resize_w900_nl.webp",
-        title:"Caixa De Som Led Luminária Bluetooth Alto Falante Carregador Sem Fio Lâmpada Mesa RGB Alarme Relógio",
-        price:"49,90",
-        comission:"4,99",
-        sells:"+9mil",
+        url:"https://s.shopee.com.br/AKNebOZ4qI",
+        src:"https://down-cvs-br.img.susercontent.com/br-11134207-7r98o-m5bt851tyvrk42.webp",
+        title:"Caixinha De Som G-speaker smart Carregador Indução Altofalante Bluetooth Android e IOS Luminaria",
+        price:"58,00",
+        comission:"4,06",
+        sells:"+34mil",
         shop:"shopee",
         category:"Diversos"
     },
@@ -813,5 +813,49 @@ export default
         sells:"+1,5mil",
         shop:"shopee",
         category:"Moda Masculina"
-    }
+    },
+    {
+        id:74,
+        url:"https://s.shopee.com.br/3AuU3gw5jO",
+        src:"https://down-cvs-br.img.susercontent.com/br-11134207-7r98o-m90t0o2oxwxu9e.webp",
+        title:"Manta de Sofá Piquet Algodão Cru Com Franjas Boho Algodão Decorativa Grande 1,50x2,10",
+        price:"59,99",
+        comission:"6,60",
+        sells:"+300",
+        shop:"shopee",
+        category:"Casa"
+    },
+    {
+        id:75,
+        url:"https://s.shopee.com.br/8Uw0Pp7J3g",
+        src:"https://down-br.img.susercontent.com/file/br-11134207-7r98o-lyqiwc4cwjlt41@resize_w900_nl.webp",
+        title:"Mop Spray Rodo Inteligente Limpeza Flash Mágico Esfregão Flat",
+        price:"32,90",
+        comission:"2,30",
+        sells:"+22mil",
+        shop:"shopee",
+        category:"Casa"
+    },
+    {
+        id:76,
+        url:"https://s.shopee.com.br/4VPreaEcSI",
+        src:"https://down-cvs-br.img.susercontent.com/sg-11134201-7rdwx-m0ye4wp728fka4.webp",
+        title:"Pillow Top Percal 400 Fios Macio Super King Queen Casal Envio Imediato",
+        price:"97,50",
+        comission:"10,73",
+        sells:"+3mil",
+        shop:"shopee",
+        category:"Quarto"
+    },
+    //{
+    //    id:0,
+    //    url:"",
+    //    src:"",
+    //    title:"",
+    //    price:"",
+    //    comission:"",
+    //    sells:"",
+    //    shop:"shopee",
+    //    category:""
+    //}
 ]
