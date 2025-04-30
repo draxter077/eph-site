@@ -26,6 +26,7 @@ export default function main(){
     const main = cE("div", style)
     main.appendChild(head())
     main.appendChild(recommendation())
+    main.appendChild(section("Novas ofertas", sortProducts(products, [0,1,2,3]), "seen"))
 
     let pbs = [...products]
     let bestSellers = pbs.sort((a, b) => Number((a.sells).replaceAll("+", "").replaceAll("mil","000").replaceAll(",",".")) - Number((b.sells).replaceAll("+", "").replaceAll("mil","000").replaceAll(",",".")))
@@ -37,9 +38,7 @@ export default function main(){
     bestComissions.reverse().splice(20, bestComissions.length - 20)
     main.appendChild(section("Está acabando... mas ainda dá tempo de comprar!", bestComissions, "seen"))
 
-    main.appendChild(section("Novas ofertas", sortProducts(products, [0,1,2,3]), "seen"))
     main.appendChild(foot())
-
     main.appendChild(catalog())
     main.appendChild(helper())
 

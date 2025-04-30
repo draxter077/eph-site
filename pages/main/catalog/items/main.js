@@ -8,7 +8,7 @@ export default function items(products){
             justify-content:flex-start;
             flex-wrap:wrap;
             width:100%;
-            height:85%;
+            height:80%;
             background:var(--colorWhite);
             border-radius:20px 20px 15px 15px;
             overflow-y:scroll;

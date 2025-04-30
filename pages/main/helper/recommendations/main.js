@@ -9,7 +9,7 @@ export default function recommendations(){
             align-items:center;
             background:var(--colorWhite);
             width:100%;
-            height:75%;
+            height:80%;
             border-radius:20px 20px 0px 0px;
         }`
 

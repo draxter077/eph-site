@@ -8,7 +8,6 @@ export default function categories(){
             flex-direction:row;
             overflow-x:scroll;
             padding:0px 40px;
-            margin:0px 0px 20px 0px;
             width:100%;
         }
         :responsive{padding:10px;margin:0px;}`

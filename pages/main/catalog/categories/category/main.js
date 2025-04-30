@@ -4,7 +4,7 @@ export default function category(t){
             position:relative;
             font-size:17px;
             color:var(--colorWhite);
-            margin:10px 15px 0px 0px;
+            margin:0px 15px 0px 0px;
             padding:0px 0px 2px 0px;
             font-weight:400;
             text-wrap:nowrap;
