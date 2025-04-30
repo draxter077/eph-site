@@ -12,7 +12,7 @@ export default function foot(){
             padding:5px 5px 10px 5px;
             margin:20px 0px 0px 0px;
             background:var(--colorOrange);
-            box-shadow:0px 0px 5px 0px var(--colorBlack);
+            box-shadow:0px 0px 1px 0px var(--colorBlack);
         }
         :responsive{flex-direction:column}`
 

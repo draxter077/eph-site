@@ -1,5 +1,3 @@
-import bot from "./bot/main.js"
-import text from "./text/main.js"
 import recommendations from "./recommendations/main.js"
 
 export default function recommendation(){
@@ -12,8 +10,6 @@ export default function recommendation(){
         }`
 
     const recommendation = cE("div", style)
-    //recommendation.appendChild(bot())
-    //recommendation.appendChild(text())
     recommendation.appendChild(recommendations())
     return(recommendation)
 }

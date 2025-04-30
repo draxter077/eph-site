@@ -1,17 +1,18 @@
-import bot from "./bot/main.js"
+import logo from "./logo/main.js"
 import text from "./text/main.js"
 
 export default function disclaimer(){
     let style = `
         {
             display:flex;
-            flex-direction:column;
+            flex-direction:row;
             align-items:center;
+            justify-content:center;
             width:100%;
         }`
 
     const disclaimer = cE("div", style)
-    disclaimer.appendChild(bot())
+    disclaimer.appendChild(logo())
     disclaimer.appendChild(text())
     return(disclaimer)
 }

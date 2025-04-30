@@ -9,7 +9,7 @@ export default function recommendations(){
             align-items:center;
             background:var(--colorWhite);
             width:100%;
-            height:60%;
+            height:75%;
         }`
 
     const recommendations = cE("div", style)
