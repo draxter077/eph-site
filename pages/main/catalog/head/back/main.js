@@ -1,12 +1,12 @@
 export default function back(){
     let style = `
         {
-            height:40px;
+            height:20px;
             cursor:pointer;
             transition:transform var(--transitionTime);
         }
         :hover{transform:scale(1.1)}
-        :responsive{height:30px}`
+        :responsive{height:15px}`
 
     const back = cE("img", style)
     back.src = "./assets/arrow.png"
