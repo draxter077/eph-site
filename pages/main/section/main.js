@@ -14,6 +14,7 @@ export default function section(t, products, s){
         }`
 
     const section = cE("div", style)
+    section.id = t
     section.appendChild(title(t))
     section.appendChild(items(products, s))
     //section.appendChild(ad())

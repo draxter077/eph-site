@@ -1,4 +1,4 @@
-export default function link(t, id){
+export default function link(t, f){
     let style = `
         {
             position:relative;
@@ -24,10 +24,7 @@ export default function link(t, id){
     link.innerHTML = t
     link.addEventListener(
         "click",
-        function a(){
-            if(t == "Todos os achados"){document.getElementById("catalog").style.left = "0%"}
-            else{document.getElementById("helper").style.right = "0%"}
-        }
+        f
     )
     return(link)
 }
