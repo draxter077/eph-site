@@ -8,7 +8,7 @@ export default function disclaimer(){
             flex-direction:row;
             align-items:center;
             justify-content:center;
-            width:100%;
+            width:95%;
         }`
 
     const disclaimer = cE("div", style)

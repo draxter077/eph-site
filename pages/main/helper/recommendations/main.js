@@ -10,6 +10,7 @@ export default function recommendations(){
             background:var(--colorWhite);
             width:100%;
             height:75%;
+            border-radius:20px 20px 0px 0px;
         }`
 
     const recommendations = cE("div", style)
