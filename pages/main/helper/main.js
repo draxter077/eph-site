@@ -9,7 +9,7 @@ export default function helper(){
             position:fixed;
             z-index:2;
             top:0%;
-            right:-100%;
+            left:-100%;
             display:flex;
             flex-direction:column;
             justify-content:space-between;
@@ -18,7 +18,7 @@ export default function helper(){
             width:100%;
             overflow:hidden;
             background:var(--colorOrange);
-            transition:right var(--transitionTime);
+            transition:left var(--transitionTime);
         }`
 
     const helper = cE("div", style)

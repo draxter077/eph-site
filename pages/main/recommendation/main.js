@@ -12,8 +12,8 @@ export default function recommendation(){
         }`
 
     const recommendation = cE("div", style)
-    recommendation.appendChild(bot())
-    recommendation.appendChild(text())
+    //recommendation.appendChild(bot())
+    //recommendation.appendChild(text())
     recommendation.appendChild(recommendations())
     return(recommendation)
 }

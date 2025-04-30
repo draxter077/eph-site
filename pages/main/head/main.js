@@ -19,9 +19,9 @@ export default function head(){
 
     const head = cE("div", style)
     head.appendChild(link("Catálogo", function a(){document.getElementById("catalog").style.left = "0%"}))
-    head.appendChild(link("Ajuda do Giph", function a(){document.getElementById("helper").style.right = "0%"}))
+    head.appendChild(link("Ajuda do Giph", function a(){document.getElementById("helper").style.left = "0%"}))
     head.appendChild(logo())
     head.appendChild(link("Novas ofertas", function a(){document.getElementById("Novas ofertas").scrollIntoView({behavior:"smooth"})}))
-    head.appendChild(link("Sobre o Giph"))
+    head.appendChild(link("Sobre o Giph", function a(){document.getElementById("Sobre").scrollIntoView({behavior:"smooth"})}))
     return(head)
 }

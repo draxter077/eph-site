@@ -5,7 +5,7 @@ export default function head(){
         {
             display:flex;
             flex-direction:row;
-            justify-content:flex-start;
+            justify-content:flex-end;
             width:100%;
             padding:10px;
         }`
