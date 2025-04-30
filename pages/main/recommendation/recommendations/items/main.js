@@ -33,7 +33,7 @@ export default function items(){
                 await new Promise(resolve => setTimeout(resolve, 100))
             }
 
-            let btn = items.parentElement.children[0]
+            let btn = items.parentElement.children[1]
             btn.style.opacity = 1
             btn.addEventListener(
                 "click",

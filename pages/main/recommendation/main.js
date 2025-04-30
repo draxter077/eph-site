@@ -9,7 +9,6 @@ export default function recommendation(){
             flex-direction:column;
             align-items:center;
             width:100%;
-            margin:20px 0px 0px 0px;
         }`
 
     const recommendation = cE("div", style)

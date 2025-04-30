@@ -13,7 +13,7 @@ export default function recommendations(){
         :responsive{margin:5px 0px 0px 0px}`
 
     const recommendations = cE("div", style)
-    recommendations.appendChild(button())
     recommendations.appendChild(items())
+    recommendations.appendChild(button())
     return(recommendations)
 }

@@ -3,6 +3,7 @@ export default function button(){
         {
             font-size:15px;
             padding:5px 10px;
+            margin:5px 0px 0px 0px;
             border-radius:5px;
             color:var(--colorWhite);
             background:var(--colorOrange);
