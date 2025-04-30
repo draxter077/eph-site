@@ -861,8 +861,8 @@ export default
     {
         id:78,
         url:"https://s.shopee.com.br/7AQdTHgYAu",
-        src:"Lixeira com Sensor Automático Inteligente Abre Fácil 16 litros",
-        title:"89,89",
+        src:"https://down-br.img.susercontent.com/file/br-11134207-7r98o-lymd7qh5hq5126@resize_w900_nl.webp",
+        title:"Lixeira com Sensor Automático Inteligente Abre Fácil 16 litros",
         price:"89,89",
         comission:"9,89",
         sells:"+13mil",
