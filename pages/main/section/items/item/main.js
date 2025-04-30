@@ -16,8 +16,8 @@ export default function item(p, s){
             transition:transform var(--transitionTime), opacity var(--transitionTime);
         }
         :responsive{
-            min-width:80px;
-            width:80px;
+            min-width:100px;
+            width:100px;
             margin:5px;
         }
         :hover{transform:scale(1.1);}`
