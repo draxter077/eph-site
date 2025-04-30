@@ -29,14 +29,14 @@ export default function main(){
     let pbs = [...products]
     let bestSellers = pbs.sort((a, b) => Number((a.sells).replaceAll("+", "").replaceAll("mil","000").replaceAll(",",".")) - Number((b.sells).replaceAll("+", "").replaceAll("mil","000").replaceAll(",",".")))
     bestSellers.reverse().splice(50, bestSellers.length - 50)
-    main.appendChild(section("🔥 TOP 50", bestSellers, "sells"))
+    main.appendChild(section("Mais vendidos", bestSellers, "sells"))
 
     let pbc = [...products]
     let bestComissions = pbc.sort((a, b) => Number((a.comission).replaceAll(",",".")) - Number((b.comission).replaceAll(",",".")))
     bestComissions.reverse().splice(20, bestComissions.length - 20)
-    main.appendChild(section("😱 Últimas unidades", bestComissions, "seen"))
+    main.appendChild(section("Está acabando... mas ainda dá tempo de comprar!", bestComissions, "seen"))
 
-    main.appendChild(section("✨ Novos achados", sortProducts(products, [0,1,2,3]), "seen"))
+    main.appendChild(section("Novas ofertas", sortProducts(products, [0,1,2,3]), "seen"))
 
     main.appendChild(catalog())
     main.appendChild(helper())

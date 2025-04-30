@@ -18,8 +18,8 @@ export default function head(){
         :responsive{flex-wrap:wrap;}`
 
     const head = cE("div", style)
-    head.appendChild(link("Todos os achados"))
+    head.appendChild(link("Catálogo"))
     head.appendChild(logo())
-    head.appendChild(link("Ajuda com um presente"))
+    head.appendChild(link("Ajuda do Giph"))
     return(head)
 }
