@@ -158,9 +158,13 @@ document.getElementsByTagName("style")[0].innerHTML += `
         --productTitleFontSize: 15px;
         --productPriceFontSize: 15px;
     }
+    @font-face {
+        font-family: glacialIndifference;
+        src: url(./assets/font/GlacialIndifference-Regular.otf);
+    }
     body{
     	box-sizing: border-box;
-    	font-family: system-ui;
+    	font-family: glacialIndifference;
     	background: var(--colorWhite);
     	cursor: default;
         user-select: none;
