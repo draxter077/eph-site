@@ -10,7 +10,7 @@ export default function items(products){
             width:100%;
             height:85%;
             background:var(--colorWhite);
-            border-radius:20px 20px 0px 0px;
+            border-radius:20px 20px 15px 15px;
             overflow-y:scroll;
             padding:10px;
         }

@@ -1,5 +1,3 @@
-import products from "../../../../../products.js"
-
 export default function category(t){
     let style = `
         {

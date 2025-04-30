@@ -16,10 +16,18 @@ export default function catalog(){
             flex-direction:column;
             justify-content:space-between;
             align-items:center;
-            height:100dvh;
-            width:100%;
+            height:calc(100dvh - 20px);
+            width:calc(100% - 20px);
             background:var(--colorOrange);
             transition:left var(--transitionTime);
+            margin:10px;
+            box-shadow:0px 0px 10px 0px var(--colorBlack);
+            border-radius:15px;
+        }
+        :responsive{
+            height:calc(100dvh - 10px);
+            width:calc(100% - 10px);
+            margin:5px;
         }`
 
     const catalog = cE("div", style)
