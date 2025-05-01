@@ -6,7 +6,8 @@ export default function text(){
             font-size:35px;
             margin:40px 0px 0px 0px;
             text-align:center;
-        }`
+        }
+        :responsive{font-size:25px}`
 
     const text = cE("div", style)
     text.innerHTML = "Aguarde só um pouquinho! Estamos nos preparando para receber você!"
