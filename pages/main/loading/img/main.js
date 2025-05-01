@@ -2,7 +2,7 @@ export default function img(){
     let style = `
         {
             width:50%;
-            animation:alive var(--transitionTime) linear 0s infinite alternate;
+            animation:alive calc(3*var(--transitionTime)) linear 0s infinite alternate;
         }
         @keyframes alive{
             0%[transform:scale(1)]

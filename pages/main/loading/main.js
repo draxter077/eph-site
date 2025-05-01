@@ -1,4 +1,5 @@
 import img from "./img/main.js"
+import text from "./text/main.js"
 
 export default function loading(){
     let style = `
@@ -7,6 +8,7 @@ export default function loading(){
             top:0%;
             left:0%;
             display:flex;
+            flex-direction:column;
             justify-content:center;
             align-items:center;
             width:100%;
@@ -19,6 +21,7 @@ export default function loading(){
     const loading = cE("div", style)
     loading.id = "loading"
     loading.appendChild(img())
+    loading.appendChild(text())
 
     window.addEventListener(
         "load", 
