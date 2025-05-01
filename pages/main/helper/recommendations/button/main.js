@@ -21,6 +21,7 @@ export default function button(){
     button.addEventListener(
         "click",
         async function a(){
+            button.innerHTML = "Novas recomendações"
             let items = button.parentElement.parentElement.children[3].children[1]
             for(let i = items.children.length - 1; i >= 0; i--){
                 items.children[i].style.opacity = 0
@@ -32,7 +33,7 @@ export default function button(){
             let categs = button.parentElement.parentElement.children[2].children[0].children
             let selecCategs = []
             for(let i = 0; i < categs.length; i++){
-                if(categs[i].style.fontWeight == 600){selecCategs.push(categs[i].innerHTML)}
+                if(categs[i].style.background == "var(--colorWhite)"){selecCategs.push(categs[i].innerHTML)}
             }
 
             let selecProducts = []

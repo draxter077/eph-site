@@ -1,26 +1,17 @@
 export default function category(t){
     let style = `
         {
-            position:relative;
             font-size:17px;
             color:var(--colorWhite);
             margin:0px 15px 0px 0px;
-            font-weight:400;
+            padding:5px 10px;
+            border-radius:5px;
             text-wrap:nowrap;
             cursor:pointer;
+            background:var(--colorOrange);
+            transition:all var(--transitionTime);
         }
-        :responsive{font-size:14px;}
-        ::after{
-            content:"";
-            position:absolute;
-            bottom:0%;
-            left:0%;
-            width:0%;
-            height:1px;
-            background:var(--colorWhite);
-            transition:width var(--transitionTime);
-        }
-        :hover::after{width:100%;}`
+        :responsive{font-size:14px;}`
 
     const category = cE("div", style)
     category.innerHTML = t
@@ -28,9 +19,15 @@ export default function category(t){
     category.addEventListener(
         "click",
         function a(e){
-            let currentFW = e.target.style.fontWeight
-            if(currentFW == 600){e.target.style.fontWeight = 400;}
-            else{e.target.style.fontWeight = 600;}
+            let currentBG = e.target.style.background
+            if(currentBG == "var(--colorWhite)"){
+                e.target.style.background = "var(--colorOrange)";
+                e.target.style.color = "var(--colorWhite)"
+            }
+            else{
+                e.target.style.background = "var(--colorWhite)";
+                e.target.style.color = "var(--colorOrange)"
+            }
         }
     )
     return(category)
