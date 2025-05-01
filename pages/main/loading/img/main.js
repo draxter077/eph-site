@@ -12,6 +12,6 @@ export default function img(){
         }`
 
     const img = cE("img", style)
-    img.src = "./assets/counterlogo.png"
+    img.src = "./assets/logo.png"
     return(img)
 }

@@ -879,16 +879,5 @@ export default
         sells:"+10mil",
         shop:"shopee",
         category:"Casa"
-    },
-    //{
-    //    id:0,
-    //    url:"",
-    //    src:"",
-    //    title:"",
-    //    price:"",
-    //    comission:"",
-    //    sells:"",
-    //    shop:"shopee",
-    //    category:""
-    //}
+    }
 ]

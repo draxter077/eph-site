@@ -8,5 +8,6 @@ export default function photo(src){
 
     const photo = cE("img", style)
     photo.src = src
+    photo.loading = "lazy"
     return(photo)
 }
