@@ -29,7 +29,7 @@ export default function button(){
             await new Promise(resolve => setTimeout(resolve, 500))
             items.innerHTML = ""
 
-            let categs = button.parentElement.parentElement.children[2].children
+            let categs = button.parentElement.parentElement.children[2].children[0].children
             let selecCategs = []
             for(let i = 0; i < categs.length; i++){
                 if(categs[i].style.fontWeight == 600){selecCategs.push(categs[i].innerHTML)}

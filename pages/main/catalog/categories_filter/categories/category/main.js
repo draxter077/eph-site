@@ -33,7 +33,7 @@ export default function category(t){
             let currentFW = e.target.style.fontWeight
             let items = e.target.parentElement.parentElement.parentElement.children[3].children
             let categs = e.target.parentElement.children
-            let input = e.target.parentElement.parentElement.children[1].children[0]
+            let input = e.target.parentElement.parentElement.parentElement.children[1].children[1]
             input.value = ""
             if(currentFW == 600){
                 e.target.style.fontWeight = 400;
@@ -43,7 +43,7 @@ export default function category(t){
                 for(let i = 0; i < categs.length; i++){categs[i].style.fontWeight = 400}
                 e.target.style.fontWeight = 600;
                 for(let i = 0; i < items.length; i++){
-                    if(products[items[i].id].category.toLowerCase() != t.toLowerCase()){
+                    if(products[items[i].id].category.toLowerCase() != t.toLowerCase()){ // Usa-se o valor espelhado porque o conteúdo é adicionado à página em sentido contrário
                         items[items.length - 1 - i].style.display = "none"
                         items[items.length - 1 - i].style.scale = 0
                     }
