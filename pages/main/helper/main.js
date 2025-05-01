@@ -1,6 +1,6 @@
 import head from "./head/main.js"
 import disclaimer from "./disclaimer/main.js"
-import categories from "./categories/main.js"
+import categories_filter from "./categories_filter/main.js"
 import recommendations from "./recommendations/main.js"
 
 export default function helper(){
@@ -33,7 +33,7 @@ export default function helper(){
     helper.id = "helper"
     helper.appendChild(head())
     helper.appendChild(disclaimer())
-    helper.appendChild(categories())
+    helper.appendChild(categories_filter())
     helper.appendChild(recommendations())
     return(helper)
 }

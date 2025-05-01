@@ -1,5 +1,5 @@
 import category from "./category/main.js"
-import products from "../../../../products.js"
+import products from "../../../../../products.js"
 
 export default function categories(){
     let style = `
@@ -7,10 +7,8 @@ export default function categories(){
             display:flex;
             flex-direction:row;
             overflow-x:scroll;
-            padding:0px 40px;
             width:100%;
-        }
-        :responsive{padding:10px;}`
+        }`
 
     const categories = cE("div", style)
     let cs = []

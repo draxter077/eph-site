@@ -15,6 +15,11 @@ export default function option(src, s){
     option.addEventListener(
         "click",
         function a(){
+            if(s == -1){
+                option.parentElement.click()
+                return(true)
+            }
+
             let itemsDiv = document.getElementById("catalog").children[3]
             let items = itemsDiv.children
             let ps = []

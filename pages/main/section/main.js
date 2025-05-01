@@ -9,8 +9,6 @@ export default function section(t, products, s){
             flex-direction:column;
             width:95%;
             margin:20px 0px 0px 0px;
-            opacity:0;
-            transition:opacity var(--transitionTime);
         }`
 
     const section = cE("div", style)

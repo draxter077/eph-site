@@ -44,16 +44,5 @@ export default function main(){
     main.appendChild(catalog())
     main.appendChild(helper())
     main.appendChild(loading())
-
-    window.addEventListener(
-        "load",
-        async function a(){
-            main.children[0].style.opacity = 1
-            main.children[1].style.opacity = 1
-            main.children[2].style.opacity = 1
-            main.children[3].style.opacity = 1
-            main.children[4].style.opacity = 1
-        }
-    )
     return(main)
 }

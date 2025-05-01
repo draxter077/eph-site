@@ -5,7 +5,6 @@ export default function category(t){
             font-size:17px;
             color:var(--colorWhite);
             margin:0px 15px 0px 0px;
-            padding:0px 0px 2px 0px;
             font-weight:400;
             text-wrap:nowrap;
             cursor:pointer;
@@ -25,6 +24,7 @@ export default function category(t){
 
     const category = cE("div", style)
     category.innerHTML = t
+    
     category.addEventListener(
         "click",
         function a(e){

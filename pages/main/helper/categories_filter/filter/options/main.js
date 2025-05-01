@@ -9,7 +9,7 @@ export default function options(){
             display:flex;
             flex-direction:column;
             align-items:center;
-            width:100%;
+            width:400%;
             max-width:0px;
             max-height:0px;
             overflow:hidden;
@@ -20,8 +20,7 @@ export default function options(){
         }`
 
     const options = cE("div", style)
-    let opts = [["./assets/cross.png", -1], ["./assets/arrow-up.png", 0],["./assets/arrow-down.png", 1]]
-    for(let i = 0; i < opts.length; i++){options.appendChild(option(opts[i][0], opts[i][1]))}
-    options.addEventListener("click", function a(){options.style.maxWidth = "0px";options.style.maxHeight = "0px"})
+    let opts = ["Valor mínimo","Valor máximo"]
+    for(let i = 0; i < opts.length; i++){options.appendChild(option(opts[i]))}
     return(options)
 }
