@@ -15,6 +15,6 @@ export default function categories_filter(){
 
     const categories_filter = cE("div", style)
     categories_filter.appendChild(categories())
-    categories_filter.appendChild(filter())
+    //categories_filter.appendChild(filter())
     return(categories_filter)
 }
