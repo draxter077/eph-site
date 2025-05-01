@@ -22,7 +22,7 @@ export default function item(p){
         }`
 
     const item = cE("div", style)
-    item.id = p.title + " " + p.category
+    item.id = p.id
     item.addEventListener("click", function a(){window.open(p.url, "_blank")})
     item.appendChild(photo(p.src))
     item.appendChild(shop_price(p.shop, p.price))

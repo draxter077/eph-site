@@ -1,7 +1,7 @@
 export default function link(src, url){
     let style = `
         {
-            width:25px;
+            width:30px;
             margin:0px 0px 0px 20px;
             cursor:pointer;
             transition:transform var(--transitionTime);

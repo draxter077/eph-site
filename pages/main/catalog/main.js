@@ -1,6 +1,6 @@
 import head from "./head/main.js"
 import search from "./search/main.js"
-import categories from "./categories/main.js"
+import categories_filter from "./categories_filter/main.js"
 import items from "./items/main.js"
 
 import products from "../../../products.js"
@@ -11,7 +11,7 @@ export default function catalog(){
             position:fixed;
             z-index:2;
             top:0%;
-            left:-100%;
+            left:-0%;
             display:flex;
             flex-direction:column;
             justify-content:space-between;
@@ -34,7 +34,7 @@ export default function catalog(){
     catalog.id = "catalog"
     catalog.appendChild(head())
     catalog.appendChild(search())
-    catalog.appendChild(categories())
+    catalog.appendChild(categories_filter())
     catalog.appendChild(items(products.reverse()))
     return(catalog)
 }
