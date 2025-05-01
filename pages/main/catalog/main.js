@@ -11,7 +11,7 @@ export default function catalog(){
             position:fixed;
             z-index:2;
             top:0%;
-            left:-0%;
+            left:-100%;
             display:flex;
             flex-direction:column;
             justify-content:space-between;
