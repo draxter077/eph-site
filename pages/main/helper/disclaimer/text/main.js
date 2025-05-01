@@ -10,6 +10,6 @@ export default function text(){
         :responsive{font-size:12px; max-width:90%; padding:5px 10px;}`
 
     const text = cE("div", style)
-    text.innerHTML = "Em dúvida sobre o que comprar? Selecione alguns filtros abaixo, e vou te ajudar a encontrar a melhor oferta!"
+    text.innerHTML = "Em dúvida sobre o que comprar? Selecione algumas categorias abaixo para começarmos!"
     return(text)
 }

@@ -3,7 +3,7 @@ export default function category(t){
         {
             font-size:17px;
             color:var(--colorWhite);
-            margin:0px 15px 0px 0px;
+            margin:0px 5px 0px 0px;
             padding:5px 10px;
             border-radius:5px;
             text-wrap:nowrap;
