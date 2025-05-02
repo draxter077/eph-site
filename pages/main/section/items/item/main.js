@@ -1,4 +1,5 @@
 import photo from "./photo/main.js"
+import title from "./title/main.js"
 import shop_price from "./shop_price/main.js"
 import label from "./label/main.js"
 
@@ -25,6 +26,7 @@ export default function item(p, s){
     const item = cE("div", style)
     item.addEventListener("click", function a(){window.open(p.url, "_blank")})
     item.appendChild(photo(p.src))
+    item.appendChild(title(p.title))
     item.appendChild(shop_price(p.shop, p.price))
     item.appendChild(label(p, s))
     return(item)
