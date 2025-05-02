@@ -5,6 +5,7 @@ export default function img(src, url){
             margin:0px 0px 0px 10px;
             cursor:pointer;
             transition:transform var(--transitionTime);
+            border-radius:5px;
         }
         :hover{transform:scale(1.2)}`
 
