@@ -178,12 +178,8 @@ document.getElementsByTagName("style")[0].innerHTML += `
         background: none;
     	margin: 0px;
     }
-    ::-webkit-scrollbar-thumb:vertical{
+    ::-webkit-scrollbar-thumb{
         background: var(--colorOrange);
-        border-radius: 20px;
-    }
-    ::-webkit-scrollbar-thumb:horizontal{
-        background: var(--colorWhite);
         border-radius: 20px;
     }
     ::-webkit-scrollbar-button{
