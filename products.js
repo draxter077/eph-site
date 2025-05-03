@@ -1297,5 +1297,60 @@ export default
         sells:"+6,5mil",
         shop:"shopee",
         category:"Casa"
+    },
+    {
+        id:118,
+        url:"https://amzn.to/3Z1mLI5",
+        src:"https://m.media-amazon.com/images/I/71mpLyEfFUL._AC_SX522_.jpg",
+        title:"Liquidificador Mondial, Turbo Power 550W, 220V, Preto, 2,2 L - L-99 FB",
+        price:"89,90",
+        comission:"7,19",
+        sells:"+100mil",
+        shop:"amazon",
+        category:"Cozinha"
+    },
+    {
+        id:119,
+        url:"https://amzn.to/42GJWtH",
+        src:"https://m.media-amazon.com/images/I/61lJjtLR5uL._AC_SY450_.jpg",
+        title:"Pipoqueira Britânia, Pop Time, Branco, 127V",
+        price:"144,44",
+        comission:"11,55",
+        sells:"+30mil",
+        shop:"amazon",
+        category:"Cozinha"
+    },
+    {
+        id:120,
+        url:"https://amzn.to/4iLavm2",
+        src:"https://m.media-amazon.com/images/I/61lKOqdFIeL._AC_SX569_.jpg",
+        title:"Compressor de ar portátil com inflador de pneu mini com bateria recarregável de 4000 mAh, bomba de pneu sem fio 150 PSI, luz de emergência LED, bomba de ar calibre de pressão para carro bicicleta motocicleta bola inflável",
+        price:"78,80",
+        comission:"6,30",
+        sells:"+4mil",
+        shop:"amazon",
+        category:"Diversos"
+    },
+    {
+        id:121,
+        url:"https://amzn.to/42Y01Kb",
+        src:"https://m.media-amazon.com/images/I/71iCqzNUIfL._AC_SX425_.jpg",
+        title:"Mochila de viagem coowoz unissex, grande, mala de mão, mochila para trilha, Preto, Large",
+        price:"111,73",
+        comission:"7,82",
+        sells:"+70mil",
+        shop:"amazon",
+        category:"Bolsas, Malas & Mochilas"
+    },
+    {
+        id:122,
+        url:"https://amzn.to/4jP7y5e",
+        src:"https://m.media-amazon.com/images/I/61eP9THMxLL._AC_SX466_.jpg",
+        title:"Mochila de Viagem Expansivel Avião Grande Feminina,Mochila Executiva Masculina Impermeável Reforçada para Notebook,Casual Esportes Hiking Escola Presente",
+        price:"119,99",
+        comission:"13,19",
+        sells:"+4mil",
+        shop:"amazon",
+        category:"Bolsas, Malas & Mochilas"
     }
 ]

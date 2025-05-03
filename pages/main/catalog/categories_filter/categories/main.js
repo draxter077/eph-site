@@ -6,9 +6,11 @@ export default function categories(){
         {
             display:flex;
             flex-direction:row;
+            flex-wrap:wrap;
             overflow-x:scroll;
             width:100%;
-        }`
+        }
+        :responsive{flex-wrap:nowrap;}`
 
     const categories = cE("div", style)
     let cs = []
