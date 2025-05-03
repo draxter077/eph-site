@@ -1640,6 +1640,17 @@ export default
         category:"Beleza"
     },
     {
+        id:149,
+        url:"https://amzn.to/4mhFvNR",
+        src:"https://m.media-amazon.com/images/I/61SipK0vnoL._AC_SX522_.jpg",
+        title:"Trator Giant Escavator Até 50Kg, Roma, Multicor",
+        price:"133,44",
+        comission:"10,67",
+        sells:"+30mil",
+        shop:"amazon",
+        category:"Bebê & Infantil"
+    },
+    {
         id:150,
         url:"https://s.shopee.com.br/1g5lp2TQpp",
         src:"https://down-zl-br.img.susercontent.com/sg-11134201-7rdw5-m0dl11tc27616d.webp",
@@ -1823,17 +1834,6 @@ export default
         price:"69,90",
         comission:"5,59",
         sells:"+1,5mil",
-        shop:"amazon",
-        category:"Bebê & Infantil"
-    },
-    {
-        id:167,
-        url:"https://amzn.to/4mhFvNR",
-        src:"https://m.media-amazon.com/images/I/61SipK0vnoL._AC_SX522_.jpg",
-        title:"Trator Giant Escavator Até 50Kg, Roma, Multicor",
-        price:"133,44",
-        comission:"10,67",
-        sells:"+30mil",
         shop:"amazon",
         category:"Bebê & Infantil"
     }
