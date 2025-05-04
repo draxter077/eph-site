@@ -17,6 +17,6 @@ export default function about(){
     about.appendChild(text())
     about.appendChild(img("./assets/ph.jpg", "https://www.ph.net.br"))
     about.appendChild(cross())
-    about.appendChild(img("./assets/goldilocks.png", ""))
+    about.appendChild(img("./assets/goldilocks.png", "https://www.instagram.com/goldilocks_marketing/"))
     return(about)
 }
