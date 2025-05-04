@@ -13,7 +13,7 @@ export default function links(){
     const links = cE("div", style)
     links.appendChild(link("instagram", "https://www.instagram.com/giph_ai/"))
     links.appendChild(link("facebook", "https://www.facebook.com/profile.php?id=61575770826400"))
-    links.appendChild(link("tiktok", "https://www.youtube.com/@giph_ai"))
+    links.appendChild(link("tiktok", "https://www.tiktok.com/@giph_ai"))
     links.appendChild(link("x", "https://x.com/giph_ai"))
     links.appendChild(link("youtube", "https://www.youtube.com/@giph_ai"))
     return(links)
