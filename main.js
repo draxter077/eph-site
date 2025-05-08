@@ -133,6 +133,7 @@ window.cE = function cE(t, stl){
 }
 
 window.construct = function construct(p){
+    console.log('oi')
     const root = document.getElementById("root")
     root.innerHTML = ""
     if(p == undefined){
