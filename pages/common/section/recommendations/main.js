@@ -9,7 +9,6 @@ export default function recommendations(ps){
         }
         :responsive{
             height:420px;
-            width:95%;
         }`
 
     const recommendations = cE("div", style)

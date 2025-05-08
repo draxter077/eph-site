@@ -16,8 +16,8 @@ export default function categories(){
             flex-direction:column;
             justify-content:flex-start;
             width:95%;
-            max-height:100px;
-            overflow-y:scroll;
+            max-height:110px;
+            overflow-x:scroll;
         }`
 
     const categories = cE("div", style)
