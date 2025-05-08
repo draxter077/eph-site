@@ -9,7 +9,7 @@ export default function chat(){
             flex-direction:column;
             align-items:center;
             width:100%;
-            height:fit-content;
+            height:100dvh;
             overflow:hidden;
         }`
 
