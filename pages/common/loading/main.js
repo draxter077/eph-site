@@ -25,7 +25,7 @@ export default function loading(){
         "load",
         async function a(){
             loading.style.opacity = 0
-            new Promise(resolve => setTimeout(resolve, 500));
+            await new Promise(resolve => setTimeout(resolve, 500));
             loading.style.height = "0px"
             loading.style.width = "0px"
         }

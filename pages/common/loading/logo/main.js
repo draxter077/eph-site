@@ -9,6 +9,6 @@ export default function logo(){
         }`
 
     const logo = cE("img", style)
-    logo.src = "./assets/counterlogoinverted.png"
+    logo.src = "./assets/counterlogo.png"
     return(logo)
 }

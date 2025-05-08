@@ -4,6 +4,7 @@ export default function text(){
             font-size:28px;
             color:var(--colorWhite);
             width:80%;
+            text-align:center;
         }
         :responsive{
             font-size:20px;
