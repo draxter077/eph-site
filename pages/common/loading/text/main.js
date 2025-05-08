@@ -3,8 +3,9 @@ export default function text(){
         {
             font-size:28px;
             color:var(--colorWhite);
-            width:80%;
+            width:90%;
             text-align:center;
+            margin:40px 0px 0px 0px;
         }
         :responsive{
             font-size:20px;

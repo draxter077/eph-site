@@ -24,10 +24,10 @@ export default function loading(){
     window.addEventListener(
         "load",
         async function a(){
-            loading.style.opacity = 0
-            await new Promise(resolve => setTimeout(resolve, 500));
-            loading.style.height = "0px"
-            loading.style.width = "0px"
+            //loading.style.opacity = 0
+            //await new Promise(resolve => setTimeout(resolve, 500));
+            //loading.style.height = "0px"
+            //loading.style.width = "0px"
         }
     )
     return(loading)
