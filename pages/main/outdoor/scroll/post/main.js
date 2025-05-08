@@ -3,7 +3,6 @@ export default function post(src, url){
         {
             height:250px;
             aspect-ratio:2;
-            background:red;
             margin:10px;
             cursor:pointer;
             border-radius:10px;
