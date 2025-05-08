@@ -1,3 +1,5 @@
+import loading from "../common/loading/main.js"
+
 import head from "../common/head/main.js"
 import outdoor from "./outdoor/main.js"
 import categories from "./categories/main.js"
@@ -18,6 +20,8 @@ export default function main(){
         }`
 
     const main = cE("div", style)
+    main.appendChild(loading())
+    
     main.appendChild(head({t:"Chat",url:"/chat"},{t:"Sobre",url:"/sobre"}))
     main.appendChild(outdoor())
     main.appendChild(categories())

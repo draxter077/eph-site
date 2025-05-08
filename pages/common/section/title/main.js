@@ -6,6 +6,9 @@ export default function title(t){
             border-bottom:1px solid var(--colorOrange);
             color:var(--colorOrange);
             width:100%;
+        }
+        :responsive{
+            font-size:22px;
         }`
 
     const title = cE("div", style)

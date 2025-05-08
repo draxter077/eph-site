@@ -22,7 +22,7 @@ export default function product(p){
             transform:scale(1.05);
         }
         :responsive{
-            width:90px;
+            width:130px;
         }`
 
     const product = cE("div", style)

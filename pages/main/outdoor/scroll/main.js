@@ -19,10 +19,10 @@ export default function scroll(postArray){
         async function a(){
             let i = 1;
             let postWidth;
-            if(window.innerWidth > 1080){postWidth = 520}
-            else{postWidth = 320}
+            if(window.innerWidth > 1080){postWidth = 620}
+            else{postWidth = window.innerWidth*0.9 + 20}
             while(true){
-                await new Promise(resolve => setTimeout(resolve, 2000))
+                await new Promise(resolve => setTimeout(resolve, 4000))
 
                 if(i == postArray.length){
                     scroll.style.transform = `translate(0px)`

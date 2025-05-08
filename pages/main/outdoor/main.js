@@ -3,12 +3,11 @@ import scroll from "./scroll/main.js"
 export default function outdoor(){
     let style = `
         {
-            width:80%;
+            width:100%;
             overflow:hidden;
             margin:40px 0px 0px 0px;
         }
         :responsive{
-            width:100%;
             margin:20px 0px 0px 0px;
         }`
 

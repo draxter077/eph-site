@@ -1,29 +1,34 @@
+import word from "./word/main.js"
+
 export default function text(type){
     let style = `
         {
-            font-size:18px;
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
             padding:10px 15px;
             background:var(--colorOrange02);
             border-radius:10px;
-            text-align:justify;
-        }
-        :responsive{
-            font-size:15px;
-            text-align:left;    
         }`
 
     const text = cE("div", style)
+    let t
     if(type == 0){
-        text.innerHTML = `Olá, tudo bem? Eu sou o GiphBot e vou te ajudar a encontrar o melhor produto para você! Para começarmos, essa compra é para um momento especial?`
+        t = `Olá, tudo bem? Eu sou o GiphBot, o mesmo que encontra as melhores ofertas nos principais marketplaces do Brasil... Mas, no meu tempo livre, fico aqui para ajudar a encontrar os produtos certos para cada desejo. Dito isso, vamos começar! Como posso te ajudar?`
     }
     else if(type == 1){
-        text.innerHTML = "Aqui você já selecionou o evento, eu te parabenizo, e te peço para avaliar as subcategorias que encontrei"
+        t = "Aqui você já selecionou o evento, eu te parabenizo, e te peço para avaliar as subcategorias que encontrei"
     }
     else if(type == 2){
-        text.innerHTML = "Agora te pergunto somente o valor máximo e mínimo"
+        t = "Agora te pergunto somente o valor máximo e mínimo"
     }
     else if(type == 3){
-        text.innerHTML = "Ótimo! Aguarde só um segundinho enquanto encontro os melhores produtos para esse momento!"
+        t = "Ótimo! Já tenho algumas ofertas em mente. Aguarde só um segundinho..."
+    }
+
+    let ts = t.split(" ")
+    for(let i = 0; i < ts.length; i++){
+        text.appendChild(word(ts[i]))
     }
     return(text)
 }

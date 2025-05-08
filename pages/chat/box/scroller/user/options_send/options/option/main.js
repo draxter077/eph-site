@@ -37,7 +37,7 @@ export default function option(t, type){
                         option.style.background = "var(--colorOrange)"
                         option.style.color = "var(--colorWhite)"
                         let cats = []
-                        if(t == "É para mim mesmo"){
+                        if(t == "Quero algo para mim mesmo"){
                             cats = ["Beleza e Cuidados Pessoais", 
                                 "Bolsas, Malas e Mochilas", 
                                 "Brinquedos e Jogos",
@@ -49,19 +49,19 @@ export default function option(t, type){
                                 "Roupas, Calçados e Acessórios"
                             ]
                         }
-                        else if(t == "Casamento"){
+                        else if(t == "Presente de casamento"){
                             cats = ["Casa",
                                 "Eletrônicos",
                                 "Ferramentas e Construção"
                             ]
                         }
-                        else if(t == "Aniversário Infantil"){
+                        else if(t == "Presente para aniversário infantil"){
                             cats = ["Brinquedos e Jogos",
                                 "Esportes, Aventura e Lazer",
                                 "Papelaria e Escritório"
                             ]
                         }
-                        else if(t == "Dia das mães"){
+                        else if(t == "Presente de dia das mães"){
                             cats = ["Beleza e Cuidados Pessoais",
                                 "Bolsas",
                                 "Quarto",
@@ -73,7 +73,7 @@ export default function option(t, type){
                                 "Joias"
                             ]
                         }
-                        else if(t == "Amigo secreto"){
+                        else if(t == "Presente de amigo secreto"){
                             cats = ["Beleza e Cuidados Pessoais",
                                 "Casa",
                                 "Eletrônicos",
@@ -86,6 +86,11 @@ export default function option(t, type){
                         //if(minValue == ""){minValue = 0}
                         //if(maxValue == ""){maxValue = 10000000000}
                         document.getElementById("botScroller").children[1].style.maxHeight = "1000px"
+                        let ws = document.getElementById("botScroller").children[1].children[1].children
+                        for(let i = 0; i < ws.length; i ++){
+                            ws[i].style.opacity = 1
+                            await new Promise(resolve => setTimeout(resolve, 100))
+                        }
             
                         let pdts = []
                         for(let i = 0; i < products.length; i++){
@@ -101,15 +106,15 @@ export default function option(t, type){
                             if(!rPdts.includes(pdts[rID])){
                                 rPdts.push(pdts[rID])
                             }
-                            if(rPdts.length == pdts.length){break}
+                            if(rPdts.length >= pdts.length/3){break}
                         }
 
-                        let r = document.getElementById("recommendations")
+                        let r = document.getElementById("botScroller").children[0].children[0]
                         for(let i = 0; i < rPdts.length; i++){
                             r.appendChild(product(rPdts[i]))
                         }
 
-                        await new Promise(resolve => setTimeout(resolve, 1000));
+                        await new Promise(resolve => setTimeout(resolve, 3000));
                         document.getElementById("botScroller").children[0].style.maxHeight = "1000px"
                     }
                 }

@@ -1,3 +1,5 @@
+import loading from "../common/loading/main.js"
+
 import head from "../common/head/main.js"
 import title from "./title/main.js"
 import section from "../common/section/main.js"
@@ -19,6 +21,7 @@ export default function category(c){
         }`
 
     const category = cE("div", style)
+    category.appendChild(loading())
     category.appendChild(head({t:"Chat",url:"/chat"},{t:"Sobre",url:"/sobre"}))
     category.appendChild(title(c))
 

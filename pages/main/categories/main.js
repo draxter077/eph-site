@@ -13,8 +13,11 @@ export default function categories(){
         }
         :responsive{
             margin:20px 0px 0px 0px;
+            flex-direction:column;
             justify-content:flex-start;
             width:95%;
+            max-height:100px;
+            overflow-y:scroll;
         }`
 
     const categories = cE("div", style)

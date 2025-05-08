@@ -22,7 +22,7 @@ export default function input(){
     input.placeholder = "Pesquise..."
 
     function a(e){
-        let ps = document.getElementById("categoryProducts").children
+        let ps = input.parentElement.parentElement.children[1].children[0].children
         for(let i = 0; i < ps.length; i++){
             let p = products[ps[i].id]
             let t = p.title + " " + p.category + " " + p.subcategory

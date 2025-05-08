@@ -526,7 +526,7 @@ export default
         comission:"1,99",
         sells:"+600",
         shop:"shopee",
-        category:"Eletrônico",
+        category:"Eletrônicos",
         subcategory:undefined
     },
     {
