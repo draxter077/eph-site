@@ -14,7 +14,7 @@ export default function text(type){
     const text = cE("div", style)
     let t
     if(type == 0){
-        t = `Olá, tudo bem? Eu sou o GiphBot, o mesmo que encontra as melhores ofertas nos principais marketplaces do Brasil... Mas, no meu tempo livre, fico aqui para ajudar a encontrar os produtos certos para cada desejo. Dito isso, vamos começar! Como posso te ajudar?`
+        t = `Olá, tudo bem? Eu sou o GiphBot, o mesmo que encontra as melhores ofertas nos principais marketplaces do Brasil... Mas, no meu tempo livre, fico aqui para ajudar a encontrar os produtos certos para cada desejo. Como posso te ajudar?`
     }
     else if(type == 1){
         t = "Aqui você já selecionou o evento, eu te parabenizo, e te peço para avaliar as subcategorias que encontrei"
