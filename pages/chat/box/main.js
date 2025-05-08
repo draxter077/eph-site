@@ -7,7 +7,7 @@ export default function box(){
             flex-direction:column-reverse;
             height:100%;
             width:90%;
-            overflow-y:hidden;
+            overflow-y:scroll;
             margin:10px 0px;
         }`
 
