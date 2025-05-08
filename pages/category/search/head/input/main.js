@@ -21,27 +21,27 @@ export default function input(){
     input.id = "categorySearchInput"
     input.placeholder = "Pesquise..."
 
-    function a(e){
+    function a(){
         let ps = input.parentElement.parentElement.children[1].children[0].children
         for(let i = 0; i < ps.length; i++){
             let p = products[ps[i].id]
-            let t = p.title + " " + p.category + " " + p.subcategory
-            if(!t.toLowerCase().includes(e.target.value.toLowerCase())){
-                ps[i].style.display = "none"
+            let t = p.title + " " + p.subcategory
+            if(t.toLowerCase().includes(input.value.toLowerCase())){
+                ps[i].style.display = "flex"
             }
             else{
-                ps[i].style.display = "flex"
+                ps[i].style.display = "none"
             }
         }
     }
 
     input.addEventListener(
         "input",
-        function b(e){a(e)}
+        function b(){a()}
     )
     input.addEventListener(
         "click",
-        function b(e){a(e)}
+        function b(){a()}
     )
 
     return(input)

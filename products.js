@@ -1595,7 +1595,7 @@ export default
         sells:"+100",
         shop:"amazon",
         category:"Roupas, Calçados e Acessórios",
-        subcategory:"Feminino"
+        subcategory:"Calçados"
     },
     {
         id:133,
