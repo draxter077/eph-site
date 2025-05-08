@@ -1966,8 +1966,8 @@ export default
         comission:"2,74",
         sells:"+100",
         shop:"amazon",
-        category:"Bolsas, Malas & Mochilas",
-        subcategory:"Bolsa"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Masculino"
     },
     {
         id:164,
