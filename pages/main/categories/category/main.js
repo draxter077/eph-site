@@ -25,7 +25,7 @@ export default function category(t){
     category.addEventListener(
         "click",
         function a(){
-            window.open("/categoria/" + t, "_self")
+            window.open("/categoria?" + t, "_self")
         }
     )
 
