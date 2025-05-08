@@ -138,7 +138,9 @@ window.construct = function construct(p){
     if(p == undefined){
         if(window.location.href.split("br/")[1] != undefined && window.location.href.split("br/")[1] != ""){
             let paths = window.location.href.split("br/")[1].split("/")
+            console.log(paths)
             if(paths[0] == "categoria"){
+                console.log("oiie")
                 root.appendChild(category(paths[1].replaceAll("%20", " ").replaceAll("%C3%B4", "ô").replaceAll("%C3%A7", "ç").replaceAll("%C3%B3", "ó"),replaceAll("%C3%AA", "ê").replaceAll("%C3%93", "Ó")))
             }
             else if(paths[0] == "chat"){
