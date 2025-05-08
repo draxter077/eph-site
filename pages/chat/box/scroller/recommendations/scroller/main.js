@@ -3,7 +3,7 @@ export default function scroller(){
         {
             display:flex;
             flex-direction:row;
-            width:fit-content;
+            flex-wrap:wrap;
         }`
 
     const scroller = cE("div", style)

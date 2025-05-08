@@ -4,9 +4,9 @@ export default function recommendations(){
     let style = `
         {
             width:100%;
-            height:fit-content;
+            height:400px;
             max-height:0px;
-            overflow-x:scroll;
+            overflow-y:scroll;
             transition:all var(--transitionTime);
         }`
 

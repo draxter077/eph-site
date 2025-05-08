@@ -14,7 +14,7 @@ export default function text(type){
 
     const text = cE("div", style)
     if(type == 0){
-        text.innerHTML = `Olá, tudo bem? Esse é o texto inicial, para te dizer como funciona e te pedir para selecionar o evento`
+        text.innerHTML = `Olá, tudo bem? Eu sou o GiphBot e vou te ajudar a encontrar o melhor produto para você!`
     }
     else if(type == 1){
         text.innerHTML = "Aqui você já selecionou o evento, eu te parabenizo, e te peço para avaliar as subcategorias que encontrei"
@@ -23,7 +23,7 @@ export default function text(type){
         text.innerHTML = "Agora te pergunto somente o valor máximo e mínimo"
     }
     else if(type == 3){
-        text.innerHTML = "Agora eu falo que estou pensando e te envio as recomendações"
+        text.innerHTML = "Hummm, gostei! Agora só um segundinho enquanto encontro os melhores produtos para isso!"
     }
     return(text)
 }
