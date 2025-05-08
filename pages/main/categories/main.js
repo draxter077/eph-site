@@ -1,0 +1,24 @@
+import productsCategoriesNames from "../../__common/productsCategoriesNames/main.js"
+import category from "./category/main.js"
+
+export default function categories(){
+    let style = `
+        {
+            display:flex;
+            flex-direction:row;
+            justify-content:space-around;
+            flex-wrap:wrap;
+            width:90%;
+            margin:40px 0px 0px 0px;
+        }
+        :responsive{
+            margin:20px 0px 0px 0px;
+            justify-content:flex-start;
+            width:95%;
+        }`
+
+    const categories = cE("div", style)
+    let ctgs = productsCategoriesNames()
+    for(let i = 0; i < ctgs.length; i++){categories.appendChild(category(ctgs[i]))}
+    return(categories)
+}

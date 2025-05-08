@@ -1,4 +1,7 @@
 import main from "./pages/main/main.js"
+import category from "./pages/category/main.js"
+import chat from "./pages/chat/main.js"
+//import about from "./pages/about/main.js"
 
 window.cE = function cE(t, stl){
     function addClass(){
@@ -90,8 +93,18 @@ window.cE = function cE(t, stl){
                 break
             }
         }
+
+        if(t == "root"){
+            document.getElementsByTagName("style")[0].innerHTML += `.${className}${stl.replaceAll("\n", "").replaceAll("  ","")}`
+            for(let p = 1; p < stylesGotten.length; p++){
+                let inst = stylesGotten[p]
+                let insN = inst.split("{")[0].replaceAll("\n", "").replaceAll("  ", "")
+                let insA = inst.split("{")[1]
+                if(insA != undefined){document.getElementsByTagName("style")[0].innerHTML += `${insN}{${insA.replaceAll("\n", "").replaceAll("  ","")}}`}
+            }
+        }
         // Caso não tenha adicionado nome (ou seja, não foi encontrado estilo com atributos similares), adiciona-se
-        if(className == ""){
+        else if(className == ""){
             className = randomName(stylesNames)
             document.getElementsByTagName("style")[0].innerHTML += `.${className}${stl.replaceAll("\n", "").replaceAll("  ","")}`
             for(let p = 1; p < stylesGotten.length; p++){
@@ -119,24 +132,57 @@ window.cE = function cE(t, stl){
     return(el)
 }
 
-window.construct = function construct(){
+window.construct = function construct(p){
     const root = document.getElementById("root")
     root.innerHTML = ""
-    root.appendChild(main())
+    if(p == undefined){
+        if(window.location.href.split("br/")[1] != undefined && window.location.href.split("br/")[1] != ""){
+            let paths = window.location.href.split("br/")[1].split("/")
+            if(paths[0] == "categoria"){
+                root.appendChild(category(paths[1].replaceAll("%20", " ")))
+            }
+            else if(paths[0] == "chat"){
+                root.appendChild(chat())
+            }
+            else if(paths[0] == "sobre"){
+                root.appendChild(main())
+            }
+            //else if(paths[0] == "feed"){
+            //    root.appendChild(feed())
+            //}
+            else{
+                root.appendChild(main())
+            }
+        }
+        else{
+            root.appendChild(main())
+        }
+    }
 }
 
 //window.apiURL = ""
 
 //axios.defaults.headers.common["ngrok-skip-browser-warning"] = "69420"
 document.getElementsByTagName("head")[0].appendChild(document.createElement("style"))
-document.getElementsByTagName("style")[0].innerHTML += `
-    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
-    big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-    dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, 
-    aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-    time, mark, audio, video, button, input, textarea {display: block;background: none;margin: 0px;padding: 0px;border: none;
-    font-size: 100%;font: inherit;vertical-align: baseline;text-decoration: none;font-weight: none;outline: none;
-    -webkit-tap-highlight-color: transparent;box-sizing: border-box;}
+cE("root", `html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big, 
+    cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,
+    dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article, 
+    aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,
+    time,mark,audio,video,button,input,textarea{
+        display:block;
+        background:none;
+        margin:0px;
+        padding:0px;
+        border:none;
+        font-size:100%;
+        font:inherit;
+        vertical-align:baseline;
+        text-decoration:none;
+        font-weight:none;
+        outline: none;
+        -webkit-tap-highlight-color: transparent;
+        box-sizing: border-box;
+    }
     span{display:inline-block;}
     input:focus, button:focus{outline: none;border: auto;}
     button{cursor: pointer;}
@@ -145,49 +191,45 @@ document.getElementsByTagName("style")[0].innerHTML += `
     blockquote, q {quotes: none;}
     blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
     table {border-collapse: collapse;border-spacing: 0;}
-
-    :root{
-    	--colorWhite: rgb(240, 240, 240);
-    	--colorBlack: rgb(0, 0, 0);
-        --colorOrange: rgb(255, 145, 77);
-        --colorOrange02: rgb(255, 145, 77, 0.2);
-        --colorYellow: rgb(255, 222, 89);
-    	--transitionTime: 0.5s;
-    	--animationDelay0: 0s;
-        --titleFontSize: 25px;
-        --productTitleFontSize: 15px;
-        --productPriceFontSize: 15px;
+    @font-face{
+        font-family:"Glacial Indifference";
+        src:url("./assets/font/GlacialIndifference-Regular.otf");
     }
-    @font-face {
-        font-family: glacialIndifference;
-        src: url(./assets/font/GlacialIndifference-Regular.otf);
+    :root{
+    	--colorWhite:rgb(255, 255, 255);
+    	--colorBlack:rgb(0, 0, 0);
+        --colorBlack02:rgb(0,0,0,0.2);
+        --colorOrange:rgb(255,145,77);
+        --colorOrange02:rgb(255,145,77,0.2);
+        --colorYellow:rgb(255,222,89);
+    	--transitionTime:0.5s;
+    	--animationDelay0:0s;
     }
     body{
-    	box-sizing: border-box;
-    	font-family: glacialIndifference;
-    	background: var(--colorWhite);
-    	cursor: default;
-        user-select: none;
+    	box-sizing:border-box;
+    	font-family:"Glacial Indifference";
+    	cursor:default;
+	    user-select:none;
     }
     ::-webkit-scrollbar{
-    	height: 3px;
-        width: 3px;
-    	background: none;
+    	height:3px;
+        width:3px;
+    	background:none;
     }
     ::-webkit-scrollbar-track{
-        background: none;
-    	margin: 0px;
+        background:none;
+    	margin:0px;
     }
     ::-webkit-scrollbar-thumb{
-        background: var(--colorOrange);
-        border-radius: 20px;
+        background:var(--colorOrange);
+        border-radius:20px;
     }
     ::-webkit-scrollbar-button{
-        height: 0px;
-	    width: 0px;
-    	background: none;
-        padding: 0px;
-        margin: 0px;
-    }`
+        height:0px;
+	    width:0px;
+    	background:none;
+        padding:0px;
+        margin:0px;
+    }`)
     
 construct()

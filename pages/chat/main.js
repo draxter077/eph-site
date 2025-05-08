@@ -1,0 +1,21 @@
+import head from "../__common/head/main.js"
+import box from "./box/main.js"
+import foot from "../__common/foot/main.js"
+
+export default function chat(){
+    let style = `
+        {
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            width:100%;
+            height:fit-content;
+            overflow:hidden;
+        }`
+
+    const chat = cE("div", style)
+    chat.appendChild(head({t:"Início",url:"/"},{t:"Sobre",url:"/sobre"}))
+    chat.appendChild(box())
+    chat.appendChild(foot())
+    return(chat)
+}

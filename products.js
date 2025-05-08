@@ -9,7 +9,8 @@ export default
         comission:"2,39",
         sells:"+380mil",
         shop:"shopee",
-        category:"Quarto"
+        category:"Casa",
+        subcategory:"Quarto"
     },
     {
         id:1,
@@ -20,7 +21,8 @@ export default
         comission:"1,36",
         sells:"+90mil",
         shop:"shopee",
-        category:"Banheiro"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:2,
@@ -31,7 +33,9 @@ export default
         comission:"2,10",
         sells:"+35mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Limpeza"
+
     },
     {
         id:3,
@@ -42,7 +46,8 @@ export default
         comission:"1,43",
         sells:"+130mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Quarto"
     },
     {
         id:4,
@@ -53,7 +58,8 @@ export default
         comission:"1,35",
         sells:"+120mil",
         shop:"shopee",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:5,
@@ -64,7 +70,8 @@ export default
         comission:"0,75",
         sells:"+50mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:6,
@@ -75,7 +82,8 @@ export default
         comission:"0,99",
         sells:"+15mil",
         shop:"shopee",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:7,
@@ -86,7 +94,8 @@ export default
         comission:"2,32",
         sells:"+30mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Jardim"
     },
     {
         id:8,
@@ -97,7 +106,8 @@ export default
         comission:"2,62",
         sells:"+55mil",
         shop:"shopee",
-        category:"Quarto"
+        category:"Casa",
+        subcategory:"Quarto"
     },
     {
         id:9,
@@ -108,7 +118,8 @@ export default
         comission:"0,57",
         sells:"+25mil",
         shop:"shopee",
-        category:"Banheiro"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:10,
@@ -119,7 +130,8 @@ export default
         comission:"0,32",
         sells:"+30mil",
         shop:"shopee",
-        category:"Banheiro"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:11,
@@ -130,7 +142,8 @@ export default
         comission:"4,76",
         sells:"+40mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:12,
@@ -141,7 +154,8 @@ export default
         comission:"0,97",
         sells:"+25mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:13,
@@ -152,7 +166,8 @@ export default
         comission:"0,97",
         sells:"+30mil",
         shop:"shopee",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:14,
@@ -163,7 +178,8 @@ export default
         comission:"6,89",
         sells:"+75mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:15,
@@ -174,7 +190,8 @@ export default
         comission:"2,10",
         sells:"+45mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:16,
@@ -185,7 +202,8 @@ export default
         comission:"2,95",
         sells:"+400mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:17,
@@ -196,7 +214,8 @@ export default
         comission:"8,98",
         sells:"+50mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:18,
@@ -207,7 +226,8 @@ export default
         comission:"1,84",
         sells:"+25mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:19,
@@ -218,7 +238,8 @@ export default
         comission:"0,45",
         sells:"+60mil",
         shop:"shopee",
-        category:"Banheiro"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:20,
@@ -229,7 +250,8 @@ export default
         comission:"0,89",
         sells:"+130mil",
         shop:"shopee",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:21,
@@ -240,7 +262,8 @@ export default
         comission:"2,40",
         sells:"+10mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Quarto"
     },
     {
         id:22,
@@ -251,7 +274,8 @@ export default
         comission:"0,91",
         sells:"+65mil",
         shop:"shopee",
-        category:"Banheiro"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:23,
@@ -262,7 +286,8 @@ export default
         comission:"1,44",
         sells:"+25mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Quarto"
     },
     {
         id:24,
@@ -273,7 +298,8 @@ export default
         comission:"1,17",
         sells:"+800",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:25,
@@ -284,7 +310,8 @@ export default
         comission:"1,90",
         sells:"+10mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:26,
@@ -295,7 +322,8 @@ export default
         comission:"3,16",
         sells:"+55mil",
         shop:"shopee",
-        category:"Banheiro"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:27,
@@ -306,7 +334,8 @@ export default
         comission:"4,29",
         sells:"+30mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:28,
@@ -317,7 +346,8 @@ export default
         comission:"1,70",
         sells:"+20mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Quarto"
     },
     {
         id:29,
@@ -328,7 +358,8 @@ export default
         comission:"2,07",
         sells:"+800",
         shop:"shopee",
-        category:"Banheiro"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:30,
@@ -339,7 +370,8 @@ export default
         comission:"5,85",
         sells:"+25mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:31,
@@ -350,7 +382,8 @@ export default
         comission:"2,40",
         sells:"+130mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:32,
@@ -361,7 +394,8 @@ export default
         comission:"6,59",
         sells:"+60mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:33,
@@ -372,7 +406,8 @@ export default
         comission:"2,39",
         sells:"+30mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:34,
@@ -383,7 +418,8 @@ export default
         comission:"2,71",
         sells:"+105mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:35,
@@ -394,7 +430,8 @@ export default
         comission:"4,19",
         sells:"+34mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:36,
@@ -405,7 +442,8 @@ export default
         comission:"4,95",
         sells:"+11mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:37,
@@ -416,7 +454,8 @@ export default
         comission:"1,41",
         sells:"+20mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:38,
@@ -427,7 +466,8 @@ export default
         comission:"4,19",
         sells:"+55mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:39,
@@ -438,7 +478,8 @@ export default
         comission:"6,93",
         sells:"+30mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:40,
@@ -449,7 +490,8 @@ export default
         comission:"0,54",
         sells:"+10mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:41,
@@ -460,7 +502,8 @@ export default
         comission:"0,71",
         sells:"+15mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Beleza e Cuidados Pessoais",
+        subcategory:undefined
     },
     {
         id:42,
@@ -471,7 +514,8 @@ export default
         comission:"1,40",
         sells:"+17mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:43,
@@ -482,7 +526,8 @@ export default
         comission:"1,99",
         sells:"+600",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônico",
+        subcategory:undefined
     },
     {
         id:44,
@@ -493,7 +538,8 @@ export default
         comission:"4,32",
         sells:"+55mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:45,
@@ -504,7 +550,8 @@ export default
         comission:"1,89",
         sells:"+5mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:46,
@@ -515,7 +562,8 @@ export default
         comission:"0,57",
         sells:"+240mil",
         shop:"shopee",
-        category:"Beleza"
+        category:"Beleza e Cuidados Pessoais",
+        subcategory:undefined
     },
     {
         id:47,
@@ -526,7 +574,8 @@ export default
         comission:"2,10",
         sells:"+395mil",
         shop:"shopee",
-        category:"Beleza"
+        category:"Beleza e Cuidados Pessoais",
+        subcategory:undefined
     },
     {
         id:48,
@@ -537,7 +586,8 @@ export default
         comission:"3,99",
         sells:"+15mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:49,
@@ -548,7 +598,8 @@ export default
         comission:"0,60",
         sells:"+110mil",
         shop:"shopee",
-        category:"Beleza"
+        category:"Beleza e Cuidados Pessoais",
+        subcategory:undefined
     },
     {
         id:50,
@@ -559,7 +610,8 @@ export default
         comission:"5,04",
         sells:"+20mil",
         shop:"shopee",
-        category:"Beleza"
+        category:"Beleza e Cuidados Pessoais",
+        subcategory:undefined
     },
     {
         id:51,
@@ -570,7 +622,8 @@ export default
         comission:"1,92",
         sells:"+70mil",
         shop:"shopee",
-        category:"Beleza"
+        category:"Beleza e Cuidados Pessoais",
+        subcategory:undefined
     },
     {
         id:52,
@@ -581,7 +634,8 @@ export default
         comission:"0,57",
         sells:"+30mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Esportes, Aventura e Lazer",
+        subcategory:undefined
     },
     {
         id:53,
@@ -592,7 +646,8 @@ export default
         comission:"2,69",
         sells:"+45mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Esportes, Aventura e Lazer",
+        subcategory:undefined
     },
     {
         id:54,
@@ -603,7 +658,8 @@ export default
         comission:"9,00",
         sells:"+7mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Brinquedos e Jogos",
+        subcategory:undefined
     },
     {
         id:55,
@@ -614,7 +670,8 @@ export default
         comission:"1,16",
         sells:"+20mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Esportes, Aventura e Lazer",
+        subcategory:undefined
     },
     {
         id:56,
@@ -625,7 +682,8 @@ export default
         comission:"13,73",
         sells:"+23mil",
         shop:"shopee",
-        category:"Pet"
+        category:"Pet Shop",
+        subcategory:undefined
     },
     {
         id:57,
@@ -636,7 +694,8 @@ export default
         comission:"6,49",
         sells:"+30mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:58,
@@ -647,7 +706,8 @@ export default
         comission:"2,39",
         sells:"+12mil",
         shop:"shopee",
-        category:"Pet"
+        category:"Pet Shop",
+        subcategory:undefined
     },
     {
         id:59,
@@ -658,7 +718,8 @@ export default
         comission:"5,25",
         sells:"+2,5mil",
         shop:"shopee",
-        category:"Bebê & Infantil"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:60,
@@ -669,7 +730,8 @@ export default
         comission:"4,06",
         sells:"+34mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:61,
@@ -680,7 +742,8 @@ export default
         comission:"2,80",
         sells:"+5mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:62,
@@ -691,7 +754,8 @@ export default
         comission:"1,23",
         sells:"+1,5mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:63,
@@ -702,7 +766,8 @@ export default
         comission:"5,07",
         sells:"+65mil",
         shop:"shopee",
-        category:"Moda Masculina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Masculino"
     },
     {
         id:64,
@@ -713,7 +778,8 @@ export default
         comission:"6,39",
         sells:"+1,3mil",
         shop:"shopee",
-        category:"Moda Masculina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Masculino"
     },
     {
         id:65,
@@ -724,7 +790,8 @@ export default
         comission:"6,69",
         sells:"+800",
         shop:"shopee",
-        category:"Moda Masculina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Masculino"
     },
     {
         id:66,
@@ -735,7 +802,8 @@ export default
         comission:"7,80",
         sells:"+25mil",
         shop:"shopee",
-        category:"Moda Masculina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Masculino"
     },
     {
         id:67,
@@ -746,7 +814,8 @@ export default
         comission:"0,38",
         sells:"+25mil",
         shop:"shopee",
-        category:"Pet"
+        category:"Pet Shop",
+        subcategory:undefined
     },
     {
         id:68,
@@ -757,7 +826,8 @@ export default
         comission:"7,30",
         sells:"+5mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Papelaria e Escritório",
+        subcategory:undefined
     },
     {
         id:69,
@@ -768,7 +838,8 @@ export default
         comission:"4,00",
         sells:"+17mil",
         shop:"shopee",
-        category:"Bebê & Infantil"
+        category:"Brinquedos e Jogos",
+        subcategory:undefined
     },
     {
         id:70,
@@ -779,7 +850,8 @@ export default
         comission:"8,00",
         sells:"+23mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:71,
@@ -790,7 +862,8 @@ export default
         comission:"2,72",
         sells:"+10mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Papelaria e Escritório",
+        subcategory:undefined
     },
     {
         id:72,
@@ -801,7 +874,8 @@ export default
         comission:"6,49",
         sells:"+1,5mil",
         shop:"shopee",
-        category:"Moda Masculina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Masculino"
     },
     {
         id:73,
@@ -812,7 +886,8 @@ export default
         comission:"6,60",
         sells:"+300",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:74,
@@ -823,7 +898,8 @@ export default
         comission:"2,30",
         sells:"+22mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:75,
@@ -834,7 +910,8 @@ export default
         comission:"10,73",
         sells:"+3mil",
         shop:"shopee",
-        category:"Quarto"
+        category:"Casa",
+        subcategory:"Quarto"
     },
     {
         id:76,
@@ -845,7 +922,8 @@ export default
         comission:"2,32",
         sells:"+13mil",
         shop:"shopee",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:77,
@@ -856,7 +934,8 @@ export default
         comission:"4,86",
         sells:"+35mil",
         shop:"shopee",
-        category:"Bebê & Infantil"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Bebê"
     },
     {
         id:78,
@@ -867,7 +946,8 @@ export default
         comission:"9,89",
         sells:"+13mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:79,
@@ -878,7 +958,8 @@ export default
         comission:"7,70",
         sells:"+10mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:80,
@@ -889,7 +970,8 @@ export default
         comission:"6,62",
         sells:"+600",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:81,
@@ -900,7 +982,8 @@ export default
         comission:"0,39",
         sells:"+4mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:82,
@@ -911,7 +994,8 @@ export default
         comission:"0,69",
         sells:"+5mil",
         shop:"shopee",
-        category:"Beleza"
+        category:"Beleza e Cuidados Pessoais",
+        subcategory:undefined
     },
     {
         id:83,
@@ -922,7 +1006,8 @@ export default
         comission:"2,41",
         sells:"+950",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:84,
@@ -933,7 +1018,8 @@ export default
         comission:"1,40",
         sells:"+12mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:85,
@@ -944,7 +1030,8 @@ export default
         comission:"1,99",
         sells:"+4mil",
         shop:"shopee",
-        category:"Acessórios Femininos"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Joias"
     },
     {
         id:86,
@@ -955,7 +1042,8 @@ export default
         comission:"7,59",
         sells:"+650",
         shop:"shopee",
-        category:"Acessórios Femininos"
+        category:"Beleza e Cuidados Pessoais",
+        subcategory:undefined
     },
     {
         id:87,
@@ -966,7 +1054,8 @@ export default
         comission:"6,09",
         sells:"+35mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:88,
@@ -977,7 +1066,8 @@ export default
         comission:"3,76",
         sells:"+20mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:89,
@@ -988,7 +1078,8 @@ export default
         comission:"31,67",
         sells:"+5",
         shop:"shopee",
-        category:"Banheiro"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:90,
@@ -999,7 +1090,8 @@ export default
         comission:"1,75",
         sells:"+5,5mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:91,
@@ -1010,7 +1102,8 @@ export default
         comission:"8,64",
         sells:"+50",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:92,
@@ -1021,7 +1114,8 @@ export default
         comission:"1,50",
         sells:"+1mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:93,
@@ -1032,7 +1126,8 @@ export default
         comission:"0,57",
         sells:"+3mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:94,
@@ -1043,7 +1138,8 @@ export default
         comission:"0,90",
         sells:"+8mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:95,
@@ -1054,7 +1150,8 @@ export default
         comission:"3,52",
         sells:"+30mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:96,
@@ -1065,7 +1162,8 @@ export default
         comission:"4,56",
         sells:"+7,5mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:97,
@@ -1076,7 +1174,8 @@ export default
         comission:"2,81",
         sells:"+2mil",
         shop:"shopee",
-        category:"Quarto"
+        category:"Casa",
+        subcategory:"Quarto"
     },
     {
         id:98,
@@ -1087,7 +1186,8 @@ export default
         comission:"0,81",
         sells:"+50",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:99,
@@ -1098,7 +1198,8 @@ export default
         comission:"4,98",
         sells:"+60",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:100,
@@ -1109,7 +1210,8 @@ export default
         comission:"0,45",
         sells:"+5mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Quarto"
     },
     {
         id:101,
@@ -1120,7 +1222,8 @@ export default
         comission:"0,63",
         sells:"+30mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:102,
@@ -1131,7 +1234,8 @@ export default
         comission:"0,79",
         sells:"+2,5mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:103,
@@ -1142,7 +1246,8 @@ export default
         comission:"1,36",
         sells:"+750",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:104,
@@ -1153,7 +1258,8 @@ export default
         comission:"2,64",
         sells:"+1,5mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:105,
@@ -1164,7 +1270,8 @@ export default
         comission:"3,92",
         sells:"+5",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:106,
@@ -1175,7 +1282,8 @@ export default
         comission:"5,59",
         sells:"+30",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:107,
@@ -1186,7 +1294,8 @@ export default
         comission:"2,09",
         sells:"+2,5mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:108,
@@ -1197,7 +1306,8 @@ export default
         comission:"3,20",
         sells:"+900",
         shop:"shopee",
-        category:"Diversos"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:109,
@@ -1208,7 +1318,8 @@ export default
         comission:"1,08",
         sells:"+150",
         shop:"shopee",
-        category:"Diversos"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:110,
@@ -1219,7 +1330,8 @@ export default
         comission:"12,21",
         sells:"+1,5mil",
         shop:"shopee",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Calçados"
     },
     {
         id:111,
@@ -1230,7 +1342,8 @@ export default
         comission:"7,46",
         sells:"+10",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:112,
@@ -1241,7 +1354,8 @@ export default
         comission:"1,57",
         sells:"+1,5mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:113,
@@ -1252,7 +1366,8 @@ export default
         comission:"10,80",
         sells:"+250",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:114,
@@ -1263,7 +1378,8 @@ export default
         comission:"9,20",
         sells:"+4,5mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:115,
@@ -1274,7 +1390,8 @@ export default
         comission:"35,99",
         sells:"0",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:116,
@@ -1285,7 +1402,8 @@ export default
         comission:"13,91",
         sells:"+30",
         shop:"shopee",
-        category:"Casa"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:117,
@@ -1296,7 +1414,8 @@ export default
         comission:"22,79",
         sells:"+6,5mil",
         shop:"shopee",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:118,
@@ -1307,7 +1426,8 @@ export default
         comission:"7,19",
         sells:"+100mil",
         shop:"amazon",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:119,
@@ -1318,7 +1438,8 @@ export default
         comission:"11,55",
         sells:"+30mil",
         shop:"amazon",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:120,
@@ -1329,7 +1450,8 @@ export default
         comission:"6,30",
         sells:"+4mil",
         shop:"amazon",
-        category:"Diversos"
+        category:"Esportes, Aventura e Lazer",
+        subcategory:undefined
     },
     {
         id:121,
@@ -1340,7 +1462,8 @@ export default
         comission:"7,82",
         sells:"+70mil",
         shop:"amazon",
-        category:"Bolsas, Malas & Mochilas"
+        category:"Bolsas, Malas & Mochilas",
+        subcategory:"Mochila"
     },
     {
         id:122,
@@ -1351,7 +1474,8 @@ export default
         comission:"13,19",
         sells:"+4mil",
         shop:"amazon",
-        category:"Bolsas, Malas & Mochilas"
+        category:"Bolsas, Malas & Mochilas",
+        subcategory:"Mochila"
     },
     {
         id:123,
@@ -1362,7 +1486,8 @@ export default
         comission:"10,39",
         sells:"+3mil",
         shop:"amazon",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:124,
@@ -1373,7 +1498,8 @@ export default
         comission:"6,31",
         sells:"+1mil",
         shop:"amazon",
-        category:"Casa"
+        category:"Casa",
+        subcategory:"Sala"
     },
     {
         id:125,
@@ -1384,7 +1510,8 @@ export default
         comission:"17,43",
         sells:"+3mil",
         shop:"amazon",
-        category:"Diversos"
+        category:"Papelaria e Escritório",
+        subcategory:undefined
     },
     {
         id:126,
@@ -1395,7 +1522,8 @@ export default
         comission:"4,79",
         sells:"+50",
         shop:"amazon",
-        category:"Diversos"
+        category:"Papelaria e Escritório",
+        subcategory:undefined
     },
     {
         id:127,
@@ -1406,7 +1534,8 @@ export default
         comission:"18,70",
         sells:"+500",
         shop:"amazon",
-        category:"Casa"
+        category:"Papelaria e Escritório",
+        subcategory:undefined
     },
     {
         id:128,
@@ -1417,7 +1546,8 @@ export default
         comission:"18,16",
         sells:"+500",
         shop:"amazon",
-        category:"Quarto"
+        category:"Casa",
+        subcategory:"Quarto"
     },
     {
         id:129,
@@ -1428,7 +1558,8 @@ export default
         comission:"3,19",
         sells:"+5mil",
         shop:"amazon",
-        category:"Bolsas, Malas & Mochilas"
+        category:"Bolsas, Malas & Mochilas",
+        subcategory:"Bolsa"
     },
     {
         id:130,
@@ -1439,7 +1570,8 @@ export default
         comission:"4,78",
         sells:"+1mil",
         shop:"amazon",
-        category:"Bolsas, Malas & Mochilas"
+        category:"Bolsas, Malas & Mochilas",
+        subcategory:"Bolsa"
     },
     {
         id:131,
@@ -1450,7 +1582,8 @@ export default
         comission:"17,28",
         sells:"+5mil",
         shop:"amazon",
-        category:"Acessórios Masculinos"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Relógios"
     },
     {
         id:132,
@@ -1461,7 +1594,8 @@ export default
         comission:"7,19",
         sells:"+100",
         shop:"amazon",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:133,
@@ -1472,7 +1606,8 @@ export default
         comission:"12,08",
         sells:"+5mil",
         shop:"amazon",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:134,
@@ -1483,7 +1618,8 @@ export default
         comission:"3,75",
         sells:"+1mil",
         shop:"amazon",
-        category:"Diversos"
+        category:"Bolsas, Malas & Mochilas",
+        subcategory:"Mala"
     },
     {
         id:135,
@@ -1494,7 +1630,8 @@ export default
         comission:"22,39",
         sells:"+1mil",
         shop:"amazon",
-        category:"Bolsas, Malas & Mochilas"
+        category:"Bolsas, Malas & Mochilas",
+        subcategory:"Mala"
     },
     {
         id:136,
@@ -1505,7 +1642,8 @@ export default
         comission:"5,60",
         sells:"+1mil",
         shop:"amazon",
-        category:"Bolsas, Malas & Mochilas"
+        category:"Bolsas, Malas & Mochilas",
+        subcategory:"Bolsa"
     },
     {
         id:137,
@@ -1516,7 +1654,8 @@ export default
         comission:"3,51",
         sells:"+30mil",
         shop:"amazon",
-        category:"Diversos"
+        category:"Casa",
+        subcategory:"Quarto"
     },
     {
         id:138,
@@ -1527,7 +1666,8 @@ export default
         comission:"16,79",
         sells:"+10mil",
         shop:"amazon",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:139,
@@ -1538,7 +1678,8 @@ export default
         comission:"6,83",
         sells:"+3mil",
         shop:"amazon",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:140,
@@ -1549,7 +1690,8 @@ export default
         comission:"6,32",
         sells:"+1mil",
         shop:"amazon",
-        category:"Bolsas, Malas & Mochilas"
+        category:"Bolsas, Malas & Mochilas",
+        subcategory:"Mala"
     },
     {
         id:141,
@@ -1560,7 +1702,8 @@ export default
         comission:"0,42",
         sells:"+1mil",
         shop:"amazon",
-        category:"Diversos"
+        category:"Bolsas, Malas & Mochilas",
+        subcategory:"Mala"
     },
     {
         id:142,
@@ -1571,7 +1714,8 @@ export default
         comission:"2,10",
         sells:"+1mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Ferramentas e Construção",
+        subcategory:undefined
     },
     {
         id:143,
@@ -1582,7 +1726,8 @@ export default
         comission:"3,51",
         sells:"+2mil",
         shop:"shopee",
-        category:"Beleza"
+        category:"Beleza e Cuidados Pessoais",
+        subcategory:undefined
     },
     {
         id:144,
@@ -1593,7 +1738,8 @@ export default
         comission:"2,04",
         sells:"+3,5mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:145,
@@ -1604,7 +1750,8 @@ export default
         comission:"3,87",
         sells:"+30",
         shop:"shopee",
-        category:"Diversos"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:146,
@@ -1615,7 +1762,8 @@ export default
         comission:"0,30",
         sells:"+21mil",
         shop:"shopee",
-        category:"Banheiro"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:147,
@@ -1626,7 +1774,8 @@ export default
         comission:"1,77",
         sells:"+850",
         shop:"shopee",
-        category:"Bebê & Infantil"
+        category:"Brinquedos e Jogos",
+        subcategory:undefined
     },
     {
         id:148,
@@ -1637,7 +1786,8 @@ export default
         comission:"1,71",
         sells:"+1,5mil",
         shop:"shopee",
-        category:"Beleza"
+        category:"Beleza e Cuidados Pessoais",
+        subcategory:undefined
     },
     {
         id:149,
@@ -1648,7 +1798,8 @@ export default
         comission:"10,67",
         sells:"+30mil",
         shop:"amazon",
-        category:"Bebê & Infantil"
+        category:"Brinquedos e Jogos",
+        subcategory:undefined
     },
     {
         id:150,
@@ -1659,7 +1810,8 @@ export default
         comission:"0,38",
         sells:"+350",
         shop:"shopee",
-        category:"Diversos"
+        category:"Papelaria e Escritório",
+        subcategory:undefined
     },
     {
         id:151,
@@ -1670,7 +1822,8 @@ export default
         comission:"0,60",
         sells:"+8,5mil",
         shop:"shopee",
-        category:"Banheiro"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:152,
@@ -1681,7 +1834,8 @@ export default
         comission:"0,39",
         sells:"+150",
         shop:"shopee",
-        category:"Banheiro"
+        category:"Casa",
+        subcategory:"Banheiro"
     },
     {
         id:153,
@@ -1692,7 +1846,8 @@ export default
         comission:"0,57",
         sells:"+7,5mil",
         shop:"shopee",
-        category:"Diversos"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:154,
@@ -1703,7 +1858,8 @@ export default
         comission:"4,79",
         sells:"+1mil",
         shop:"amazon",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:155,
@@ -1714,7 +1870,8 @@ export default
         comission:"10,32",
         sells:"+5mil",
         shop:"amazon",
-        category:"Diversos"
+        category:"Casa",
+        subcategory:"Limpeza"
     },
     {
         id:156,
@@ -1725,7 +1882,8 @@ export default
         comission:"1,19",
         sells:"+5mil",
         shop:"amazon",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:157,
@@ -1736,7 +1894,8 @@ export default
         comission:"8,32",
         sells:"+25mil",
         shop:"amazon",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:158,
@@ -1747,7 +1906,8 @@ export default
         comission:"3,35",
         sells:"+28mil",
         shop:"amazon",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:159,
@@ -1758,7 +1918,8 @@ export default
         comission:"6,31",
         sells:"+60mil",
         shop:"amazon",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:160,
@@ -1769,7 +1930,8 @@ export default
         comission:"5,22",
         sells:"+60mil",
         shop:"amazon",
-        category:"Cozinha"
+        category:"Casa",
+        subcategory:"Cozinha"
     },
     {
         id:161,
@@ -1780,7 +1942,8 @@ export default
         comission:"20,78",
         sells:"+180mil",
         shop:"amazon",
-        category:"Beleza"
+        category:"Beleza e Cuidados Pessoais",
+        subcategory:undefined
     },
     {
         id:162,
@@ -1791,7 +1954,8 @@ export default
         comission:"2,65",
         sells:"+350",
         shop:"amazon",
-        category:"Bolsas, Malas & Mochilas"
+        category:"Bolsas, Malas & Mochilas",
+        subcategory:"Mala"
     },
     {
         id:163,
@@ -1802,7 +1966,8 @@ export default
         comission:"2,74",
         sells:"+100",
         shop:"amazon",
-        category:"Moda Masculina"
+        category:"Bolsas, Malas & Mochilas",
+        subcategory:"Bolsa"
     },
     {
         id:164,
@@ -1813,7 +1978,8 @@ export default
         comission:"6,91",
         sells:"+1mil",
         shop:"amazon",
-        category:"Moda Feminina"
+        category:"Roupas, Calçados e Acessórios",
+        subcategory:"Feminino"
     },
     {
         id:165,
@@ -1824,7 +1990,8 @@ export default
         comission:"7,65",
         sells:"+1mil",
         shop:"amazon",
-        category:"Bebê & Infantil"
+        category:"Eletrônicos",
+        subcategory:undefined
     },
     {
         id:166,
@@ -1835,6 +2002,7 @@ export default
         comission:"5,59",
         sells:"+1,5mil",
         shop:"amazon",
-        category:"Bebê & Infantil"
+        category:"Casa",
+        subcategory:"Cozinha"
     }
 ]

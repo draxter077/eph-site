@@ -1,0 +1,40 @@
+Beleza e Cuidados Pessoais
+
+Bolsas, Malas e Mochilas
+	Bolsas
+	Malas
+	Mochilas
+
+Brinquedos e Jogos
+
+Casa
+	Cozinha
+	Quarto
+	Banheiro
+	Jardim
+	Limpeza
+	Sala
+
+Celulares e Comunicação
+
+Eletrônicos
+
+Esportes, Aventura e Lazer
+
+Ferramentas e Construção
+
+Papelaria e Escritório
+
+Pet Shop
+
+Roupas, Calçados e Acessórios
+	Feminino
+	Masculino
+	Meninas
+	Meninos
+	Bebês
+	Esportivo
+	Relógios
+	Óculos
+	Joias
+	Calçados
