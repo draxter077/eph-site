@@ -1,4 +1,4 @@
-import product from "../../../__common/product/main.js"
+import product from "../../../common/product/main.js"
 
 export default function products(pdts){
     let style = `

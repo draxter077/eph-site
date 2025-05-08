@@ -1,8 +1,8 @@
-import head from "../__common/head/main.js"
+import head from "../common/head/main.js"
 import outdoor from "./outdoor/main.js"
 import categories from "./categories/main.js"
-import section from "../__common/section/main.js"
-import foot from "../__common/foot/main.js"
+import section from "../common/section/main.js"
+import foot from "../common/foot/main.js"
 
 import products from "../../products.js"
 

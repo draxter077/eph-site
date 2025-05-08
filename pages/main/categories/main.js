@@ -1,4 +1,4 @@
-import productsCategoriesNames from "../../__common/productsCategoriesNames/main.js"
+import productsCategoriesNames from "../../common/productsCategoriesNames/main.js"
 import category from "./category/main.js"
 
 export default function categories(){

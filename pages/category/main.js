@@ -1,9 +1,9 @@
-import head from "../__common/head/main.js"
+import head from "../common/head/main.js"
 import title from "./title/main.js"
-import section from "../__common/section/main.js"
+import section from "../common/section/main.js"
 import subcategories from "./subcategories/main.js"
 import search from "./search/main.js"
-import foot from "../__common/foot/main.js"
+import foot from "../common/foot/main.js"
 import products from "../../products.js"
 
 export default function category(c){

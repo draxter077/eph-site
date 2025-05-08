@@ -1,5 +1,5 @@
 import products from "../../../../../../../../products.js"
-import product from "../../../../../../../__common/product/main.js"
+import product from "../../../../../../../common/product/main.js"
 
 export default function option(t, type){
     let style = `

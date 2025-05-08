@@ -1,6 +1,6 @@
-import head from "../__common/head/main.js"
+import head from "../common/head/main.js"
 import box from "./box/main.js"
-import foot from "../__common/foot/main.js"
+import foot from "../common/foot/main.js"
 
 export default function chat(){
     let style = `

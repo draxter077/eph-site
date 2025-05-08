@@ -1,6 +1,3 @@
-import products from "../../../../../../../products.js"
-import product from "../../../../../../__common/product/main.js"
-
 export default function send(){
     let style = `
         {
