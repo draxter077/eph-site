@@ -37,7 +37,7 @@ export default function option(t, type){
                         option.style.background = "var(--colorOrange)"
                         option.style.color = "var(--colorWhite)"
                         let cats = []
-                        if(t == "Para mim mesmo"){
+                        if(t == "É para mim mesmo"){
                             cats = ["Beleza e Cuidados Pessoais", 
                                 "Bolsas, Malas e Mochilas", 
                                 "Brinquedos e Jogos",

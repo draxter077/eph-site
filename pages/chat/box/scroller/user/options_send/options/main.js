@@ -13,7 +13,7 @@ export default function options(type){
 
     const options = cE("div", style)
     if(type == 0){
-        options.appendChild(option("Para mim mesmo", 0))
+        options.appendChild(option("É para mim mesmo", 0))
         options.appendChild(option("Casamento", 0))
         options.appendChild(option("Aniversário Infantil", 0))
         options.appendChild(option("Dia das mães", 0))
