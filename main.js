@@ -138,10 +138,7 @@ window.construct = function construct(p){
     if(p == undefined){
         if(window.location.href.split("br/")[1] != undefined && window.location.href.split("br/")[1] != ""){
             let paths = window.location.href.split("br/")[1].split("/")
-            if(paths[0] == "categoria"){
-                root.appendChild(category(paths[0].split("?")[1]))
-            }
-            else if(paths[0] == "chat"){
+            if(paths[0] == "chat"){
                 root.appendChild(chat())
             }
             else if(paths[0] == "sobre"){
@@ -150,12 +147,15 @@ window.construct = function construct(p){
             //else if(paths[0] == "feed"){
             //    root.appendChild(feed())
             //}
+            if(paths[0].split("?")[0] == "categoria"){
+                root.appendChild(category(paths[0].split("?")[1]))
+            }
             else{
                 root.appendChild(main())
             }
         }
         else{
-            root.appendChild(chat())
+            root.appendChild(main())
         }
     }
 }
