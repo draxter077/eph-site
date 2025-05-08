@@ -133,12 +133,10 @@ window.cE = function cE(t, stl){
 }
 
 window.construct = function construct(p){
-    console.log('oi')
     const root = document.getElementById("root")
     root.innerHTML = ""
     if(p == undefined){
         if(window.location.href.split("br/")[1] != undefined && window.location.href.split("br/")[1] != ""){
-            console.log("teste")
             let paths = window.location.href.split("br/")[1].split("/")
             if(paths[0] == "categoria"){
                 root.appendChild(category(paths[1].replaceAll("%20", " ")))
@@ -157,7 +155,6 @@ window.construct = function construct(p){
             }
         }
         else{
-            console.log("naõ")
             root.appendChild(main())
         }
     }
