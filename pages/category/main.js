@@ -7,6 +7,7 @@ import foot from "../common/foot/main.js"
 import products from "../../products.js"
 
 export default function category(c){
+    console.log(c)
     let style = `
         {
             display:flex;
