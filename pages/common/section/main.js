@@ -11,7 +11,7 @@ export default function section(t, pdts){
             margin:30px 0px;
         }
         :responsive{
-            width:95%;
+            width:100%;
         }`
 
     const section = cE("div", style)

@@ -15,7 +15,7 @@ export default function categories(){
             margin:20px 0px 0px 0px;
             flex-direction:column;
             justify-content:flex-start;
-            width:95%;
+            width:100%;
             max-height:110px;
             overflow-x:scroll;
         }`

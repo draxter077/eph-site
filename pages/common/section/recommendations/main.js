@@ -5,7 +5,6 @@ export default function recommendations(ps){
         {
             width:100%;
             height:550px;
-            overflow:hidden;
         }
         :responsive{
             height:420px;

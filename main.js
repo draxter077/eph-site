@@ -148,7 +148,7 @@ window.construct = function construct(p){
             //    root.appendChild(feed())
             //}
             else if(paths[0].split("?")[0] == "categoria"){
-                root.appendChild(category(paths[0].split("?")[1].replaceAll("%20", " ").replaceAll("%C3%B4", "ô").replaceAll("%C3%A7", "ç").replaceAll("%C3%B3", "ó").replaceAll("%C3%AA", "ê").replaceAll("%C3%93", "Ó")))
+                root.appendChild(category(paths[0].split("?")[1].replaceAll("%20", " ").replaceAll("%C3%B4", "ô").replaceAll("%C3%A7", "ç").replaceAll("%C3%B3", "ó").replaceAll("%C3%AA", "ê").replaceAll("%C3%93", "Ó").replaceAll("%C3%A3", "ã")))
             }
             else{
                 root.appendChild(main())
