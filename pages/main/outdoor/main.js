@@ -16,7 +16,7 @@ export default function outdoor(){
         [
             {src:"./assets/1.png",url:"/categoria?Eletr%C3%B4nicos"},
             {src:"./assets/2.png",url:"/categoria?Casa"},
-            {src:"./assets/3.png",url:"/categoria?Bolsas,%20Malas%20e%20Mochilas"},
+            {src:"./assets/3.png",url:"/categoria?Bolsas,%20Malas%20&%20Mochilas"},
             {src:"./assets/4.png",url:"/categoria?Roupas,%20Cal%C3%A7ados%20e%20Acess%C3%B3rios"},
             {src:"./assets/5.png",url:"/categoria?Roupas,%20Cal%C3%A7ados%20e%20Acess%C3%B3rios"},
             {src:"./assets/6.png",url:"/categoria?Beleza%20e%20Cuidados%20Pessoais"},

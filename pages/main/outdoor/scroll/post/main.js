@@ -22,7 +22,7 @@ export default function post(src, url){
     post.addEventListener(
         "click",
         function a(){
-            window.open(url, "_blank")
+            window.open(url, "_self")
         }
     )
     return(post)
