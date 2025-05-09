@@ -5,7 +5,11 @@ export default function scroll(postArray){
         {
             display:flex;
             flex-direction:row;
+            padding:0px 0px 0px 40px;
             transition:transform var(--transitionTime);
+        }
+        :responsive{
+            padding:0px 0px 0px 20px;
         }`
 
     const scroll = cE("div", style)
@@ -20,7 +24,7 @@ export default function scroll(postArray){
             let i = 1;
             let postWidth;
             if(window.innerWidth > 1080){postWidth = 620}
-            else{postWidth = window.innerWidth*0.9 + 20}
+            else{postWidth = window.innerWidth*0.8 + 3}
             while(true){
                 await new Promise(resolve => setTimeout(resolve, 4000))
 

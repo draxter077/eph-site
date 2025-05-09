@@ -14,7 +14,7 @@ export default function post(src, url){
         }
         :responsive{
             height:fit-content;
-            width:90%;
+            width:80%;
         }`
 
     const post = cE("img", style)
