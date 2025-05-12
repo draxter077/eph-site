@@ -2063,7 +2063,7 @@ export default
         sells:"+20mil",
         shop:"amazon",
         category:"Bolsas, Malas & Mochilas",
-        subcategory:"Malas"
+        subcategory:"Mala"
     },
     {
         id:172,
@@ -2435,7 +2435,7 @@ export default
         sells:"+2mil",
         shop:"amazon",
         category:"Bolsas, Malas & Mochilas",
-        subcategory:"Bolsas"
+        subcategory:"Bolsa"
     },
     {
         id:203,
