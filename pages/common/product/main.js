@@ -1,4 +1,4 @@
-import img from "./img/main.js"
+import photo from "./photo/main.js"
 import title from "./title/main.js"
 import price from "./price/main.js"
 import shop from "./shop/main.js"
@@ -33,7 +33,7 @@ export default function product(p){
             window.open(p.url, "_blank")
         }
     )
-    product.appendChild(img(p.src))
+    product.appendChild(photo(p.src))
     product.appendChild(title(p.title))
     product.appendChild(price(p.price))
     product.appendChild(shop(p.shop))
