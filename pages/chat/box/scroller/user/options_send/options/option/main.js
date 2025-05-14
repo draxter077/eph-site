@@ -37,50 +37,13 @@ export default function option(t, type){
                         option.style.background = "var(--colorOrange)"
                         option.style.color = "var(--colorWhite)"
                         let cats = []
-                        if(t == "Quero algo para mim mesmo"){
-                            cats = ["Beleza e Cuidados Pessoais", 
-                                "Bolsas, Malas e Mochilas", 
-                                "Brinquedos e Jogos",
-                                "Quarto",
-                                "Sala",
-                                "Eletrônicos",
-                                "Esportes, Aventura e Lazer",
-                                "Papelaria e Escritório",
-                                "Roupas, Calçados e Acessórios"
-                            ]
-                        }
-                        else if(t == "Presente de casamento"){
-                            cats = ["Casa",
-                                "Eletrônicos",
-                                "Ferramentas e Construção"
-                            ]
-                        }
-                        else if(t == "Presente para aniversário infantil"){
-                            cats = ["Brinquedos e Jogos",
-                                "Esportes, Aventura e Lazer",
-                                "Papelaria e Escritório"
-                            ]
-                        }
-                        else if(t == "Presente de dia das mães"){
-                            cats = ["Beleza e Cuidados Pessoais",
-                                "Bolsas",
-                                "Quarto",
-                                "Sala",
-                                "Eletrônicos",
-                                "Esportes, Aventura e Lazer",
-                                "Feminino",
-                                "Esportivo",
-                                "Joias"
-                            ]
-                        }
-                        else if(t == "Presente de amigo secreto"){
-                            cats = ["Beleza e Cuidados Pessoais",
-                                "Casa",
-                                "Eletrônicos",
-                                "Esportes, Aventura e Lazer",
-                                "Papelaria e Escritório"
-                            ]
-                        }
+                        if(t == "Quero algo para mim mesmo"){cats = ["Beleza e Cuidados Pessoais","Bolsas, Malas e Mochilas","Brinquedos e Jogos","Casa","Eletrônicos","Esportes, Aventura e Lazer","Papelaria e Escritório","Roupas, Calçados e Acessórios"]}
+                        else if(t == "Presente de casamento"){cats = ["Casa","Eletrônicos","Ferramentas e Construção","Papelaria e Escritório","Esportes, Aventura e Lazer"]}
+                        else if(t == "Presente para amigo secreto"){cats = ["Beleza e Cuidados Pessoais","Eletrônicos","Esportes, Aventura e Lazer","Quarto"]}
+                        else if(t == "Presente para namorado" || t == "Presente para amigo"){cats = ["Mochilas","Quarto","Eletrônicos","Esportes, Aventura e Lazer","Papelaria e Escritório","Masculino","Esportivo","Relógios","Óculos"]}
+                        else if(t == "Presente para namorada" || t == "Presente para amiga"){cats = ["Beleza e Cuidados Pessoais","Bolsas","Quarto","Eletrônicos","Esportes, Aventura e Lazer","Papelaria e Escritório","Feminino","Joias"]}
+                        else if(t == "Presente para pai"){cats = ["Mochilas","Quarto","Sala","Eletrônicos","Esportes, Aventura e Lazer","Ferramentas e Construção","Papelaria e Escritório","Masculino","Esportivo","Relógios","Óculos"]}
+                        else if(t == "Presente para mãe"){cats = ["Beleza e Cuidados Pessoais","Bolsas","Quarto","Sala","Eletrônicos","Esportes, Aventura e Lazer","Papelaria e Escritório","Feminino","Joias"]}
                         //let maxValue = document.getElementById("botScroller").children[2].children[0].children[0].children[0].value
                         //let minValue = document.getElementById("botScroller").children[2].children[0].children[0].children[1].value
                         //if(minValue == ""){minValue = 0}

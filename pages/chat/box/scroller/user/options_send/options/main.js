@@ -13,11 +13,15 @@ export default function options(type){
 
     const options = cE("div", style)
     if(type == 0){
-        options.appendChild(option("Quero algo para mim mesmo", 0))
+        options.appendChild(option("Quero encontrar algo para mim mesmo", 0))
         options.appendChild(option("Presente de casamento", 0))
-        options.appendChild(option("Presente para aniversário infantil", 0))
-        options.appendChild(option("Presente de dia das mães", 0))
-        options.appendChild(option("Presente de amigo secreto", 0))
+        options.appendChild(option("Presente para amigo secreto", 0))
+        options.appendChild(option("Presente para namorado", 0))
+        options.appendChild(option("Presente para namorada", 0))
+        options.appendChild(option("Presente para amigo", 0))
+        options.appendChild(option("Presente para amiga", 0))
+        options.appendChild(option("Presente para pai", 0))
+        options.appendChild(option("Presente para mâe", 0))
     }
     else if(type == 1){
         let pdtsSC = []
