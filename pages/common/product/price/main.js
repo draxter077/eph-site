@@ -5,7 +5,7 @@ export default function price(p){
             color:var(--colorWhite);
             background:var(--colorOrange);
             text-align:right;
-            padding:0px 10px 5px;
+            padding:0px 5px 5px;
         }
         :responsive{
             font-size:16px;
