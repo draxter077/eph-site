@@ -16,6 +16,7 @@ Casa
 	Sala
 
 Eletrônicos
+	Celulares
 
 Esportes, Aventura e Lazer
 

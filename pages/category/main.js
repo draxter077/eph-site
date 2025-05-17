@@ -31,7 +31,7 @@ export default function category(c){
         let p = products[i]
         if(p.category.includes(c)){
             pdtsC.push(p)
-            if(!pdtsSC.includes(p.subcategory)){
+            if(!pdtsSC.includes(p.subcategory) && p.subcategory != undefined){
                 pdtsSC.push(p.subcategory)
             }
         }
