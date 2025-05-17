@@ -52,9 +52,7 @@ export default function category(c){
     pdts.reverse().splice(50, pdts.length - 50)
     category.appendChild(section("Novas ofertas", pdts))
 
-    if(pdtsSC.length > 1){
-        category.appendChild(subcategories(pdtsSC))
-    }
+    category.appendChild(subcategories(pdtsSC))
     category.appendChild(search(pdtsC.reverse()))
     
     category.appendChild(foot())
