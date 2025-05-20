@@ -15,7 +15,7 @@ export default function scroll(postArray){
     const scroll = cE("div", style)
     
     for(let i = 0; i < postArray.length; i++){
-        scroll.appendChild(post(postArray[i].src, postArray[i].url))
+        scroll.appendChild(post(postArray[i].src, postArray[i].f))
     }
 
     window.addEventListener(

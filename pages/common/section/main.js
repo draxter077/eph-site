@@ -15,6 +15,7 @@ export default function section(t, pdts){
         }`
 
     const section = cE("div", style)
+    section.id = t
     section.appendChild(title(t))
     if(t == "Recomendações"){
         section.appendChild(recommendations(pdts))

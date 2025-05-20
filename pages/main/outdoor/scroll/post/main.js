@@ -1,4 +1,4 @@
-export default function post(src, url){
+export default function post(src, f){
     let style = `
         {
             height:300px;
@@ -19,11 +19,6 @@ export default function post(src, url){
 
     const post = cE("img", style)
     post.src = src
-    post.addEventListener(
-        "click",
-        function a(){
-            window.open(url, "_self")
-        }
-    )
+    post.addEventListener("click", () => f())
     return(post)
 }
