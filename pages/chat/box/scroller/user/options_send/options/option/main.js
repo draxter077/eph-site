@@ -37,7 +37,7 @@ export default function option(t, type){
                         option.style.background = "var(--colorOrange)"
                         option.style.color = "var(--colorWhite)"
                         let cats = []
-                        if(t == "Quero algo para mim mesmo"){cats = ["Beleza e Cuidados Pessoais","Bolsas, Malas e Mochilas","Brinquedos e Jogos","Casa","Eletrônicos","Esportes, Aventura e Lazer","Papelaria e Escritório","Roupas, Calçados e Acessórios"]}
+                        if(t == "Quero encontrar algo para mim mesmo"){cats = ["Beleza e Cuidados Pessoais","Bolsas, Malas & Mochilas","Brinquedos e Jogos","Casa","Eletrônicos","Esportes, Aventura e Lazer","Papelaria e Escritório","Roupas, Calçados e Acessórios"]}
                         else if(t == "Presente de casamento"){cats = ["Casa","Eletrônicos","Ferramentas e Construção","Papelaria e Escritório","Esportes, Aventura e Lazer"]}
                         else if(t == "Presente para amigo secreto"){cats = ["Beleza e Cuidados Pessoais","Eletrônicos","Esportes, Aventura e Lazer","Quarto"]}
                         else if(t == "Presente para namorado" || t == "Presente para amigo"){cats = ["Mochilas","Quarto","Eletrônicos","Esportes, Aventura e Lazer","Papelaria e Escritório","Masculino","Esportivo","Relógios","Óculos"]}
