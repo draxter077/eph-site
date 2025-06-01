@@ -11,10 +11,11 @@ export default function options_send(type){
             max-width:60%;
             background:var(--colorOrange02);
             border-radius:10px;
-            padding:10px 15px;
+            padding:10px;
         }
         :responsive{
             max-width:90%;
+            padding:5px 0px;
         }`
 
     const options_send = cE("div", style)

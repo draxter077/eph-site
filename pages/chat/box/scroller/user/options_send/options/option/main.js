@@ -10,11 +10,10 @@ export default function option(t, type){
             border-radius:5px;
             margin:5px;
             cursor:pointer;
-            transition:all var(--transitionTime);
+            transition:background var(--transitionTime);
         }
         :hover{
             background:var(--colorOrange);
-            color:var(--colorWhite);
         }
         :responsive{
             font-size:15px;
