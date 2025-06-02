@@ -9,14 +9,14 @@ export default function product(p){
             position:relative;
             display:flex;
             flex-direction:column;
-            margin:10px;
+            margin:5px;
             width:170px;
             height:fit-content;
             border-radius:10px;
             overflow:hidden;
             cursor:pointer;
             transition:transform var(--transitionTime);
-            box-shadow:0px 0px 2px 0px var(--colorOrange);
+            box-shadow:0px 0px 1px 0px var(--colorBlack);
         }
         :hover{
             transform:scale(1.05);

@@ -8,10 +8,8 @@ export default function subcategories(scs){
             justify-content:space-around;
             flex-wrap:wrap;
             width:90%;
-            margin:40px 0px 0px 0px;
         }
         :responsive{
-            margin:20px 0px 0px 0px;
             flex-direction:column;
             justify-content:flex-start;
             width:95%;

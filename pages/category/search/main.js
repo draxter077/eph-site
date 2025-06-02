@@ -8,10 +8,9 @@ export default function search(pdts){
             flex-direction:column;
             justify-content:space-between;
             align-items:center;
-            width:95%;
+            width:98%;
             border-radius:15px 15px 0px 0px;
-            border:2px solid var(--colorOrange);
-            margin:30px;
+            margin:30px 0px;
         }`
 
     const search = cE("div", style)

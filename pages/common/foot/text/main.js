@@ -14,7 +14,7 @@ export default function text(){
     text.appendChild(logo())
     text.appendChild(t("é uma parceria"))
     text.appendChild(img("./assets/ph.jpg", "https://www.ph.net.br"))
-    text.appendChild(t("x"))
+    text.appendChild(t("e"))
     text.appendChild(img("./assets/goldilocks.png", "https://www.instagram.com/goldilocks_marketing/"))
     return(text)
 }
