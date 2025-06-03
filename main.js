@@ -3,6 +3,7 @@ import category from "./pages/category/main.js"
 import chat from "./pages/chat/main.js"
 import admin from "./pages/admin/main.js"
 import about from "./pages/about/main.js"
+import feed from "./pages/feed/main.js"
 
 window.cE = function cE(t, stl){
     function addClass(){
@@ -145,9 +146,9 @@ window.construct = function construct(p){
             else if(paths[0] == "sobre"){
                 root.appendChild(about())
             }
-            //else if(paths[0] == "feed"){
-            //    root.appendChild(feed())
-            //}
+            else if(paths[0] == "feed"){
+                root.appendChild(feed())
+            }
             else if(paths[0] == "admin"){
                 root.appendChild(admin())
             }

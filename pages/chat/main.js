@@ -18,7 +18,7 @@ export default function chat(){
 
     const chat = cE("div", style)
     chat.appendChild(loading())
-    chat.appendChild(head({t:"Início",url:"/"},{t:"Sobre",url:"/sobre"}))
+    chat.appendChild(head({t:"Início",url:"/"},{t:"Feed",url:"/feed"}))
     chat.appendChild(disclaimer())
     chat.appendChild(box())
     chat.appendChild(foot())

@@ -22,7 +22,7 @@ export default function category(c){
 
     const category = cE("div", style)
     category.appendChild(loading())
-    category.appendChild(head({t:"Chat",url:"/chat"},{t:"Sobre",url:"/sobre"}))
+    category.appendChild(head({t:"Chat",url:"/chat"},{t:"Feed",url:"/feed"}))
     category.appendChild(title(c))
 
     let pdtsC = []

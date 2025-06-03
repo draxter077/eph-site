@@ -1,4 +1,5 @@
 import scroll from "./scroll/main.js"
+import dots from "./dots/main.js"
 
 export default function outdoor(){
     let style = `
@@ -20,5 +21,6 @@ export default function outdoor(){
             {src:"./assets/4.jpeg",f:function a(){window.open("/chat","_self")}}
         ]
     ))
+    outdoor.appendChild(dots())
     return(outdoor)
 }

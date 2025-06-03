@@ -16,7 +16,7 @@ export default function about(){
         }`
 
     const about = cE("div", style)
-    about.appendChild(head({t:"Início",url:"/"},{t:"Chat",url:"/chat"}))
+    about.appendChild(head({t:"Chat",url:"/chat"},{t:"Feed",url:"/feed"}))
     about.appendChild(ai())
     about.appendChild(brands())
     about.appendChild(contact())

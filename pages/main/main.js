@@ -22,7 +22,7 @@ export default function main(){
     const main = cE("div", style)
     main.appendChild(loading())
     
-    main.appendChild(head({t:"Chat",url:"/chat"},{t:"Sobre",url:"/sobre"}))
+    main.appendChild(head({t:"Chat",url:"/chat"},{t:"Feed",url:"/feed"}))
     main.appendChild(outdoor())
     main.appendChild(categories())
     let pdtsR = []
