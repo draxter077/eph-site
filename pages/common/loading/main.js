@@ -26,8 +26,6 @@ export default function loading(){
         async function a(){
             loading.style.opacity = 0
             await new Promise(resolve => setTimeout(resolve, 550));
-            loading.style.height = "0px"
-            loading.style.width = "0px"
             loading.parentElement.removeChild(loading)
         }
     )
