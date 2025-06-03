@@ -2,6 +2,8 @@ import head from "../common/head/main.js"
 import content from "./content/main.js"
 import foot from "../common/foot/main.js"
 
+import loading from "../common/loading/main.js"
+
 export default function feed(){
     let style = `
         {
@@ -14,6 +16,7 @@ export default function feed(){
         }`
 
     const feed = cE("div", style)
+    feed.appendChild(loading())
     feed.appendChild(head({t:"Início",url:"/"},{t:"Chat",url:"/chat"}))
     feed.appendChild(content())
     feed.appendChild(foot())
