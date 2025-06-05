@@ -19,7 +19,7 @@ export default function line(p){
         }`
 
     const line = cE("div", style)
-    line.addEventListener("click", () => window.open(p.url,"_blank"))
+    line.addEventListener("click", () => window.open(`/produto?${p.id}`,"_blank"))
 
     let id = text(p.id)
     id.style.width = "50px"
