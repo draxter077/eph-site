@@ -6,8 +6,7 @@ export default function photo(src){
             box-shadow:0px 0px 1px 0px var(--colorBlack);
         }
         :responsive{
-            width:70%;
-            height:fit-content;
+            height:50%;
         }`
 
     const photo = cE("img", style)
