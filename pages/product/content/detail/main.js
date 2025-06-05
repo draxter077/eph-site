@@ -1,0 +1,25 @@
+import title from "./title/main.js"
+import price from "./price/main.js"
+import disponibility from "./disponibility/main.js"
+
+export default function detail(t, c, p, s, se, url){
+    let style = `
+        {
+            display:flex;
+            flex-direction:column;
+            justify-content:space-around;
+            align-items:center;
+            height:100%;
+            width:100%;
+            margin:0px 0px 0px 20px;
+        }
+        :responsive{
+            margin:0px;
+        }`
+
+    const detail = cE("div", style)
+    detail.appendChild(title(t, c))
+    detail.appendChild(price(p, se))
+    detail.appendChild(disponibility(s, url))
+    return(detail)
+}

@@ -30,7 +30,7 @@ export default function product(p){
     product.addEventListener(
         "click",
         function a(){
-            window.open(p.url, "_blank")
+            window.open(`/produto?${p.id}`, "_blank")
         }
     )
     product.appendChild(photo(p.src))
