@@ -10,7 +10,7 @@ export default function title(t, c){
             width:100%;
         }
         :responsive{
-            margin:20px 0px 10px 0px;
+            margin:20px 0px 30px 0px;
         }`
 
     const title = cE("div", style)

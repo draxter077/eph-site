@@ -12,7 +12,7 @@ export default function disponibility(s, url){
         }
         :responsive{
             flex-direction:row;
-            margin:20px 0px;
+            margin:40px 0px;
         }`
 
     const disponibility = cE("div", style)
