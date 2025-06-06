@@ -9,12 +9,13 @@ export default function detail(t, c, p, s, se, url){
             flex-direction:column;
             justify-content:space-around;
             align-items:center;
-            height:100%;
+            height:60dvh;
             width:100%;
             margin:0px 0px 0px 20px;
         }
         :responsive{
             margin:0px;
+            height:fit-content;
         }`
 
     const detail = cE("div", style)

@@ -12,6 +12,7 @@ export default function content(id){
             align-items:center;
             width:90%;
             height:70%;
+            margin:20px 0px;
         }
         :responsive{
             flex-direction:column;

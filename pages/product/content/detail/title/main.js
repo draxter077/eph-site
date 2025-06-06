@@ -8,6 +8,9 @@ export default function title(t, c){
             flex-direction:column;
             align-items:flex-start;
             width:100%;
+        }
+        :responsive{
+            margin:20px 0px 10px 0px;
         }`
 
     const title = cE("div", style)
