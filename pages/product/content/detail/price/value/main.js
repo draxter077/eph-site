@@ -10,6 +10,6 @@ export default function value(p){
         }`
 
     const value = cE("div", style)
-    value.innerHTML = `R$ ${p}`
+    value.innerHTML = `R$ ${p}*`
     return(value)
 }

@@ -1,6 +1,7 @@
 import title from "./title/main.js"
 import price from "./price/main.js"
 import disponibility from "./disponibility/main.js"
+import disclaimer from "./disclaimer/main.js"
 
 export default function detail(t, c, p, s, se, url){
     let style = `
@@ -22,5 +23,6 @@ export default function detail(t, c, p, s, se, url){
     detail.appendChild(title(t, c))
     detail.appendChild(price(p, se))
     detail.appendChild(disponibility(s, url))
+    detail.appendChild(disclaimer())
     return(detail)
 }

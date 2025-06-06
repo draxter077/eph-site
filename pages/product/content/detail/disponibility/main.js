@@ -11,8 +11,8 @@ export default function disponibility(s, url){
             width:100%;
         }
         :responsive{
-            flex-direction:column;
-            margin:20px 0px 0px 0px;
+            flex-direction:row;
+            margin:20px 0px;
         }`
 
     const disponibility = cE("div", style)

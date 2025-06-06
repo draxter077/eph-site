@@ -14,6 +14,7 @@ export default function product(id){
             flex-direction:column;
             align-items:center;
             width:100%;
+            overflow:hidden;
         }`
 
     const product = cE("div", style)
