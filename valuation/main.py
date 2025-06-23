@@ -30,12 +30,9 @@ def readProducts():
    category = p.split("category:")[1].split(",")[0].replace("'","").replace('"','')
    subcategory = p.split("subcategory:")[1].split(",")[0].replace("'","").replace('"','').replace("}","")
 
-   if int(id) >= 72:newPs.append([id, url, src, title, price, sells, shop, category, subcategory])
+   if int(id) >= 0:newPs.append([id, url, src, title, price, sells, shop, category, subcategory])
   except:pass
  return(newPs)
-
-def getProductInfo(p):
- driver.get(p[1])
 
 products = readProducts()
 driver.get("https://www.shopee.com.br")
@@ -44,20 +41,20 @@ driver.get("https://www.amazon.com.br")
 input("Faça login na Amazon")
 
 for p in products:
- info = getProductInfo(p)
- #input("Posso tentar encontrar o preço?")
+ driver.get(p[1])
  time.sleep(7)
  price = "0"
- try:
-  if p[6] == "shopee":
-   price = driver.find_element(by="xpath",value="/html/body/div[1]/div[1]/div[2]/div/div/div[1]/div/div/div/div[2]/section/section[2]/div/div[3]/div/section/div/div[1]").text.replace("R$","")
-   if len(price.split(" - ")) > 0:price = price.split(" - ")[0]
-  elif p[6] == "amazon":
-   priceWhole = driver.find_element(by="xpath",value="/html/body/div[2]/div/div/div[4]/div[4]/div[14]/div/div/div[3]/div[1]/span[3]/span[2]/span[2]").text
-   priceFloat = driver.find_element(by="xpath",value="/html/body/div[2]/div/div/div[4]/div[4]/div[14]/div/div/div[3]/div[1]/span[3]/span[2]/span[3]").text
-   price = priceWhole + "," + priceFloat
-  if price != p[4] and price != "0":print(">> Alterar preço ID " + p[0] + ": " + p[4] + " >> " + price)
- except NoSuchElementException:
-  print(">> ERRO no ID " + p[0] + " // " + p[6])
+ if p[6] == "shopee":
+  price = driver.find_element(by="xpath",value="/html/body/div[1]/div[1]/div[2]/div/div/div[1]/div/div/div/div[2]/section/section[2]/div/div[3]/div/section/div/div[1]").text.replace("R$","")
+  if len(price.split(" - ")) > 0:price = price.split(" - ")[0]
+ elif p[6] == "amazon":
+  priceWhole = "0"
+  priceFloat = "00"
+  try:                         
+   priceWhole = driver.find_element(by="class name",value="a-price-whole").text                                     
+   priceFloat = driver.find_element(by="class name",value="a-price-fraction").text
+  except NoSuchElementException:pass
+  price = priceWhole + "," + priceFloat
+ if price != p[4]:print(">> Alterar preço ID " + p[0] + ": " + p[4] + " >> " + price)
 
 driver.quit()
