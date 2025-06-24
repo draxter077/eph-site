@@ -23,6 +23,6 @@ export default function detail(t, c, p, s, se, url){
     detail.appendChild(title(t, c))
     detail.appendChild(price(p, se))
     detail.appendChild(disponibility(s, url))
-    detail.appendChild(disclaimer())
+    //detail.appendChild(disclaimer())
     return(detail)
 }

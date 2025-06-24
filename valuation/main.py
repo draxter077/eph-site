@@ -42,11 +42,13 @@ input("Faça login na Amazon")
 
 for p in products:
  driver.get(p[1])
- time.sleep(7)
+ time.sleep(5)
  price = "0"
  if p[6] == "shopee":
-  price = driver.find_element(by="xpath",value="/html/body/div[1]/div[1]/div[2]/div/div/div[1]/div/div/div/div[2]/section/section[2]/div/div[3]/div/section/div/div[1]").text.replace("R$","")
-  if len(price.split(" - ")) > 0:price = price.split(" - ")[0]
+  try:
+   price = driver.find_element(by="xpath",value="/html/body/div[1]/div[1]/div[2]/div/div/div[1]/div/div/div/div[2]/section/section[2]/div/div[3]/div/section/div/div[1]").text.replace("R$","")
+   if len(price.split(" - ")) > 0:price = price.split(" - ")[0]
+  except NoSuchElementException:pass
  elif p[6] == "amazon":
   priceWhole = "0"
   priceFloat = "00"

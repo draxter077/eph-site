@@ -36,19 +36,17 @@ export default function main(){
     }
     main.appendChild(section("Recomendações", pdtsR))
     main.appendChild(section("Em alta", [
-                                            products[60],
-                                            products[157],
-                                            products[136],
-                                            products[158],
-                                            products[118],
-                                            products[122],
-                                            products[124],
-                                            products[159],
-                                            products[40],
-                                            products[34],
-                                            products[38],
-                                            products[143],
-                                            products[1]
+                                            products[68],
+                                            products[69],
+                                            products[71],
+                                            products[70],
+                                            products[73],
+                                            products[72],
+                                            products[75],
+                                            products[77],
+                                            products[76],
+                                            products[67],
+                                            products[82]
                                         ].reverse()))
 
     let pdts = [...products]
