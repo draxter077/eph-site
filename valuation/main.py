@@ -17,7 +17,7 @@ text = arq.read()
 products = text.split("{")
 newPs = []
 for i in range(0, len(products)):
- p = products[i].replace("\n","").replace("    ","")
+ p = products[i].replace("\n","").replace("  ","")
  try:
   id = p.split("id:")[1].split(",")[0].replace("'","").replace('"','')
   url = p.split("url:")[1].split(",")[0].replace("'","").replace('"','')
