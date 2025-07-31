@@ -27,13 +27,7 @@ export default function text(type){
         t = `${hello()} Sou o Giph, a inteligência artificial que encontra as melhores ofertas nos principais marketplaces do Brasil. Como posso te ajudar?`
     }
     else if(type == 1){
-        t = "Aqui você já selecionou o evento, eu te parabenizo, e te peço para avaliar as subcategorias que encontrei"
-    }
-    else if(type == 2){
-        t = "Agora te pergunto somente o valor máximo e mínimo"
-    }
-    else if(type == 3){
-        t = `${interjection()}! Já tenho algumas ofertas em mente. Aguarde só um segundinho...`
+        t = `${interjection()}! Já tenho alguns produtos em mente. Aguarde só um instante enquanto trago eles aqui para você...`
     }
 
     let ts = t.split(" ")

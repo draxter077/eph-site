@@ -13,44 +13,30 @@ export default function scroller(){
     const scroller = cE("div", style)
     scroller.id = "botScroller"
     scroller.appendChild(recommendations([]))
-    scroller.appendChild(bot(3))
-    //scroller.appendChild(user(2))
-    //scroller.appendChild(bot(2))
-    //scroller.appendChild(user(1))
-    //scroller.appendChild(bot(1))
-    scroller.appendChild(user(0))
+    scroller.appendChild(bot(1))
+    scroller.appendChild(user())
     scroller.appendChild(bot(0))
 
     window.addEventListener(
         "load",
         async function a(){
             let scrollerC = scroller.children
-            await new Promise(resolve => setTimeout(resolve, 2000));
-            scrollerC[3].style.maxHeight = "1000px"
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            scrollerC[3].style.maxHeight = "1000px" // Abre a mensagem normal do BOT, gerando cada palavra
             let ws = scrollerC[3].children[1].children
             for(let i = 0; i < ws.length; i ++){
                 ws[i].style.opacity = 1
                 await new Promise(resolve => setTimeout(resolve, 100))
             }
             await new Promise(resolve => setTimeout(resolve, 1000))
-            scrollerC[2].style.maxHeight = "1000px"
-            //await new Promise(resolve => setTimeout(resolve, 1000));
-            //scrollerC[5].style.maxHeight = "1000px"
-            //await new Promise(resolve => setTimeout(resolve, 1000));
-            //scrollerC[4].style.maxHeight = "1000px"
-            //await new Promise(resolve => setTimeout(resolve, 1000));
-            //scrollerC[3].style.maxHeight = "1000px"
-            //await new Promise(resolve => setTimeout(resolve, 1000));
-            //scrollerC[2].style.maxHeight = "1000px"
-            //await new Promise(resolve => setTimeout(resolve, 1000));
-            //scrollerC[1].style.maxHeight = "1000px"
-            //await new Promise(resolve => setTimeout(resolve, 1000));
-            //scrollerC[0].style.maxHeight = "1000px"
+            scrollerC[2].style.maxHeight = "1000px" // Após, libera o input do usuário
+            scrollerC[2].children[0].children[0].focus()
         }
     )
 
-    scroller.children[0].style.maxHeight = "0px"
+    scroller.children[0].style.maxHeight = "0px" // Estilos no recomendações, já que uso o importado
     scroller.children[0].style.overflow = "hidden"
     scroller.children[0].style.transition = "max-height var(--transitionTime)"
+
     return(scroller)
 }

@@ -1,6 +1,6 @@
-import options_send from "./options_send/main.js"
+import content from "./content/main.js"
 
-export default function user(type){
+export default function user(){
     let style = `
         {
             display:flex;
@@ -14,6 +14,6 @@ export default function user(type){
         }`
 
     const user = cE("div", style)
-    user.appendChild(options_send(type))
+    user.appendChild(content())
     return(user)
 }
