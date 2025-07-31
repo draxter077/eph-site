@@ -1,5 +1,6 @@
 import products from "../../products.js"
 
+import button from "./button/main.js"
 import line from "./line/main.js"
 
 export default function admin(){
@@ -13,6 +14,7 @@ export default function admin(){
         }`
 
     const admin = cE("div", style)
+    admin.appendChild(button(products))
     for(let i = 0; i < products.length; i++){
         let p = products[i]
         admin.appendChild(line(p))
