@@ -141,7 +141,7 @@ export default
       sells:"+25mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:13,
@@ -185,7 +185,7 @@ export default
       sells:"+400mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:17,
@@ -273,7 +273,7 @@ export default
       sells:"+800",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:25,
@@ -306,7 +306,7 @@ export default
       sells:"+30mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:28,
@@ -338,7 +338,7 @@ export default
       price:"64,54",
       sells:"+25mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -349,7 +349,7 @@ export default
       price:"26,98",
       sells:"+130mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -360,7 +360,7 @@ export default
       price:"53,90",
       sells:"+60mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -371,7 +371,7 @@ export default
       price:"23,90",
       sells:"+30mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -382,7 +382,7 @@ export default
       price:"33,69",
       sells:"+105mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -393,7 +393,7 @@ export default
       price:"59,90",
       sells:"+34mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -404,7 +404,7 @@ export default
       price:"42,99",
       sells:"+11mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -415,7 +415,7 @@ export default
       price:"38,99",
       sells:"+20mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -426,7 +426,7 @@ export default
       price:"59,90",
       sells:"+55mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -437,7 +437,7 @@ export default
       price:"62,63",
       sells:"+30mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -448,7 +448,7 @@ export default
       price:"16,91",
       sells:"+10mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -460,7 +460,7 @@ export default
       sells:"+15mil",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:42,
@@ -470,7 +470,7 @@ export default
       price:"47,49",
       sells:"+17mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -482,7 +482,7 @@ export default
       sells:"+600",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:44,
@@ -492,7 +492,7 @@ export default
       price:"49,60",
       sells:"+55mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -503,7 +503,7 @@ export default
       price:"62,89",
       sells:"+5mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -515,7 +515,7 @@ export default
       sells:"+240mil",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:47,
@@ -526,7 +526,7 @@ export default
       sells:"+395mil",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:48,
@@ -548,7 +548,7 @@ export default
       sells:"+110mil",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:50,
@@ -559,7 +559,7 @@ export default
       sells:"+20mil",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:51,
@@ -570,7 +570,7 @@ export default
       sells:"+70mil",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:52,
@@ -580,8 +580,8 @@ export default
       price:"20,99",
       sells:"+30mil",
       shop:"shopee",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:53,
@@ -591,8 +591,8 @@ export default
       price:"26,90",
       sells:"+45mil",
       shop:"shopee",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:54,
@@ -603,7 +603,7 @@ export default
       sells:"+7mil",
       shop:"shopee",
       category:"Brinquedos e Jogos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:55,
@@ -613,8 +613,8 @@ export default
       price:"12,90",
       sells:"+20mil",
       shop:"shopee",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:56,
@@ -625,7 +625,7 @@ export default
       sells:"+23mil",
       shop:"shopee",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:57,
@@ -635,7 +635,7 @@ export default
       price:"48,00",
       sells:"+30mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -647,7 +647,7 @@ export default
       sells:"+12mil",
       shop:"shopee",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:59,
@@ -658,7 +658,7 @@ export default
       sells:"+2",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:60,
@@ -669,7 +669,7 @@ export default
       sells:"+34mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:61,
@@ -691,7 +691,7 @@ export default
       sells:"+1",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:63,
@@ -701,7 +701,7 @@ export default
       price:"39,00",
       sells:"+65mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Masculino",
   },
   {
@@ -712,7 +712,7 @@ export default
       price:"59,99",
       sells:"+1",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Masculino",
   },
   {
@@ -723,7 +723,7 @@ export default
       price:"54,34",
       sells:"+800",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Masculino",
   },
   {
@@ -734,7 +734,7 @@ export default
       price:"59,98",
       sells:"+25mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Masculino",
   },
   {
@@ -746,7 +746,7 @@ export default
       sells:"+25mil",
       shop:"shopee",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:68,
@@ -757,7 +757,7 @@ export default
       sells:"+5mil",
       shop:"shopee",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:69,
@@ -768,7 +768,7 @@ export default
       sells:"+17mil",
       shop:"shopee",
       category:"Brinquedos e Jogos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:70,
@@ -779,7 +779,7 @@ export default
       sells:"+23mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:71,
@@ -790,7 +790,7 @@ export default
       sells:"+10mil",
       shop:"shopee",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:72,
@@ -800,7 +800,7 @@ export default
       price:"49,90",
       sells:"+1",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Masculino",
   },
   {
@@ -855,7 +855,7 @@ export default
       price:"37,90",
       sells:"+35mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Bebê",
   },
   {
@@ -878,7 +878,7 @@ export default
       sells:"+10mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:80,
@@ -889,7 +889,7 @@ export default
       sells:"+600",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:81,
@@ -900,7 +900,7 @@ export default
       sells:"+4mil",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:82,
@@ -911,7 +911,7 @@ export default
       sells:"+5mil",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:83,
@@ -922,7 +922,7 @@ export default
       sells:"+950",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:84,
@@ -933,7 +933,7 @@ export default
       sells:"+12mil",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:85,
@@ -943,7 +943,7 @@ export default
       price:"19,90",
       sells:"+4mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Joias",
   },
   {
@@ -955,7 +955,7 @@ export default
       sells:"+650",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:87,
@@ -966,7 +966,7 @@ export default
       sells:"+35mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:88,
@@ -977,7 +977,7 @@ export default
       sells:"+20mil",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:89,
@@ -999,7 +999,7 @@ export default
       sells:"+5",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:91,
@@ -1021,7 +1021,7 @@ export default
       sells:"+1mil",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:93,
@@ -1032,7 +1032,7 @@ export default
       sells:"+3mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:94,
@@ -1043,7 +1043,7 @@ export default
       sells:"+8mil",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:95,
@@ -1054,7 +1054,7 @@ export default
       sells:"+30mil",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:96,
@@ -1065,7 +1065,7 @@ export default
       sells:"+7",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:97,
@@ -1087,7 +1087,7 @@ export default
       sells:"+50",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:99,
@@ -1098,7 +1098,7 @@ export default
       sells:"+60",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:100,
@@ -1120,7 +1120,7 @@ export default
       sells:"+30mil",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:102,
@@ -1142,7 +1142,7 @@ export default
       sells:"+750",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:104,
@@ -1153,7 +1153,7 @@ export default
       sells:"+1",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:105,
@@ -1164,7 +1164,7 @@ export default
       sells:"+5",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:106,
@@ -1218,7 +1218,7 @@ export default
       price:"109,90",
       sells:"+1",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Calçados",
   },
   {
@@ -1285,7 +1285,7 @@ export default
       sells:"+30",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:117,
@@ -1328,8 +1328,8 @@ export default
       price:"74,50",
       sells:"+4mil",
       shop:"amazon",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:121,
@@ -1339,8 +1339,8 @@ export default
       price:"107,05",
       sells:"+70mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Mochila",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Mochilas",
   },
   {
       id:122,
@@ -1350,8 +1350,8 @@ export default
       price:"116,99",
       sells:"+4mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Mochila",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Mochilas",
   },
   {
       id:123,
@@ -1384,7 +1384,7 @@ export default
       sells:"+3mil",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:126,
@@ -1395,7 +1395,7 @@ export default
       sells:"+50",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:127,
@@ -1406,7 +1406,7 @@ export default
       sells:"+500",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:128,
@@ -1427,8 +1427,8 @@ export default
       price:"59,90",
       sells:"+5mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Bolsa",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Bolsas",
   },
   {
       id:130,
@@ -1438,8 +1438,8 @@ export default
       price:"69,90",
       sells:"+1mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Bolsa",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Bolsas",
   },
   {
       id:131,
@@ -1449,7 +1449,7 @@ export default
       price:"229,00",
       sells:"+5mil",
       shop:"amazon",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Relógios",
   },
   {
@@ -1460,7 +1460,7 @@ export default
       price:"119,90",
       sells:"+100",
       shop:"amazon",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Calçados",
   },
   {
@@ -1471,7 +1471,7 @@ export default
       price:"109,90",
       sells:"+5mil",
       shop:"amazon",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -1482,8 +1482,8 @@ export default
       price:"46,90",
       sells:"+1mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Mala",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Malas",
   },
   {
       id:135,
@@ -1493,8 +1493,8 @@ export default
       price:"359,99",
       sells:"+1mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Mala",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Malas",
   },
   {
       id:136,
@@ -1504,8 +1504,8 @@ export default
       price:"89,00",
       sells:"+1mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Bolsa",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Bolsas",
   },
   {
       id:137,
@@ -1548,8 +1548,8 @@ export default
       price:"79,90",
       sells:"+1mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Mala",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Malas",
   },
   {
       id:141,
@@ -1559,8 +1559,8 @@ export default
       price:"10,00",
       sells:"+1mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Mala",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Malas",
   },
   {
       id:142,
@@ -1571,7 +1571,7 @@ export default
       sells:"+1mil",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:143,
@@ -1582,7 +1582,7 @@ export default
       sells:"+2mil",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:144,
@@ -1626,7 +1626,7 @@ export default
       sells:"+850",
       shop:"shopee",
       category:"Brinquedos e Jogos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:148,
@@ -1637,7 +1637,7 @@ export default
       sells:"+1",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:149,
@@ -1648,7 +1648,7 @@ export default
       sells:"+30mil",
       shop:"amazon",
       category:"Brinquedos e Jogos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:150,
@@ -1659,7 +1659,7 @@ export default
       sells:"+350",
       shop:"shopee",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:151,
@@ -1692,7 +1692,7 @@ export default
       sells:"+7",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:154,
@@ -1780,7 +1780,7 @@ export default
       sells:"+180mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:162,
@@ -1790,8 +1790,8 @@ export default
       price:"37,50",
       sells:"+350",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Mala",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Malas",
   },
   {
       id:163,
@@ -1801,7 +1801,7 @@ export default
       price:"24,99",
       sells:"+100",
       shop:"amazon",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Masculino",
   },
   {
@@ -1812,7 +1812,7 @@ export default
       price:"62,90",
       sells:"+1mil",
       shop:"amazon",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -1824,7 +1824,7 @@ export default
       sells:"+1mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:166,
@@ -1878,7 +1878,7 @@ export default
       price:"53,99",
       sells:"+50",
       shop:"amazon",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -1889,8 +1889,8 @@ export default
       price:"169,00",
       sells:"+20mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Mala",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Malas",
   },
   {
       id:172,
@@ -1901,7 +1901,7 @@ export default
       sells:"+12mil",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:173,
@@ -1912,7 +1912,7 @@ export default
       sells:"+15mil",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:174,
@@ -1923,7 +1923,7 @@ export default
       sells:"+73mil",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:175,
@@ -1934,7 +1934,7 @@ export default
       sells:"+7mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:176,
@@ -1945,7 +1945,7 @@ export default
       sells:"+64mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:177,
@@ -1956,7 +1956,7 @@ export default
       sells:"36mil",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:178,
@@ -1967,7 +1967,7 @@ export default
       sells:"+10mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:179,
@@ -1978,7 +1978,7 @@ export default
       sells:"+300mil",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:180,
@@ -1989,7 +1989,7 @@ export default
       sells:"+40mil",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:181,
@@ -2000,7 +2000,7 @@ export default
       sells:"+4mil",
       shop:"shopee",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:182,
@@ -2011,7 +2011,7 @@ export default
       sells:"+1mil",
       shop:"shopee",
       category:"Brinquedos e Jogos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:183,
@@ -2033,7 +2033,7 @@ export default
       sells:"+1mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:185,
@@ -2044,7 +2044,7 @@ export default
       sells:"+1",
       shop:"shopee",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:186,
@@ -2087,7 +2087,7 @@ export default
       price:"19,17",
       sells:"+250",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Joias",
   },
   {
@@ -2121,7 +2121,7 @@ export default
       sells:"+2mil",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:193,
@@ -2154,7 +2154,7 @@ export default
       sells:"+4mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:196,
@@ -2176,7 +2176,7 @@ export default
       sells:"+10mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:198,
@@ -2209,7 +2209,7 @@ export default
       sells:"+50",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:201,
@@ -2230,8 +2230,8 @@ export default
       price:"48,90",
       sells:"+2mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Bolsa",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Bolsas",
   },
   {
       id:203,
@@ -2252,8 +2252,8 @@ export default
       price:"259,00",
       sells:"+100mil",
       shop:"amazon",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:205,
@@ -2263,7 +2263,7 @@ export default
       price:"59,49",
       sells:"+50",
       shop:"amazon",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Esportivo",
   },
   {
@@ -2275,7 +2275,7 @@ export default
       sells:"+50",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:207,
@@ -2286,7 +2286,7 @@ export default
       sells:"+5mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:208,
@@ -2297,7 +2297,7 @@ export default
       sells:"+1mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:209,
@@ -2308,7 +2308,7 @@ export default
       sells:"+50mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:210,
@@ -2319,7 +2319,7 @@ export default
       sells:"+1mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:211,
@@ -2330,7 +2330,7 @@ export default
       sells:"+5mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:212,
@@ -2341,7 +2341,7 @@ export default
       sells:"+1mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:213,
@@ -2352,7 +2352,7 @@ export default
       sells:"+50mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:214,
@@ -2363,7 +2363,7 @@ export default
       sells:"+30mil",
       shop:"amazon",
       category:"Brinquedos e Jogos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:215,
@@ -2374,7 +2374,7 @@ export default
       sells:"+50mil",
       shop:"amazon",
       category:"Brinquedos e Jogos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:216,
@@ -2385,7 +2385,7 @@ export default
       sells:"+40mil",
       shop:"amazon",
       category:"Brinquedos e Jogos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:217,
@@ -2396,7 +2396,7 @@ export default
       sells:"+10mil",
       shop:"amazon",
       category:"Brinquedos e Jogos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:218,
@@ -2407,7 +2407,7 @@ export default
       sells:"+1mil",
       shop:"amazon",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:219,
@@ -2418,7 +2418,7 @@ export default
       sells:"+5mil",
       shop:"amazon",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:220,
@@ -2429,7 +2429,7 @@ export default
       sells:"+1mil",
       shop:"amazon",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:221,
@@ -2440,7 +2440,7 @@ export default
       sells:"+5mil",
       shop:"amazon",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:222,
@@ -2451,7 +2451,7 @@ export default
       sells:"+5mil",
       shop:"amazon",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:223,
@@ -2462,7 +2462,7 @@ export default
       sells:"+50",
       shop:"amazon",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:224,
@@ -2473,7 +2473,7 @@ export default
       sells:"+2mil",
       shop:"amazon",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:225,
@@ -2484,7 +2484,7 @@ export default
       sells:"+10mil",
       shop:"amazon",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:226,
@@ -2495,7 +2495,7 @@ export default
       sells:"+20mil",
       shop:"amazon",
       category:"Pet Shop",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:227,
@@ -2506,7 +2506,7 @@ export default
       sells:"+40",
       shop:"shopee",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:228,
@@ -2539,7 +2539,7 @@ export default
       sells:"+15mil",
       shop:"shopee",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:231,
@@ -2561,7 +2561,7 @@ export default
       sells:"+5mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:233,
@@ -2583,7 +2583,7 @@ export default
       sells:"+190mil",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:235,
@@ -2616,7 +2616,7 @@ export default
       sells:"+5mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:238,
@@ -2671,7 +2671,7 @@ export default
       sells:"+10mil",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:243,
@@ -2714,7 +2714,7 @@ export default
       price:"134,90",
       sells:"+10mil",
       shop:"amazon",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Masculino",
   },
   {
@@ -2725,7 +2725,7 @@ export default
       price:"90,50",
       sells:"+10mil",
       shop:"amazon",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Esportivo",
   },
   {
@@ -2736,8 +2736,8 @@ export default
       price:"99,90",
       sells:"5mil",
       shop:"amazon",
-      category:"Bolsas",
-      subcategory:"Bolsa",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Bolsas",
   },
   {
       id:249,
@@ -2748,7 +2748,7 @@ export default
       sells:"+50mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:250,
@@ -2759,7 +2759,7 @@ export default
       sells:"+10mil",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:251,
@@ -2770,7 +2770,7 @@ export default
       sells:"+10mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:252,
@@ -2780,8 +2780,8 @@ export default
       price:"27,90",
       sells:"+50mil",
       shop:"amazon",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:253,
@@ -2791,8 +2791,8 @@ export default
       price:"22,90",
       sells:"+5mil",
       shop:"amazon",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:254,
@@ -2802,8 +2802,8 @@ export default
       price:"29,98",
       sells:"+5mil",
       shop:"amazon",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:255,
@@ -2813,8 +2813,8 @@ export default
       price:"29,99",
       sells:"+10mil",
       shop:"amazon",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:256,
@@ -2824,8 +2824,8 @@ export default
       price:"187,90",
       sells:"+100mil",
       shop:"amazon",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:257,
@@ -2835,8 +2835,8 @@ export default
       price:"32,00",
       sells:"+10mil",
       shop:"amazon",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:258,
@@ -2846,8 +2846,8 @@ export default
       price:"26,90",
       sells:"+10mil",
       shop:"amazon",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:259,
@@ -2857,8 +2857,8 @@ export default
       price:"29,00",
       sells:"+10mil",
       shop:"amazon",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:260,
@@ -2869,7 +2869,7 @@ export default
       sells:"+150mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:261,
@@ -2880,7 +2880,7 @@ export default
       sells:"+50mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:262,
@@ -2891,7 +2891,7 @@ export default
       sells:"+50mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:263,
@@ -2902,7 +2902,7 @@ export default
       sells:"+50mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:264,
@@ -2913,7 +2913,7 @@ export default
       sells:"+50mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:265,
@@ -2924,7 +2924,7 @@ export default
       sells:"+20mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:266,
@@ -2935,7 +2935,7 @@ export default
       sells:"+50mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:267,
@@ -2946,7 +2946,7 @@ export default
       sells:"+10mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:268,
@@ -2957,7 +2957,7 @@ export default
       sells:"+50mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:269,
@@ -2968,7 +2968,7 @@ export default
       sells:"+5mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:270,
@@ -2979,7 +2979,7 @@ export default
       sells:"+5mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:271,
@@ -3199,7 +3199,7 @@ export default
       sells:"+95mil",
       shop:"shopee",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:291,
@@ -3210,7 +3210,7 @@ export default
       sells:"+25mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:292,
@@ -3221,7 +3221,7 @@ export default
       sells:"+18mil",
       shop:"shopee",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:293,
@@ -3265,7 +3265,7 @@ export default
       sells:"+150mil",
       shop:"amazon",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:297,
@@ -3276,7 +3276,7 @@ export default
       sells:"+100mil",
       shop:"amazon",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:298,
@@ -3287,7 +3287,7 @@ export default
       sells:"+80mil",
       shop:"amazon",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:299,
@@ -3298,7 +3298,7 @@ export default
       sells:"+80mil",
       shop:"amazon",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:300,
@@ -3309,7 +3309,7 @@ export default
       sells:"+50mil",
       shop:"amazon",
       category:"Ferramentas e Construção",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:301,
@@ -3319,8 +3319,8 @@ export default
       price:"350,97",
       sells:"+30mil",
       shop:"amazon",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:302,
@@ -3331,7 +3331,7 @@ export default
       sells:"+30mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:303,
@@ -3397,7 +3397,7 @@ export default
       sells:"+150mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:309,
@@ -3474,7 +3474,7 @@ export default
       sells:"+150mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:316,
@@ -3485,7 +3485,7 @@ export default
       sells:"+15mil",
       shop:"amazon",
       category:"Eletrônicos",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:317,
@@ -3518,7 +3518,7 @@ export default
       sells:"+80mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:320,
@@ -3529,7 +3529,7 @@ export default
       sells:"+200mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:321,
@@ -3540,7 +3540,7 @@ export default
       sells:"+15mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:322,
@@ -3551,7 +3551,7 @@ export default
       sells:"+15mil",
       shop:"amazon",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:323,
@@ -3562,7 +3562,7 @@ export default
       sells:"+5mil",
       shop:"amazon",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:324,
@@ -3638,7 +3638,7 @@ export default
       price:"49,99",
       sells:"+10mil",
       shop:"shopee",
-      category:"Roupas",
+      category:"Roupas, Calçados e Acessórios",
       subcategory:"Feminino",
   },
   {
@@ -3672,7 +3672,7 @@ export default
       sells:"+3mil",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:334,
@@ -3682,8 +3682,8 @@ export default
       price:"46,74",
       sells:"+5mil",
       shop:"shopee",
-      category:"Esportes",
-      subcategory:"undefined",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined,
   },
   {
       id:335,
@@ -3705,7 +3705,7 @@ export default
       sells:"+200mil",
       shop:"shopee",
       category:"Beleza e Cuidados Pessoais",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:337,
@@ -3715,8 +3715,8 @@ export default
       price:"26,59",
       sells:"+8mil",
       shop:"shopee",
-      category:"Bolsas",
-      subcategory:"Bolsas",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Bolsas, Malas & Mochilas",
   },
   {
       id:338,
@@ -3727,7 +3727,7 @@ export default
       sells:"+20mil",
       shop:"shopee",
       category:"Papelaria e Escritório",
-      subcategory:"undefined",
+      subcategory:undefined,
   },
   {
       id:339,
@@ -3783,5 +3783,434 @@ export default
       shop:"shopee",
       category:"Casa",
       subcategory:"Limpeza",
+  },
+  {
+      id:344,
+      url:"https://s.shopee.com.br/7KmQmTztaB",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-m80lli9fu4nlf4.webp",
+      title:"Luminária de Mesa Pixar Escritório Abajur Articulada Com Garra E Base Preto Branca Rosa 110v/220v",
+      price:"30,99",
+      sells:"+10mil",
+      shop:"shopee",
+      category:"Papelaria e Escritório",
+      subcategory:undefined
+  },
+  {
+      id:345,
+      url:"https://s.shopee.com.br/3LGI1EQiwW",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-m7gqoyvwp5jga9.webp",
+      title:"Kit Jogo de Lençol Microfibra Estampado 100% Poliéster - SOLTEIRO / CASAL / QUEEN / KING - Estampas Sortidas",
+      price:"19,90",
+      sells:"+6mil",
+      shop:"shopee",
+      category:"Casa",
+      subcategory:"Quarto"
+  },
+  {
+      id:346,
+      url:"https://s.shopee.com.br/8027ZsfiOi",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-m84shxe4v8c1d9.webp",
+      title:"Cortina Blackout Para Quarto Sala Cozinha PVC Corta 100% Luz 2,80 Largura X 2,30 Altura Grande",
+      price:"34,99",
+      sells:"+20mil",
+      shop:"shopee",
+      category:"Casa",
+      subcategory:"Sala"
+  },
+  {
+      id:347,
+      url:"https://s.shopee.com.br/1g842Kb0Ik",
+      src:"https://down-tx-br.img.susercontent.com/sg-11134201-22120-o4k4k3ljslkv97.webp",
+      title:"Cabide Multifuncional para Calças de Inox com 5 Divisórias Cabide Mágico",
+      price:"18,90",
+      sells:"+50mil",
+      shop:"shopee",
+      category:"Casa",
+      subcategory:"Quarto"
+  },
+  {
+      id:348,
+      url:"https://s.shopee.com.br/5feCnkxl2Y",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-loldpyvvvbk75b.webp",
+      title:"Cesto De Roupa Dobrável Para Roupas E Brinquedos Infantil Caixa Organizadora Cozinha Quarto Casa",
+      price:"11,99",
+      sells:"+30mil",
+      shop:"shopee",
+      category:"Casa",
+      subcategory:"Limpeza"
+  },
+  {
+      id:349,
+      url:"https://s.shopee.com.br/2qK1Qc7kk0",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-m415wji061xdd5.webp",
+      title:"Organizador de maquiagem Acrílico Giratório 360º Suporte Para Cosméticos",
+      price:"39,90",
+      sells:"+20mil",
+      shop:"shopee",
+      category:"Beleza e Cuidados Pessoais",
+      subcategory:undefined
+  },
+  {
+      id:350,
+      url:"https://s.shopee.com.br/zq3SdKIQ",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-mbqrirww0aeff9.webp",
+      title:"Varal de Chão com Abas Aço Inox Dobrável 100% Inox | Leve, Reforçado e Durável | Pronta Entrega",
+      price:"96,90",
+      sells:"+135",
+      shop:"shopee",
+      category:"Casa",
+      subcategory:"Limpeza"
+  },
+  {
+      id:351,
+      url:"https://s.shopee.com.br/zq3XxIzF",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-m3vrjvl7u62df8.webp",
+      title:"Escorredor de Louça Suspenso Cozinha Kitchen Rack Aço Inox",
+      price:"97,90",
+      sells:"+2mil",
+      shop:"shopee",
+      category:"Casa",
+      subcategory:"Cozinha"
+  },
+  {
+      id:352,
+      url:"https://s.shopee.com.br/3VZiE38lNN",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-m2jlk7lv3phyf7.webp",
+      title:"Jogo Panelas Antiaderente 5 Peças Caçarola Teflon Antiaderente com Tampa de Vidro",
+      price:"161,90",
+      sells:"+6mil",
+      shop:"shopee",
+      category:"Casa",
+      subcategory:"Cozinha"
+  },
+  {
+      id:353,
+      url:"https://s.shopee.com.br/1g842knKBz",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7qukw-lh6kwmoanu2z04.webp",
+      title:"Kit 05 Toalhas de Banho Banhão Macia Gigante Grossa Felpuda Algodão Fofa",
+      price:"69,90",
+      sells:"+40mil",
+      shop:"shopee",
+      category:"Casa",
+      subcategory:"Banheiro"
+  },
+  {
+      id:354,
+      url:"https://s.shopee.com.br/AA6cATW8mq",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-maj6iy9cfke1c4.webp",
+      title:"Capa de Proteção Sofá Retrátil Reclinável Veste Fácil 100% ALGODÃO - SALA QUARTO SOFA",
+      price:"53,57",
+      sells:"+6mil",
+      shop:"shopee",
+      category:"Casa",
+      subcategory:"Sala"
+  },
+  {
+      id:355,
+      url:"https://s.shopee.com.br/7pihOG7Nfr",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-mcjnxvbibwg10f.webp",
+      title:"KIT 3 POTES DE VIDRO COM TAMPA DE CORAÇÃO HERMÉTICOS - DESIGN CANELADO 3 TAMANHOS",
+      price:"99,99",
+      sells:"+8",
+      shop:"shopee",
+      category:"Casa",
+      subcategory:"Cozinha"
+  },
+  {
+      id:356,
+      url:"https://s.shopee.com.br/10sNFmEbMs",
+      src:"https://down-tx-br.img.susercontent.com/sg-11134201-7rcd2-lryvjj5r41q974.webp",
+      title:"Escova Rotativa Modeladora Mondial Black Rose ERB-01 Bivolt 127V/220V",
+      price:"184,90",
+      sells:"+10mil",
+      shop:"shopee",
+      category:"Beleza e Cuidados Pessoais",
+      subcategory:undefined
+  },
+  {
+      id:357,
+      url:"https://s.shopee.com.br/1BBnSBp8mj",
+      src:"https://down-tx-br.img.susercontent.com/sg-11134201-7rcdu-ls2yi0rvggd28b.webp",
+      title:"D20 Pro Y68 Smartwatch Relógio Inteligente Resistente Á Água Com Marcação De Batimentos Bluetooth",
+      price:"19,99",
+      sells:"+30mil",
+      shop:"shopee",
+      category:"Esportes, Aventura e Lazer",
+      subcategory:undefined
+  },
+  {
+      id:358,
+      url:"https://s.shopee.com.br/8ALXn8URl6",
+      src:"https://down-tx-br.img.susercontent.com/sg-11134201-7rd6b-lty3gc4baxnd47.webp",
+      title:"13 TWS Sem Fio Bluetooth 5.0 Air Pro 3 Fone De Ouvido Esportivo Com Microfone MING",
+      price:"19,99",
+      sells:"+200mil",
+      shop:"shopee",
+      category:"Eletrônicos",
+      subcategory:undefined
+  },
+  {
+      id:359,
+      url:"https://s.shopee.com.br/50OW1O5HjS",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-lsbihluxaiascb.webp",
+      title:"Mini Projetor Portátil Led 1080p 600 Lúmens Hdmi YG300",
+      price:"99,99",
+      sells:"+10mil",
+      shop:"shopee",
+      category:"Eletrônicos",
+      subcategory:undefined
+  },
+  {
+      id:360,
+      url:"https://s.shopee.com.br/7V5r03XkVp",
+      src:"https://down-tx-br.img.susercontent.com/sg-11134201-22100-kg5jrrpw0wiv00.webp",
+      title:"4 Peças Luminária Solar De Parede Refletor 100 Led Sensor Presença Movimento Prova D' Água Com 3 Funções Solar light",
+      price:"62,98",
+      sells:"+70mil",
+      shop:"shopee",
+      category:"Casa",
+      subcategory:"Jardim"
+  },
+  {
+      id:361,
+      url:"https://s.shopee.com.br/AUjSZfBviU",
+      src:"https://down-tx-br.img.susercontent.com/sg-11134201-7rd6n-lu55vhvfqjt20e.webp",
+      title:"Mochila Feminina escola de nylon Impermeável com bolsa anti-furto",
+      price:"54,90",
+      sells:"+1mil",
+      shop:"shopee",
+      category:"Bolsas, Malas & Mochilas",
+      subcategory:"Mochilas"
+  },
+  {
+      id:362,
+      url:"https://s.shopee.com.br/6Kttc5qAev",
+      src:"https://down-tx-br.img.susercontent.com/br-11134207-7r98o-mby3kimlsxuh48.webp",
+      title:"Tênis Vizzano Feminino Casual Plataforma Macia Moda Passeio Leve Ultra Conforto Flatform Pelica Confortável P/ Dia Dia",
+      price:"99,90",
+      sells:"+10mil",
+      shop:"shopee",
+      category:"Roupas, Calçados e Acessórios",
+      subcategory:"Calçados"
+  },
+  {
+      id:363,
+      url:"https://amzn.to/4okzlgU",
+      src:"https://m.media-amazon.com/images/I/71YVBa7zc5L._AC_SX425_.jpg",
+      title:"Echo Dot",
+      price:"441,89",
+      sells:"+75mil",
+      shop:"amazon",
+      category:"Eletrônicos",
+      subcategory:undefined
+  },
+  {
+      id:364,
+      url:"https://amzn.to/4obA0Bb",
+      src:"https://m.media-amazon.com/images/I/712JlBgtkJL._AC_SX522_.jpg",
+      title:"Kindle Paperwhite 16 GB",
+      price:"854,10",
+      sells:"+3mil",
+      shop:"amazon",
+      category:"Eletrônicos",
+      subcategory:undefined
+  },
+  {
+      id:365,
+      url:"https://amzn.to/44Xpea8",
+      src:"https://m.media-amazon.com/images/I/517+hfgkVOL._AC_SX425_.jpg",
+      title:"Samsung Smart TV 43' UHD 4K 43DU7700 - Processador Crystal 4K, Gaming Hub",
+      price:"1994,00",
+      sells:"+3mil",
+      shop:"amazon",
+      category:"Casa",
+      subcategory:"Sala"
+  },
+  {
+      id:366,
+      url:"https://amzn.to/3IWlTzk",
+      src:"https://m.media-amazon.com/images/I/51ouXTgynpL._AC_SX569_.jpg",
+      title:"JBL, Fone de Ouvido Sem Fio, Tune 520BT, Bluetooth - Azul",
+      price:"199,41",
+      sells:"+6mil",
+      shop:"amazon",
+      category:"Eletrônicos",
+      subcategory:undefined
+  },
+  {
+      id:367,
+      url:"https://amzn.to/45doZXj",
+      src:"https://m.media-amazon.com/images/I/51x6d0ZwylS._AC_SX522_.jpg",
+      title:"I2GO, Carregador Portátil (Power Bank) Ultra Rápido 10000mAh, Power Delivery 20W, 2 Saídas USB + 1 Saída/Entrada USB-C, Preto, i2GO PRO",
+      price:"119,53",
+      sells:"+5mil",
+      shop:"amazon",
+      category:"Eletrônicos",
+      subcategory:undefined
+  },
+  {
+      id:368,
+      url:"https://amzn.to/459Tg9h",
+      src:"https://m.media-amazon.com/images/I/71WSBtoOQiL._AC_SX425_.jpg",
+      title:"Câmera instantânea Fujifilm Instax Mini 11 Azul + Filme Instax com 10 poses",
+      price:"499,00",
+      sells:"+100",
+      shop:"amazon",
+      category:"Eletrônicos",
+      subcategory:undefined
+  },
+  {
+      id:369,
+      url:"https://amzn.to/3IWm8KK",
+      src:"https://m.media-amazon.com/images/I/41pCGQaDiIL._AC_SX522_.jpg",
+      title:"JOGO DE LENÇOL CASAL 4 PEÇAS 100% ALGODÃO 200 FIOS COM ACABAMENTO EM PONTO PALITO (Cinza)",
+      price:"132,90",
+      sells:"+60",
+      shop:"amazon",
+      category:"Casa",
+      subcategory:"Quarto"
+  },
+  {
+      id:370,
+      url:"https://amzn.to/4lYwxnY",
+      src:"https://m.media-amazon.com/images/I/51zXHW5nVjL._AC_SX522_.jpg",
+      title:"Panela pressão elétrica Electrolux digital capacidade 6L silenciosa segura 10 travas segurança 15 receitas pré-programadas 3 níveis pressão PCC20 inox preto 220v por Rita Lobo",
+      price:"569,01",
+      sells:"+15mil",
+      shop:"amazon",
+      category:"Casa",
+      subcategory:"Cozinha"
+  },
+  {
+      id:371,
+      url:"https://amzn.to/41kLh8j",
+      src:"https://m.media-amazon.com/images/I/51l8Ni2qSUL._AC_SX522_.jpg",
+      title:"WAP Robô Aspirador de Pó ROBOT W1000 Mapeamento de Tempo Real GYRO, Base de Carregamento, Compatível com Alexa e Google",
+      price:"1399,00",
+      sells:"+300",
+      shop:"amazon",
+      category:"Casa",
+      subcategory:"Limpeza"
+  },
+  {
+      id:372,
+      url:"https://amzn.to/4feAkLc",
+      src:"https://m.media-amazon.com/images/I/51asY+kBsQL._AC_SX522_.jpg",
+      title:"Nespresso Cafeteira Essenza Mini Preta 110/127V",
+      price:"387,00",
+      sells:"+6mil",
+      shop:"amazon",
+      category:"Casa",
+      subcategory:"Cozinha"
+  },
+  {
+      id:373,
+      url:"https://amzn.to/4fcgDUg",
+      src:"https://m.media-amazon.com/images/I/71X3pYZUEoS._AC_SY679_.jpg",
+      title:"MONDIAL Fritadeira Sem Óleo Air Fryer 4L, Vermelho/Inox, 1500W, 110V - AFN-40-RI",
+      price:"319,68",
+      sells:"+30mil",
+      shop:"amazon",
+      category:"Casa",
+      subcategory:"Cozinha"
+  },
+  {
+      id:374,
+      url:"https://amzn.to/477Znxp",
+      src:"https://m.media-amazon.com/images/I/619XJ8nVPKL._AC_SX569_.jpg",
+      title:"Stanley Mala de Ferramentas 110 Peças com Jogo de Chaves Fenda e Philips, Modelo STMT81244",
+      price:"470,90",
+      sells:"+500",
+      shop:"amazon",
+      category:"Ferramentas e Construção",
+      subcategory:undefined
+  },
+  {
+      id:375,
+      url:"https://amzn.to/4mhABPL",
+      src:"https://m.media-amazon.com/images/I/616Q4I+trzL._AC_SX569_.jpg",
+      title:"Multímetro Digital Profissional Portátil com Cabo Multi Teste Exbom MD-200L",
+      price:"23,90",
+      sells:"+2mil",
+      shop:"amazon",
+      category:"Ferramentas e Construção",
+      subcategory:undefined
+  },
+  {
+      id:376,
+      url:"https://amzn.to/3H9iIUy",
+      src:"https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SX569_.jpg",
+      title:"Smart Lâmpada Wi-Fi Positivo Casa Inteligente, Iluminação Branca (Quente e Fria) e RGB (Até 16 Milhões de Cores), 9W",
+      price:"72,90",
+      sells:"+100mil",
+      shop:"amazon",
+      category:"Eletrônicos",
+      subcategory:undefined
+  },
+  {
+      id:377,
+      url:"https://amzn.to/3U9pqwH",
+      src:"https://m.media-amazon.com/images/I/615r1BIUYwL._AC_SX425_.jpg",
+      title:"Mouse sem fio Logitech M190 com Design Ambidestro de Tamanho Padrão, Conexão USB e Pilha Inclusa - Cinza",
+      price:"61,90",
+      sells:"+10mil",
+      shop:"amazon",
+      category:"Papelaria e Escritório",
+      subcategory:undefined
+  },
+  {
+      id:378,
+      url:"https://amzn.to/3U6IUSA",
+      src:"https://m.media-amazon.com/images/I/61-50f0Z7iL._AC_SX425_.jpg",
+      title:"TP-Link Archer AX12, Roteador AX1500 Wi-Fi 6, Dual Band 2.4/5 GHz, Conecta até 60+ dispositivos, Até 180M² de cobertura, Portas Full Gigabit, MU-MIMO, Beamforming",
+      price:"208,00",
+      sells:"+2mil",
+      shop:"amazon",
+      category:"Papelaria e Escritório",
+      subcategory:undefined
+  },
+  {
+      id:379,
+      url:"https://amzn.to/4l2FPOn",
+      src:"https://m.media-amazon.com/images/I/41VwETv5CqL._AC_SX522_.jpg",
+      title:"BLACK+DECKER Vaporizador, Ferro de Passar Roupa, Compacto e Portátil, Função Passar a Seco, 3 em 1, modelo BDV3000, Bivolt",
+      price:"236,60",
+      sells:"+10mil",
+      shop:"amazon",
+      category:"Casa",
+      subcategory:"Limpeza"
+  },
+  {
+      id:380,
+      url:"https://amzn.to/477uv02",
+      src:"https://m.media-amazon.com/images/I/41dRwQGYZPL._AC_SX569_.jpg",
+      title:"G-Tech Umidificador Ultrassônico Modelo Allergy Free Hm 3L",
+      price:"157,90",
+      sells:"+3mil",
+      shop:"amazon",
+      category:"Eletrônicos",
+      subcategory:undefined
+  },
+  {
+      id:381,
+      url:"https://amzn.to/3H9j7Gy",
+      src:"https://m.media-amazon.com/images/I/510w7ToRpgL._AC_SY575_.jpg",
+      title:"Sandalia Babuche Masculino Feminino Unissex Leve 1816",
+      price:"48,99",
+      sells:"+500",
+      shop:"amazon",
+      category:"Roupas, Calçados e Acessórios",
+      subcategory:"Calçados"
+  },
+  {
+      id:382,
+      url:"https://amzn.to/4l4fi3i",
+      src:"https://m.media-amazon.com/images/I/718zLW+v8oL._AC_SY679_.jpg",
+      title:"Calça Jeans Masculina Slim Fit Elastano Premium Com Chaveiro",
+      price:"99,90",
+      sells:"+50",
+      shop:"amazon",
+      category:"Roupas, Calçados e Acessórios",
+      subcategory:"Masculino"
   }
 ]
