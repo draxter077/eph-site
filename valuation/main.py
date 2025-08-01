@@ -31,7 +31,7 @@ for i in range(0, len(products)):
   subcategory = p.split("subcategory:")[1].split(",")[0].replace("'","").replace('"','').replace("}","")
 
   # FAZER EM LOTES DE 150
-  if 500 > int(id) >= 150:newPs.append([id, url, src, title, price, sells, shop, category, subcategory])
+  if 150 > int(id) >= 0:newPs.append([id, url, src, title, price, sells, shop, category, subcategory])
  except:pass
  arq.close()
 
