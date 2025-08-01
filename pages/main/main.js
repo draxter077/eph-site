@@ -1,6 +1,7 @@
 import loading from "../common/loading/main.js"
 
 import head from "../common/head/main.js"
+import chat from "../chat/box/main.js"
 import outdoor from "./outdoor/main.js"
 import categories from "./categories/main.js"
 import section from "../common/section/main.js"
@@ -21,9 +22,9 @@ export default function main(){
 
     const main = cE("div", style)
     main.appendChild(loading())
-    
     main.appendChild(head({t:"Chat",url:"/chat"},{t:"Feed",url:"/feed"}))
     main.appendChild(outdoor())
+    main.appendChild(chat())
     main.appendChild(categories())
     let pdtsR = []
     while(true){
@@ -53,5 +54,7 @@ export default function main(){
     pdts.reverse().splice(50, pdts.length - 50)
     main.appendChild(section("Novas ofertas", pdts))
     main.appendChild(foot())
+
+    window.addEventListener("load", () => {let c = main.children[3];c.style.minHeight = "50svh";c.style.borderTop = "1px solid var(--colorOrange)";c.style.borderBottom = "1px solid var(--colorOrange)";c.style.margin = "10svh 0px 5svh"}, {once:true})
     return(main)
 }

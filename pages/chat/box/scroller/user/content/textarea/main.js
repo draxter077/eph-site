@@ -14,6 +14,7 @@ export default function textarea(){
 
     const textarea = cE("textarea", style)
     textarea.rows = '2'
+    textarea.placeholder = "Digite aqui..."
 
     textarea.addEventListener(
         "keypress",

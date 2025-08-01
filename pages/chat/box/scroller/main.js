@@ -30,7 +30,6 @@ export default function scroller(){
             }
             await new Promise(resolve => setTimeout(resolve, 1000))
             scrollerC[2].style.maxHeight = "1000px" // Após, libera o input do usuário
-            scrollerC[2].children[0].children[0].focus()
         }
     )
 

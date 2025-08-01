@@ -14,7 +14,8 @@ export default function admin(){
         }`
 
     const admin = cE("div", style)
-    admin.appendChild(button(products))
+    //admin.appendChild(button(products))
+    
     for(let i = 0; i < products.length; i++){
         let p = products[i]
         admin.appendChild(line(p))
